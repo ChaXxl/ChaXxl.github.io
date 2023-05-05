@@ -1,5 +1,5 @@
 node_modules
 .temp
 .cache
-.package-locks.json
+.package-lock.json
 deploy.sh
