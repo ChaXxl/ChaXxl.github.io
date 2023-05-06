@@ -1,0 +1,2 @@
+import{_ as t,p as s,q as n,R as e}from"./framework-5866ffd3.js";const a={},c=e("div",{class:"language-text line-numbers-mode","data-ext":"text"},[e("pre",{class:"language-text"},[e("code",null,`简介
+`)]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"})])],-1),l=[c];function o(r,_){return s(),n("div",null,l)}const i=t(a,[["render",o],["__file","About.html.vue"]]);export{i as default};
