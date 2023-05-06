@@ -1,9 +1,0 @@
-.github
-.package-lock.json
-.idea
-node_modules
-.docs/.vuepress/.cache
-docs/.vuepress/.temp
-docs/About.md
-docs/Home.md
-docs/系统配置
