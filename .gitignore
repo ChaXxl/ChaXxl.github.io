@@ -4,4 +4,4 @@ node_modules
 .package-lock.json
 About.md
 Home.md
-.系统配置
+docs/系统配置
