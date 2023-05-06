@@ -1,0 +1,2 @@
+import{_ as e,X as t,Y as a,a2 as n}from"./framework-c25c54d8.js";const s={},c=n(`<h1 id="关于页面" tabindex="-1"><a class="header-anchor" href="#关于页面" aria-hidden="true">#</a> 关于页面</h1><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>简介
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>`,2),d=[c];function r(i,o){return t(),a("div",null,d)}const _=e(s,[["render",r],["__file","About.html.vue"]]);export{_ as default};
