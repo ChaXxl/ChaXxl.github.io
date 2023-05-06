@@ -2,3 +2,6 @@ node_modules
 .temp
 .cache
 .package-lock.json
+About.md
+Home.md
+.系统配置
