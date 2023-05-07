@@ -1,0 +1,1 @@
+import{_ as s,X as t,Y as a,Z as e,$ as c}from"./framework-dbbbcf5d.js";const r={},o=e("h1",{id:"css",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#css","aria-hidden":"true"},"#"),c(" CSS")],-1),n=[o];function _(d,i){return t(),a("div",null,n)}const l=s(r,[["render",_],["__file","CSS.html.vue"]]);export{l as default};
