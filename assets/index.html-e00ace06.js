@@ -1,1 +1,0 @@
-import{_ as t,X as a,Y as n,Z as e,$ as s}from"./framework-dbbbcf5d.js";const c={},o=e("h1",{id:"首页",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#首页","aria-hidden":"true"},"#"),s(" 首页")],-1),r=e("p",null,"请看右上角",-1),_=[o,r];function d(i,l){return a(),n("div",null,_)}const f=t(c,[["render",d],["__file","index.html.vue"]]);export{f as default};

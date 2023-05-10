@@ -1,1 +1,0 @@
-import{_ as a,X as o,Y as t,a1 as e,a2 as c}from"./framework-cd5ab997.js";const r={},s=e("h1",{id:"welcom-here",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#welcom-here","aria-hidden":"true"},"#"),c(" Welcom Here")],-1),n=[s];function _(d,l){return o(),t("div",null,n)}const i=a(r,[["render",_],["__file","Home.html.vue"]]);export{i as default};
