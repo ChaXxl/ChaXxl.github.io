@@ -60,7 +60,7 @@ std::cout << str << std::endl;	// aaaa\t\nbbbb
 
    :::tip
 
-   指针指向的内容是常量
+   指针指向的内容是常量。不能修改 p 指向的内容 `*p`
 
    :::
 
@@ -74,7 +74,7 @@ std::cout << str << std::endl;	// aaaa\t\nbbbb
 
    :::tip
 
-   指针是个常量
+   指针是个常量。不能修改 p 的指向
 
    :::
 
@@ -2051,6 +2051,55 @@ int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struc
 
 
 
+~~~cpp
+/*
+ * 函数名称：flot_to_HEX(float data)
+ * 函数功能: float 转 16 进制
+ * 参    数：data 待转换的数据
+ * 返 回 值: QString 类型
+ */
+QString MainWindow::flot_to_HEX(float data)
+{
+    uint hex_uint = *(uint *)&data;
+
+    // 调整字节顺序
+    QByteArray byteArray(reinterpret_cast<const char*>(&hex_uint), sizeof(hex_uint));
+    std::reverse(byteArray.begin(), byteArray.end());
+    hex_uint = *reinterpret_cast<const uint*>(byteArray.data());
+
+    // 将浮点数 f_uint 转换为 8 位的大写 16 进制字符串
+    QString hexString = QString("%1").arg(hex_uint, 8, 16).toUpper();
+
+    // 用正则表达式, 每两个字符之间插入一个空格
+    hexString.replace(QRegularExpression("(..)"), "\\1 ");
+
+    return hexString;
+}
+~~~
+
+~~~cpp
+QString MainWindow::floatToHex(float data)
+{
+    QByteArray byteArray(reinterpret_cast<const char*>(&data), sizeof(data));
+    byteArray = byteArray.toHex().toUpper();
+
+    // 在每个字节之间添加空格
+    QString hexString;
+    for (int i = 0; i < byteArray.size(); ++i)
+    {
+        hexString += byteArray.mid(i, 2) + " ";
+        i += 1;
+    }
+
+//    return hexString.trimmed();
+    return hexString;
+}
+~~~
+
+
+
+
+
 # 项目
 
 ## Json库
@@ -2096,3 +2145,146 @@ http://t.csdn.cn/QI5VD
 
 
 https://ac.nowcoder.com/discuss/578948?type=0&order=0&pos=23&page=1
+
+
+
+
+
+### 跨平台文件、目录操作
+
+> https://hkrb7870j3.feishu.cn/docx/Fvn4d2j6hooOYVxy2k3cZ8qnnlf
+
+
+
+1. 统计项目文件数量、统计项目代码行数
+2. 创建目录、创建多级目录，删除目录、复制目录、移动目录等
+3. 读取文件、复制文件、移动文件、删除文件、获取文件所在目录等
+
+
+
+
+
+#### 常用功能封装
+
+1. 基于 C++11 的技术
+2. 常用文件操作
+3. 常用目录操作
+4. 常用文件流读写操作
+5. 跨平台
+
+
+
+
+
+#### 为什么要自己封装呢？
+
+1. 标准库 fstream 功能强大，但是使用方面不是很方便
+2. 目录的操作需要 C++17 的编译器支持，但很多时候生产环境的编译器版本没有那么高
+
+
+
+
+
+类：File
+
+![image-20230611170621089](https://img-blog.csdnimg.cn/6047d6d977244ddcaa4bcd592e44a14c.png)
+
+| 成员函数 | 描述                   |
+| -------- | ---------------------- |
+| name     | 获取文件名             |
+| dir      | 获取文件所在目录       |
+| create   | 创建文件               |
+| remove   | 删除文件               |
+| copy     | 复制文件               |
+| rename   | 文件重命名(移动文件)   |
+| exists   | 判断文件是否存在       |
+| clear    | 清空文件内容           |
+| line     | 获取文件行数           |
+| size     | 获取文件大小           |
+| read     | 一次性读取文件全部内容 |
+| write    | 一次性写入文件         |
+
+
+
+`file_write_stream.h`
+
+~~~cpp
+namespace fs {
+    class FileWriteStream {
+        public:
+        	FileWriteStream() = delete;
+        	FileWriteStream(const std::string &name);
+        	FileWriteStream(const FileWriteStream &) = delete;
+        	~FileWriteStream();
+        
+        	bool open();
+        	void close();
+        	
+        	bool write_char(const char &data);
+        	bool write_line(const std::string &data);
+        
+        	FileWriteStream &operator = (const FileWriteStream &) = delete;
+    }
+}
+~~~
+
+`file_read_stream.h`
+
+~~~cpp
+namespace fs {
+    class FileReadStream {
+        public:
+        	FileReadStream() = delete;
+        	FileReadStream(const std::string &name);
+        	FileReadStream(const FileReadStream &) = delete;
+        	~FileReadStream();
+        
+        	bool open();
+        	void close();
+        	
+        	bool read_char(const char &data);
+        	bool read_line(const std::string &data);
+        
+        	FileReadStream &operator = (const FileReadStream &) = delete;
+        
+        private:
+        	std::string m_name;
+    }
+}
+~~~
+
+
+
+#### 文件流写入操作
+
+类：FileWriteStream
+
+| 成员函数   | 描述             |
+| ---------- | ---------------- |
+| open       | 打开文件流       |
+| close      | 关闭文件流       |
+| write_char | 逐个字符写入文件 |
+| write_line | 逐行写入文件     |
+
+
+
+
+
+
+
+获取文件名
+
+函数：name
+
+```C++
+#include <iostream>
+#include <fs/file.h>
+using namespace yazi::fs;
+
+int main()
+{
+    File file("./../test/a/b/c/1.txt");
+    std::cout << file.name() << std::endl;
+    return 0;
+}
+```

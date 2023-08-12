@@ -372,10 +372,43 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-## CrossOver
+
+
+## BetterAndBetter
+
+:::info
+
+一款集合众多优秀功能的Mac手势神器，为触控板、鼠标赋予上百种动作手势，滑动、轻点、点按多种组合，可以帮助用户自定义的设置mac触控板所支持的手势操作，并且还支持单个应用的手势操作。BetterAndBetter全面加强鼠标操作，支持滚轮（中键）、右键等最多8键位鼠标的按键绘图、组合按键。
+
+:::
+
+https://wwa.lanzoui.com/macBAB
+
+
+
+## Mounty
+
+:::info
+
+Mounty是Mac OS平台上的一款NTFS格式读写工具，软件虽小但是功能挺实用的，其主要功能类似Paragon NTFS for mac。当你插入 NTFS 硬盘后会提示是否创新加载成读写模式。大多数情况下 Mac OS X 是默认没有开启 NTFS 的写入模式。所以这样你就不在需要安装其它软件就可以对 Windows 的 NTFS 硬盘进行复制文件操作。
+
+:::
+
+https://wwa.lanzoui.com/Mounty
+
+
+
+## 超级右键
 
 * 收费情况：收费
 * 软件大小：381.7 MB
+* 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-bjVsh.html
+* 提取码：61T6
+
+## CrossOver
+
+* 收费情况：收费
+* 软件大小：10.5 MB
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-pAVsh.html
 * 提取码：3Ld8
 
@@ -620,6 +653,14 @@ https://binghe.gitbook.io/fq/
 
 <br/>
 
+## 护眼软件
+
+### <img src="https://justgetflux.com/flux-icon-sm.png" alt="img" style="zoom: 67%;" /> f.lux
+
+https://justgetflux.com
+
+<br/>
+
 ## 词典软件
 
 ### <img src="https://www.mdict.cn/wp/wp-content/uploads/2016/06/logo.png" alt="MDict" style="zoom:80%;" /> Mditc
@@ -685,6 +726,10 @@ https://binghe.gitbook.io/fq/
 
 使用 brew 安装
 
+官网下载：https://download.qt.io/archive/qt/
+
+[Mac 上 Qt6 加速下载](https://blog.csdn.net/u012101384/article/details/128494854)
+
 <br/>
 
 ## SSH 远程连接工具
@@ -725,7 +770,9 @@ https://binghe.gitbook.io/fq/
 
 ### Parreles Desktop
 
+https://www.123pan.com/s/KYxeVv-vcVsh.html
 
+tutu
 
 <br/>
 

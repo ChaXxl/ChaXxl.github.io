@@ -1,5 +1,15 @@
 # Python
 
+## pip 换源
+
+1.使用清华源
+
+~~~shell
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+~~~
+
+
+
 
 
 ## 操作数据库
