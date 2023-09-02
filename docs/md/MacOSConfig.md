@@ -374,6 +374,40 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 
 
+## 电脑音频推送到手机
+
+### SoundWire
+
+:::note 软件介绍
+
+电脑音频推送到手机
+
+:::
+
+* 收费情况：免费
+* 软件大小：9 MB
+* 目前没有 Mac 端
+
+
+
+### AudioRelay
+
+:::note 软件介绍
+
+电脑音频推送到手机
+
+:::
+
+* 收费情况：免费
+
+* Github 主页：https://github.com/mtjo/MacStroke
+
+* 软件大小：
+
+* 下载地址（管网）：https://audiorelay.net/downloads
+
+  
+
 ## BetterAndBetter
 
 :::info
