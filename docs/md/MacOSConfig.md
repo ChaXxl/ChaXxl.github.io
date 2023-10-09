@@ -774,6 +774,14 @@ brew install --cask cursorcerer
 
 <br/>
 
+## 解压缩软件
+
+### <img src="https://i1.hdslb.com/bfs/archive/f841124e306e9cebf9afc6a1ed6547c34d1802e8.png" alt="img" style="zoom:5%;" />Bandizip
+
+* 软件大小：34.6 MB
+* 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-WfvWh.html
+* 提取码：tutu
+
 ## 键盘按键重映射
 
 ### <img src="https://karabiner-elements.pqrs.org/favicons/apple-touch-icon-180x180.png" alt="img" style="zoom:25%;" /> Karabiner-Elements
