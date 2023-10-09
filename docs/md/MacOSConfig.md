@@ -222,8 +222,8 @@ killall Finder
 ### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/acrobat-reader.svg" style="height:30px;" /> Adobe Acrobat
 
 * 版本：2023
-* 下载地址（破解版）：
-* 提取码：
+* 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-RfvWh.html
+* 提取码：tutu
 
 <br/>
 
