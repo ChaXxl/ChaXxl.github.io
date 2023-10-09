@@ -25,7 +25,7 @@ sudo spctl --master-disable
 
 勾选 《任何来源》
 
-![image-20231009152106596](/Users/xxl/Library/Application Support/typora-user-images/image-20231009152106596.png)
+![7875bf5c54b5aa159d6cf7d436ec5b05.png](https://p1.xywm.ltd/2023/10/09/7875bf5c54b5aa159d6cf7d436ec5b05.png)
 
 <br/>
 
@@ -143,19 +143,19 @@ killall Finder
 
 ## 聊天社交
 
-### 微信
+### <img src="https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png" alt="img" style="zoom:15%;" />微信
 
 * 下载地址（官网）：https://weixin.qq.com/
 
 <br/>
 
-### QQ
+### <img src="https://t10.baidu.com/it/u=2364017865,3817073223&fm=179&app=42&f=JPEG?w=75&h=75&s=033468226CF857B16834F5BC0200C023" alt="img" style="zoom:50%;" />QQ
 
 * 下载地址（官网）：https://im.qq.com/macqq/index.shtml
 
 <br/>
 
-### 企业微信
+### <img src="https://t12.baidu.com/it/u=2122110178,729847657&fm=179&app=42&f=JPEG?w=75&h=75&s=C0F78D728F7653800B723149020050B0" alt="img" style="zoom:50%;" />企业微信
 
 * 下载地址（官网）：https://work.weixin.qq.com/#indexDownload
 
@@ -278,8 +278,8 @@ killall Finder
 ### <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" style="height:30px;" /> Adobe Photoshop( Ps )
 
 * 版本：2023
-* 下载地址（破解版）：
-* 提取码：
+* 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-2fvWh.html
+* 提取码：tutu
 
 <br/>
 
@@ -549,6 +549,12 @@ https://wwa.lanzoui.com/Mounty
 
 ## CrossOver
 
+:::info
+
+使用 *CrossOver* 在 Mac 和 Linux 运行您的 Windows 软件，从此摆脱双启动的繁琐和虚拟机的卡顿。
+
+:::
+
 * 收费情况：收费
 * 软件大小：10.5 MB
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-pAVsh.html
@@ -809,6 +815,17 @@ https://binghe.gitbook.io/fq/
 
 <br/>
 
+### <img src="https://raw.githubusercontent.com/Dreamacro/clash/master/docs/logo.png" alt="img" style="zoom:10%;" />clashX
+
+* 收费情况：免费开源
+* GitHub 主页：https://github.com/yichengchen/clashX
+* 软件大小：7.4 MB
+* 下载地址（Github Release）：https://github.com/yichengchen/clashX/releases/tag/1.118.0
+* 下载地址（123云盘）：https://www.123pan.com/s/KYxeVv-sfvWh.html
+* 提取码：tutu
+
+<br/>
+
 ## 护眼软件
 
 ### <img src="https://justgetflux.com/flux-icon-sm.png" alt="img" style="zoom: 67%;" /> f.lux
@@ -816,6 +833,14 @@ https://binghe.gitbook.io/fq/
 https://justgetflux.com
 
 <br/>
+
+
+
+## Office 2021
+
+* 软件大小：1.8 GB
+* 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-XfvWh.html
+* 提取码：tutu
 
 ## 词典软件
 
