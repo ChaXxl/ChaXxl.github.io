@@ -35,7 +35,7 @@
    ssh-kegen -t rsa
    ~~~
 
-3. 在服务器上, 将主机的公钥复制到 `authorized_keys`文件中
+3. 在服务器上, 将主机的公钥复制到 `~/.ssh/authorized_keys`文件中
 
    
 
@@ -73,6 +73,8 @@ scp -r  user@ip:/directory  /direcotry  ##下载目录
 scp 远程服务器用户名@远程服务器ip:远程文件路径 本地存放路径
 scp -r 远程服务器用户名@远程服务器ip:远程文件路径 本地存放路径
 ~~~
+
+
 
 
 
@@ -193,12 +195,18 @@ deb-src http://mirrors.aliyun.com/ubuntu/ $Codename-security main multiverse res
 deb-src http://mirrors.aliyun.com/ubuntu/ $Codename-updates main multiverse restricted universe
 ~~~
 
+~~~shell
+sudo apt update
+~~~
+
+
+
 <br/>
 
 # 依赖项安装
 
 ~~~shell
-sudo apt-get install -y  gcc  cmake  gdb net-tools openssl curl build-essential  libtool  ca-certificates  gnupg  lsb-release  git-core bison  libreadline6-dev zlib1g  zlib1g-dev  libssl-dev  libyaml-dev  libsqlite3-0 libsqlite3-dev  sqlite3  autoconf libc6-dev  libpcre3-dev  libcurl4-nss-dev  libxml2-dev libxslt-dev imagemagick libffi-dev
+sudo apt-get install -y  gcc  cmake  gdb net-tools openssl curl build-essential  libtool  ca-certificates  gnupg  lsb-release  git-core bison  libreadline6-dev zlib1g  zlib1g-dev  libssl-dev  libyaml-dev  libsqlite3-0 libsqlite3-dev  sqlite3  autoconf libc6-dev  libpcre3-dev  libcurl4-nss-dev  libxml2-dev libxslt-dev imagemagick libffi-dev firewalld
 ~~~
 
 ~~~shell
@@ -460,6 +468,12 @@ inoremap { {}<ESC>i
    ~~~shell
    sudo  wget -O /usr/share/vim/vim81/colors/tender.vim https://gitee.com/wzqxxl/transit/attach_files/1114920/download/tender.vim
    ~~~
+   ~~~shell
+   sudo  wget -O /usr/share/vim/vim80/colors/tender.vim https://gitee.com/wzqxxl/transit/attach_files/1114920/download/tender.vim
+   ~~~
+
+   
+
    * 注：MacOS下无法访问/usr/目录，则在根目录下文件夹 `~/.vim/colors`，将主题文件放在该目录下即可
 
    * -O 参数表示将下载内容保存到所指定的文件
@@ -618,7 +632,7 @@ nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR> "
 
 # 安装 Miniconda
 
-
+[Index of miniconda 清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/?C=M&O=D)
 
 
 
@@ -1201,6 +1215,8 @@ fcgi 下载地址：wget https://fossies.org/linux/www/old/fcgi-2.4.0.tar.gz
    sudo apt-get install -y mysql-client
    ~~~
 
+   MySQL 开发包
+
    ~~~shell
    sudo apt-get install -y libmysqlclient-dev
    ~~~
@@ -1308,7 +1324,7 @@ alter user "root"@localhost identified by "123";
 
 #### 开放端口
 
-1. 使用 firewall-cmd 命令开放端口（若没安装则安装 `sudo apt install firewall-cmd`）：
+1. 使用 firewall-cmd 命令开放端口（若没安装则安装 `sudo apt install -y firewalld`）：
 
    ~~~shell
    firewall-cmd --zone=public --add-port=3306/tcp --permanent
@@ -1360,6 +1376,32 @@ mysql -h  172.18.248.230 -P 3306 -u root -p123
 
 
 ![image-20230102110130489](https://img-blog.csdnimg.cn/5c4703494ce241a39dae66d32eb13195.png)
+
+
+
+设置 MySQL 字符编码 utf-8，可以支持中文操作
+
+~~~mysql
+show variables like "char%";	# 先查看 MySQL 默认的字符编码
+~~~
+
+~~~mysql
+set character_set_server=utf8;
+~~~
+
+修改表的字符编码
+
+~~~mysql
+alter table user default character set utf8;
+~~~
+
+修改属性表字符编码
+
+~~~mysql
+alter table user modify column name varchar(50) character set utf8;
+~~~
+
+
 
 
 

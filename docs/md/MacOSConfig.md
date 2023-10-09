@@ -122,6 +122,78 @@ killall Finder
 
 # 软件部分
 
+## 聊天社交
+
+### 微信
+
+* 下载地址（官网）：https://weixin.qq.com/
+
+
+
+### QQ
+
+* 下载地址（官网）：https://im.qq.com/macqq/index.shtml
+
+
+
+### 企业微信
+
+* 下载地址（官网）：https://work.weixin.qq.com/#indexDownload
+
+
+
+### Twitter
+
+* 下载地址（官网）：
+
+
+
+### Telegram
+
+* 下载地址（官网）：
+
+
+
+
+
+
+
+## 输入法
+
+### 百度输入法
+
+* 下载地址（官网）：https://srf.baidu.com/input/mac.html
+
+
+
+## 网盘客户端
+
+### 百度云盘
+
+
+
+
+
+### 阿里云盘-小白羊
+
+
+
+
+
+## 笔记软件
+
+### Typora
+
+* 版本：1.7.4
+* 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-elTWh.html
+* 提取码：abcd
+
+
+
+### Obsidion
+
+
+
 ## Adobe
 
 ### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/acrobat-reader.svg" style="height:40px;" /> Adobe Acrobat
@@ -192,35 +264,35 @@ killall Finder
 
 ###  <img src="https://img-blog.csdnimg.cn/34b1bbafd5a74779bd0a5e12c7b09fe7.png" alt="Clion" style="zoom:30%;" /> CLion
 
-* 版本：专业版 2023.1.2
+* 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/clion/download/#section=mac
 
 <br/>
 
 ###  DataGrip
 
-* 版本：专业版 2023.1.1
+* 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/datagrip/download/#section=mac
 
 <br/>
 
 ###  IntelliJ IDEA
 
-* 版本：专业版 2023.1.1
+* 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/idea/download/#section=mac
 
 <br/>
 
 ###  <img src="https://img-blog.csdnimg.cn/e9dd401fae51435d81d0ed947e29945d.png" alt="Pycharm" style="zoom:30%;" /> PyCharm
 
-* 版本：专业版 2023.1.1
+* 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/pycharm/download/#section=mac
 
 <br/>
 
 ###  <img src="https://img-blog.csdnimg.cn/278045f737854d4db126114a5d8a47c2.png" alt="Webstorm" style="zoom:30%;" /> WebStorm
 
-* 版本：专业版 2023.1.1
+* 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/webstorm/download/#section=mac
 
 <br/>
@@ -372,7 +444,25 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
+## 虚拟音频
 
+### BlackHole
+
+:::note 软件介绍
+
+BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程序以零额外延迟将音频传递到其他应用程序。
+
+:::
+
+* 
+
+* 收费情况：免费开源
+
+* Github 主页：https://github.com/ExistentialAudio/BlackHole
+
+* 软件大小：
+
+* 下载地址（官网）：https://existential.audio/blackhole/?pk_campaign=github&pk_kwd=readme
 
 ## 电脑音频推送到手机
 
@@ -398,13 +488,9 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 :::
 
-* 收费情况：免费
-
-* Github 主页：https://github.com/mtjo/MacStroke
-
 * 软件大小：
 
-* 下载地址（管网）：https://audiorelay.net/downloads
+* 下载地址（官网）：https://audiorelay.net/downloads
 
   
 
@@ -579,11 +665,25 @@ brew install --cask cursorcerer
 * 收费情况：免费开源
 * GitHub 主页：https://github.com/Tencent/lemon-cleaner
 * 软件大小：33.7 MB
-* 下载地址：APP Store
+* 下载地址（APP Store）：[点击跳转至 APP Store](https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E6%9F%A0%E6%AA%AC%E6%B8%85%E7%90%86-lemon-cleaner/id1449962996?mt=12)
 
 <br/>
 
 ## 状态栏隐藏图标
+
+### iBar
+
+:::info 软件介绍
+
+像 Windows 右下角的隐藏一样，把不常用的拖进去隐藏
+
+:::
+
+* 收费情况：免费
+* 软件大小： MB
+* 下载地址（APP Store）：[点击跳转至 APP Store](https://apps.apple.com/cn/app/ibar-%E5%BC%BA%E5%A4%A7%E7%9A%84%E8%8F%9C%E5%8D%95%E6%A0%8F%E5%9B%BE%E6%A0%87%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/id6443843900?mt=12)
+
+
 
 ### <img src="https://pic1.zhimg.com/v2-7ebf4e968b195fd01e648e9480bea7f9_720w.jpg?source=172ae18b" alt="mac隐藏菜单栏图标工具：Hidden Bar" style="zoom:8%;" /> Hidden bar
 
@@ -810,7 +910,7 @@ tutu
 
 <br/>
 
-### VMware Fusion1
+### VMware Fusion12
 
 
 
@@ -1390,11 +1490,305 @@ brew install golang
 
 # 终端配置
 
-终端使用代理
+## 终端使用代理
 
 ~~~shell
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ~~~
+
+
+
+## 安装 zsh
+
+1. 查看系统是否装了 zsh
+
+   * 查看当前使用的 shell
+
+     ~~~shell
+     echo $SHELL
+     ~~~
+
+     ![image-20230508104432828](https://img-blog.csdnimg.cn/cf9594d2a47b4f78bb4d14440dd970e8.png)
+
+     <br/>
+
+   * 查看系统是否装了 zsh
+
+     ~~~shell
+     cat /etc/shells
+     ~~~
+
+     ![image-20230508104352410](https://img-blog.csdnimg.cn/43702e3175ef4114aac58c0680c08eba.png)
+
+     <br/>
+
+2. 安装 zsh（系统没有查到zsh，则安装)
+
+   ~~~shell
+   sudo apt-get install -y zsh
+   ~~~
+
+3. 切换 shell 为 zsh
+
+   ~~~shell
+   chsh -s /bin/zsh
+   ~~~
+
+   ~~~shell
+   sudo chsh -s /bin/zsh
+   ~~~
+
+4. 重启Linux
+
+   ~~~shell
+   sudo reboot
+   ~~~
+
+5. 开机后，zsh 会要求用户选择启动项。
+
+   输入 0 即可
+
+   ![image-20230508105152947](https://img-blog.csdnimg.cn/a1b61e46c4c54d9c9d68949ce8d4396c.png)
+
+   <br/>
+
+6. 查看当前 shell , 如果显示 /bin/zsh ，则配置成功
+
+   ~~~shell
+   sudo echo $SHELL
+   ~~~
+
+   ![image-20230508105257255](https://img-blog.csdnimg.cn/699aabea1277499ca39f97bfd20494b6.png)
+
+   <br/>
+
+7. 安装 oh my zsh
+
+   ~~~shell
+   sh -c "$(wget https://gitee.com/wzqxxl/ohmyzsh/releases/download/%E6%96%87%E4%BB%B6/install.sh -O -)"
+   ~~~
+
+8. 到此就安装完成
+
+   <img src="https://img-blog.csdnimg.cn/4bf8e37608bd461d868614f214d4fc0d.png" alt="image-20230101101103549" style="zoom: 67%;" />
+
+9. 更换主题
+
+[主题列表](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#pygmalion)
+
+~~~~shell
+vim ~/.zshrc
+~~~~
+
+修改 `ZSH_THEME`参数即可。之后执行即可更换主题：gnzh
+
+~~~shell
+source ~/.zshrc
+~~~
+
+![image-20220426130630207](https://img-blog.csdnimg.cn/8e36d716a98947b58079f92732c4baf8.png)
+
+
+
+<br/>
+
+## oh-my-zsh插件
+
+
+
+### 智能提示
+
+~~~shell
+git clone https://gitee.com/xs66/zsh-autosuggestions $ZSH/plugins/zsh-autosuggestions
+~~~
+
+<br/>
+
+### 语法高亮
+
+~~~shell
+git clone https://gitee.com/xs66/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
+~~~
+
+<br/>
+
+### 载入配置
+
+~~~shell 
+vim ~/.zshrc
+~~~
+
+~~~shell
+plugins=(
+   git
+   extract
+   cp
+   safe-paste
+   colored-man-pages
+   
+   zsh-syntax-highlighting
+   zsh-autosuggestions
+ )
+~~~
+
+<br/>
+
+### 使配置生效
+
+~~~shell
+source ~/.zshrc
+~~~
+
+<br/><br/>
+
+# Vim
+
+## 配置 Vim
+
+~~~shell
+sudo vim ~/.vimrc
+~~~
+
+参考配置文件：
+
+~~~shell
+set number "设置行号
+syntax on "高亮
+
+colorscheme tender "设置主题---主题文件夹：/usr/share/vim/vim82/colors
+
+set mouse=a "鼠标模式
+
+set encoding=utf-8 "编码设置
+set noswapfile
+set laststatus=2 "总是显示状态行
+
+set autoindent "自动缩进
+set shiftwidth=4 "缩进长度是4
+
+set softtabstop=-1 "Backspace键来一次删除4个空格
+
+set showmatch "高亮显示匹配的括号
+
+set hlsearch "高亮显示所有搜索到的内容
+
+set incsearch "光标立刻跳转到搜索到内容
+
+set noeb "去掉输入错误时的提示声音
+
+set backspace=indent,eol,start "让Backspace键可以往前删除字符
+
+set statusline=%F%r\ [HEX=%B][%l,%v,%P]\ %{strftime(\"%H:%M\")} "设置状态行显示的内容
+" %F: 显示当前文件的完整路径.
+" %r: 如果readonly,会显示[RO]
+" %B: 显示光标下字符的编码值,十六进制.
+" %l:光标所在的行号. %v:光标所在的虚拟列号.
+" %P: 显示当前内容在整个文件中的百分比.
+" %H和%M是strftime()函数的参数,获取时间.
+
+" 快捷输入--自动完成括号和引号
+inoremap ' ''<ESC>i
+inoremap " ""<ESC>i
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {}<ESC>i
+~~~
+
+<br/>
+
+## 更改主题
+
+1. 下载主题
+
+   注：将路径改为自己的，例如，你可能是 `/usr/share/vim/vim9`，也可能是 `/usr/share/vim/vim8`
+
+   ~~~shell
+   sudo  wget -O /usr/share/vim/vim81/colors/tender.vim https://gitee.com/wzqxxl/transit/attach_files/1114920/download/tender.vim
+   ~~~
+
+   * 注：MacOS下无法访问/usr/目录，则在根目录下文件夹 `~/.vim/colors`，将主题文件放在该目录下即可
+
+   * -O 参数表示将下载内容保存到所指定的文件
+
+   * 主题文件所在文件夹：`/usr/share/vim/vim82/colors`
+
+   
+
+2. 设置 `~/.vimrc` 配置主题
+
+   ~~~shell
+   sudo vim ~/.vimrc
+   ~~~
+
+   ~~~shell
+   colorscheme tender "设置主题
+   ~~~
+
+   ![image-20230102111123266](https://img-blog.csdnimg.cn/9ff00e678df2407fad27c6d588dc0a63.png)
+
+
+
+3. 更多主题
+
+   [VIM 配色方案推荐](https://zhuanlan.zhihu.com/p/58188561)
+
+
+
+<br/>
+
+## vim-plug 插件管理 安装
+
+GitHub 主页：https://github.com/junegunn/vim-plug
+
+插件市场：https://vimawesome.com/
+
+1. 下载 `vim-plug`
+
+   ~~~shell
+   curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+       https://gitee.com/wzqxxl/transit/attach_files/1114918/download/plug.vim
+   ~~~
+
+2. 编辑 `.vimrc`
+
+   ~~~shell
+   vim ~/.vimrc
+   ~~~
+
+   一些插件
+
+   ~~~shell
+   
+   ~~~
+
+
+3. 安装插件：
+
+   ~~~shell
+   vim
+   ~~~
+
+   * 如果配置了代理，安装了 `proxychains` ，则可以用下面这条命令
+
+     ~~~shell
+     proxychains vim
+     ~~~
+
+   按 <kbd>Shift</kbd> + <kbd>:</kbd> 进入命令模式，输入
+
+   ~~~shell
+   PlugInstall
+   ~~~
+
+   ![image-20230102112243637](https://img-blog.csdnimg.cn/a0759729358947288d1c6ac003e75f5d.png)
+
+   
+
+   <font color="grey">【注】由于插件是去 GitHub 下载，而国内网络无法连接，故需要靠科学上网</font>
+
+
+
+<br/>
 
 
 
@@ -1445,3 +1839,11 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 # 参考
 
 https://www.sorrycc.com/posts/macbook-pro-configuration-from-zero
+
+
+
+
+
+# 黑莱果
+
+kext驱动更新插件：https://github.com/MacThings/kextupdater

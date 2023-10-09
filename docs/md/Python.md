@@ -299,7 +299,7 @@ print(
 > 将 Python 代码打包成可执行文件 .exe
 
 ~~~shell
- pip install colorama
+ pip install pyinstaller
 ~~~
 
 ![pyinstaller打包命令参数](https://img-blog.csdnimg.cn/c7cec848f3c847e785dc7a5bbec55527.png)
@@ -383,8 +383,9 @@ pip install openpyxl
 
    ~~~python
    from openpyxl import load_workbook
-   wb = load_workbook('./模板.xlsx', read_only=True, data_only=True)	# 只读、只读数据
-   ws = wb[wb.sheetnames[0]]	# 获取第一个工作表 选择表（sheet）
+   filename = './模板.xlsx'
+   wb = load_workbook(filename, read_only=True, data_only=True)	# 只读、只读数据
+   ws = wb.sheetnames[0]	# 获取第一个工作表 选择表（sheet） wb.active
    ~~~
 
    
@@ -404,16 +405,94 @@ pip install openpyxl
    ws.cell(row=1, column=3).value
    ~~~
 
+   ~~~python
+   ws.cell(row=1, column=3).value = 100	# 赋值
+   ~~~
+
+   
+
 4. 遍历
 
    ~~~shell
-   for val in ws_write.iter_rows(min_row=1):
-       print(val[0].value, val[1].value)
+   for val in ws_write.iter_rows(min_row=1):	
+       print(val[0].value, val[1].value)	# 列从 0 开始
    ~~~
 
    ~~~shell
-   for row in range(1, ws.max_row + 1):
+   for row in range(1, ws.max_row + 1):	# 行/列从 1 开始
        print(ws.cell(row=row, column=3).value)
+   ~~~
+
+5. 保存
+
+   ~~~python
+   wb.save(filename)
+   ~~~
+
+6. 去重：一
+
+   ~~~python
+   import openpyxl
+   
+   workbook = openpyxl.load_workbook('./test.xlsx')
+   sheet = workbook.active
+   
+   seen_rows = set()
+   rows_to_delete = []
+   
+   # 从第二行开始
+   for row in sheet.iter_rows(min_row=2):
+   # for row in sheet.iter_rows(min_row=2, values_only=True):
+   	row_data = tuple(cell.value for cell in row)
+   	if row_data in seen_rows:
+       # if row in seen_rows:
+   		rows_to_delete.append(row)
+   	else:
+   		seen_rows.add(row_data)
+   
+   for row in rows_to_delete:
+   	sheet.delete_rows(row[0].row)
+   
+   workbook.save('./test2.xlsx')	
+   ~~~
+
+7. 去重：二
+
+   ~~~python
+   ~~~
+
+8. 数据保存到 Excel：
+
+   ~~~python
+   from typing import List, Dict
+   
+   def save_to_excel(headers: List, data: Dict):
+       """
+       保存数据到 Excel 文件
+       :param headers: 表头
+       :param data: 一行数据
+       :return: 无
+       """
+       row = get_row()  # 获取行号
+       
+       # 写入表头, 只写一次
+       if row == 1:
+           for idx, val in enumerate(headers):
+   	    	sheet.cell(1,  idx + 1).value = val
+   
+       wb = openpyxl.load_workbook(filename)	# 打开 Excel 表格
+       sheet = wb.worksheets[0]  				# 选取第一个sheeet
+   
+       arg1 = data.get('***')  	#
+       arg2 = data.get('***')  	#
+   
+       sheet.cell(row, 1).value = arg1  # 大类型
+       sheet.cell(row, 2).value = arg2  # 类型
+   
+       row += 1
+       set_row(row)
+   
+       wb.save(filename)
    ~~~
 
    
