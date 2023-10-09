@@ -997,16 +997,16 @@ var dataSource = new Array(count);
 ~~~
 
 表单	
-
+{% raw %}
 ~~~html
     <!-- 表单 -->
     <form action="/test/test1" method="POST">
-       {% raw %} <!-- {% csrf_token %}--> {% endraw %}
+        <!-- {% csrf_token %}--> 
     <div class="test" id="test-button">
     </div>
     </form>
 ~~~
-
+{% endraw %}
 
 
 #### 跨域
@@ -1146,7 +1146,7 @@ STATICFILES_DIRS = (
 
 
 #### 模板HTML写法
-
+{% raw %} 
 ~~~html
 {% load static %}  
 <!doctype html>
@@ -1155,7 +1155,7 @@ STATICFILES_DIRS = (
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <script src="{% static 'js/script.js' %}"> </script>
 ~~~
-
+{% endraw %}
 
 
 
