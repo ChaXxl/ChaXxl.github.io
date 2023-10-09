@@ -486,6 +486,10 @@ BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程
 
 * 下载地址（官网）：https://existential.audio/blackhole/?pk_campaign=github&pk_kwd=readme
 
+* 下载地址（123盘）：https://www.123pan.com/s/KYxeVv-rfvWh.html
+
+* 提取码：tutu
+
 ## 电脑音频推送到手机
 
 ### SoundWire
