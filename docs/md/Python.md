@@ -1001,7 +1001,7 @@ var dataSource = new Array(count);
 ~~~html
     <!-- 表单 -->
     <form action="/test/test1" method="POST">
-       <!-- {% csrf_token %}-->
+       {% raw %} <!-- {% csrf_token %}--> {% endraw %}
     <div class="test" id="test-button">
     </div>
     </form>
