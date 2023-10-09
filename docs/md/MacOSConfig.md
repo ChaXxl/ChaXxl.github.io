@@ -1,30 +1,35 @@
+
+
 # MacOS 配置
 
 :::tip
 
 * 本网站提供的软件除免费版以外, 收费版均为破解, 其中破解流程都是一样的。
 * 安装破解软件，需要关闭系统完整性保护机制，下面有教程
-* 软件大小指的是安装包的大小
 
 :::
 
 
 
-破解流程：
 
-1. 双击打开安装包，再双击 Manual install 文件夹里面的 .dmg 文件安装即可。
 
-   ![image-20230522192836152](https://img-blog.csdnimg.cn/00d7934bc7474f2db094d79bb5a914d4.png)
+## 软件破解流程
 
-   <br/>
+### 允许安装任何来源
 
-   注：如果出现损坏或者什么原因导致打不开软件，则双击打开 `Open Gatekeeper friendly`文件，一路按回车即可。
+在终端中输入命令：
 
-   ![image-20230522193309561](https://img-blog.csdnimg.cn/3cc14684cdb145e1ad5ab4584c154bb7.png)
+~~~shell
+sudo spctl --master-disable
+~~~
+
+勾选 《任何来源》
+
+![image-20231009152106596](/Users/xxl/Library/Application Support/typora-user-images/image-20231009152106596.png)
 
 <br/>
 
-# 关闭系统完整性保护机制
+### 关闭系统完整性保护机制
 
 :::info 系统完整性保护机制
 
@@ -36,47 +41,61 @@
 
 <br/>
 
-## 检查是否启用了SIP系统完整性保护
+#### 检查是否启用了SIP系统完整性保护
 
 * 方法一：
 
-  ![image-20230507200753248](https://img-blog.csdnimg.cn/0e4b8a646517484fb386990560755503.png)
+    ![image-20230507200753248](https://img-blog.csdnimg.cn/0e4b8a646517484fb386990560755503.png)
 
-  <br/>
+    <br/>
 
 * 方法二：
 
-  打开终端，输入以下命令
+    打开终端，输入以下命令
 
-  ~~~shell
-  csrutil status
-  ~~~
+    ~~~shell
+    csrutil status
+    ~~~
 
-  * 如果显示 enabled 说明是开启
+    * 如果显示 enabled 说明是开启
 
-  * 如果显示 disabled 说明是关闭。由于我的是黑苹果，所以显示 unknown 就是关闭状态
+    * 如果显示 disabled 说明是关闭。由于我的是黑苹果，所以显示 unknown 就是关闭状态
 
-  ![image-20230507201024517](https://img-blog.csdnimg.cn/1ab6f6dfa60e4b2a858ee5bec79d30ed.png)
+    ![image-20230507201024517](https://img-blog.csdnimg.cn/1ab6f6dfa60e4b2a858ee5bec79d30ed.png)
 
 <br/>
 
-## 关闭 SIP 保护机制的方法
+### 关闭 SIP 保护机制的方法
 
 1. 重启，当黑屏后，按住 <kbd>Command</kbd>+<kbd>R</kbd>，稍待片刻，电脑会进入到恢复模式。
 
 2. 选择实用工具中的终端
 
-   <img src="https://img-blog.csdnimg.cn/6368699384f2442fb985fda81b6bb29d.png" style="zoom:67%;" />
+    <img src="https://img-blog.csdnimg.cn/6368699384f2442fb985fda81b6bb29d.png" style="zoom:67%;" />
 
 3. 在终端中输入下面一行命令，然后按回车
 
-   ~~~shell
-   csrutil disable
-   ~~~
+    ~~~shell
+    csrutil disable
+    ~~~
 
-   接着应该会显示一串英文显示说关闭成功
+    接着应该会显示一串英文显示说关闭成功
 
 4. 最后重启即可，再通过前面的方法检查是否成功关闭
+
+<br/>
+
+### 破解软件的安装
+
+1. 双击打开安装包，再双击 Manual install 文件夹里面的 .dmg 文件安装即可。
+
+   ![image-20230522192836152](https://img-blog.csdnimg.cn/00d7934bc7474f2db094d79bb5a914d4.png)
+
+   <br/>
+
+   注：如果出现损坏或者什么原因导致打不开软件，则双击打开 `Open Gatekeeper friendly`文件，一路按回车即可。
+
+   ![image-20230522193309561](https://img-blog.csdnimg.cn/3cc14684cdb145e1ad5ab4584c154bb7.png)
 
 
 
@@ -128,31 +147,31 @@ killall Finder
 
 * 下载地址（官网）：https://weixin.qq.com/
 
-
+<br/>
 
 ### QQ
 
 * 下载地址（官网）：https://im.qq.com/macqq/index.shtml
 
-
+<br/>
 
 ### 企业微信
 
 * 下载地址（官网）：https://work.weixin.qq.com/#indexDownload
 
-
+<br/>
 
 ### Twitter
 
 * 下载地址（官网）：
 
-
+<br/>
 
 ### Telegram
 
 * 下载地址（官网）：
 
-
+<br/>
 
 
 
@@ -164,7 +183,7 @@ killall Finder
 
 * 下载地址（官网）：https://srf.baidu.com/input/mac.html
 
-
+<br/>
 
 ## 网盘客户端
 
@@ -172,13 +191,17 @@ killall Finder
 
 
 
-
+<br/>
 
 ### 阿里云盘-小白羊
 
+* 收费情况：免费开源
+* Github 主页：https://github.com/gaozhangmin/aliyunpan
+* 软件大小：97.2 MB
+* 下载地址：
+* 提取码：
 
-
-
+<br/>
 
 ## 笔记软件
 
@@ -188,15 +211,15 @@ killall Finder
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-elTWh.html
 * 提取码：abcd
 
-
+<br/>
 
 ### Obsidion
 
-
+<br/>
 
 ## Adobe
 
-### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/acrobat-reader.svg" style="height:40px;" /> Adobe Acrobat
+### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/acrobat-reader.svg" style="height:30px;" /> Adobe Acrobat
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -204,7 +227,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/audition.svg" style="height:50px;" /> Adobe Audition( Au )
+### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/audition.svg" style="height:30px;" /> Adobe Audition( Au )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -212,7 +235,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/after-effects.svg" style="height:50px;" /> Adobe After Effects( Ae )
+### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/after-effects.svg" style="height:30px;" /> Adobe After Effects( Ae )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -220,7 +243,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/character-animator.svg" style="height:50px;" /> Adobe Character Animator( Ch )
+### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/character-animator.svg" style="height:30px;" /> Adobe Character Animator( Ch )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -228,7 +251,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/cc1/en/genuine/images/AFC/LR_icon.svg" style="height:50px;" /> Adobe LightRoom( Lr )
+### <img src="https://www.adobe.com/content/dam/cc1/en/genuine/images/AFC/LR_icon.svg" style="height:30px;" /> Adobe LightRoom( Lr )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -236,7 +259,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" style="height:50px;" />Adobe premiere Pro( Pr )
+### <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" style="height:30px;" />Adobe premiere Pro( Pr )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -244,7 +267,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/cc/icons/illustrator.svg" style="height:50px;" /> Adobe Illustrator( Ai )
+### <img src="https://www.adobe.com/content/dam/cc/icons/illustrator.svg" style="height:30px;" /> Adobe Illustrator( Ai )
 
 * 版本：2023
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-wLysh.html
@@ -252,7 +275,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" style="height:50px;" /> Adobe Photoshop( Ps )
+### <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" style="height:30px;" /> Adobe Photoshop( Ps )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -316,7 +339,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 ## 快速启动
 
-### Raycast
+### <img src="https://avatars.githubusercontent.com/u/58117316?s=200&v=4" alt="img" style="zoom:20%;" />Raycast
 
 * 收费情况：免费
 * 软件大小：50.3 MB
@@ -362,7 +385,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 ### <img src="https://bkimg.cdn.bcebos.com/pic/0ff41bd5ad6eddc451da4bfacd8fa1fd5266d016952f?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="iShot" style="zoom:15%;" /> iShot
 
-:::note 软件介绍
+:::info 软件介绍
 
 支持长截图、截图带阴影、带壳截图、贴图、序号标注、录制
 
@@ -376,7 +399,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 ### <img src="https://zh.snipaste.com/img/logo.svg" style="zoom: 5%;" /> Snipaste
 
-:::note 软件介绍
+:::info 软件介绍
 
 功能比 iShot 少，仅支持截图和贴图
 
@@ -392,7 +415,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 ### <img src="https://iina.io/images/iina-icon-60.png" alt="iina-icon-60.png (60×60)" style="zoom:67%;" /> IINA
 
-:::note 软件介绍
+:::info 软件介绍
 
 视频播放器
 
@@ -406,13 +429,12 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 ## 录屏软件
 
-### obs
+### <img src="https://obsproject.com/assets/images/new_icon_small-r.png" alt="img" style="zoom:15%;" />obs
 
+* 收费情况：免费开源
+* 下载地址（官网）：https://www.obsproject.com
 
-
-插件主题下载：https://www.obs.pub
-
-
+插件主题下载：https://www.obs.pub/
 
 <br/>
 
@@ -426,7 +448,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 ### <img src="https://raw.githubusercontent.com/mtjo/MacStroke/release/logo.png" alt="img" style="zoom:37%;" /> MacStroke
 
-:::note 软件介绍
+:::info 软件介绍
 
 鼠标手势
 
@@ -448,7 +470,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 ### BlackHole
 
-:::note 软件介绍
+:::info 软件介绍
 
 BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程序以零额外延迟将音频传递到其他应用程序。
 
@@ -468,7 +490,7 @@ BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程
 
 ### SoundWire
 
-:::note 软件介绍
+:::info 软件介绍
 
 电脑音频推送到手机
 
@@ -482,7 +504,7 @@ BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程
 
 ### AudioRelay
 
-:::note 软件介绍
+:::info 软件介绍
 
 电脑音频推送到手机
 
@@ -538,7 +560,7 @@ https://wwa.lanzoui.com/Mounty
 
 ### <img src="https://mousefix.org/resources/app_icon_round.png" alt="app_icon_round.png (1024×1024) (mousefix.org)" style="zoom:5%;" /> Mac Mouse Fix
 
-:::note 软件介绍
+:::info 软件介绍
 
 让鼠标的滚动更加滑溜
 
@@ -581,7 +603,7 @@ brew install --cask cursorcerer
 
 ### <img src="https://bjango.com/images/mac/istatmenus6/icon-istatmenus6.png" alt="img" style="zoom:15%;" /> iStat Menus
 
-:::note 软件介绍
+:::info 软件介绍
 
 推荐这个，状态栏能显示彩色图标和文字
 
@@ -598,7 +620,7 @@ brew install --cask cursorcerer
 
 ### <img src="https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png" alt="img" style="zoom:20%;" /> Stats For Mac
 
-:::note 软件介绍
+:::info 软件介绍
 
 我不喜欢用
 
