@@ -1649,9 +1649,21 @@ Set-PSReadLineOption -PredictionSource History
 Set-PoshPrompt -Theme atomic
 ```
 
+### ssh自动对接到PowerShell
 
+ssh默认是连接到cmd的。管理员权限在PowerShell执行以下命令(注意改成自己的powershell路径), 使 SSH 连接Windows时默认使用 Powershell
 
+```
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+```
 
+:::warning
+
+注意! 任何使用administrator用户组ssh登录到Windows后, 都具有完全的管理员权限, 且没有其他提示! 也就是说这相当于root登录到系统. 一定要当心不要误操作. 
+
+比较合适的方法是创建一个普通账户, 然后给予ssh登录的权限. 缺点是提权困难.
+
+:::
 
 <br/>
 
