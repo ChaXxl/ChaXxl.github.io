@@ -1654,8 +1654,14 @@ Set-PoshPrompt -Theme atomic
 ssh默认是连接到cmd的。管理员权限在PowerShell执行以下命令(注意改成自己的powershell路径), 使 SSH 连接Windows时默认使用 Powershell
 
 ```
-New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3d8bbwe\pwsh.exe" -PropertyType String -Force
 ```
+
+~~~shell
+C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3d8bbwe\pwsh.exe
+~~~
+
+
 
 :::warning
 

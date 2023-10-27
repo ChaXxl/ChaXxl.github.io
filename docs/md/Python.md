@@ -1,3 +1,5 @@
+
+
 # Python
 
 ## pip 换源
@@ -6,6 +8,17 @@
 
 ~~~shell
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+~~~
+
+## 时间格式转换
+
+~~~python
+def convertTime(timestamp: int):
+    utc_time = datetime.datetime.utcfromtimestamp(timestamp / 1000)
+    beijing_timezone = datetime.timezone(datetime.timedelta(hours=8))
+    beijing_time = utc_time.astimezone(beijing_timezone)
+
+    return beijing_time.strftime('%Y-%m-%d')
 ~~~
 
 
@@ -503,6 +516,11 @@ pip install openpyxl
 
 ~~~shell
 pip install torch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0
+~~~
+
+~~~shell
+# cuda 11.7
+pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 ~~~
 
 
