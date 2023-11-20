@@ -59,9 +59,9 @@ LOAD DATA INFILE '/home/paul/clientdata.csv' INTO TABLE CSVImport;
 
 1. 使用 Create User 语句创建用户
 
-
-
-
+~~~sql
+CREATE USER 'xxl'@'localhost' IDENTIFIED BY '123';
+~~~
 
 
 

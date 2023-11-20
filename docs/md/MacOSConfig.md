@@ -696,6 +696,7 @@ brew install --cask cursorcerer
 
 * 收费情况：免费开源
 * GitHub 主页：https://github.com/Tencent/lemon-cleaner
+* 管网：https://lemon.qq.com/
 * 软件大小：33.7 MB
 * 下载地址（APP Store）：[点击跳转至 APP Store](https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E6%9F%A0%E6%AA%AC%E6%B8%85%E7%90%86-lemon-cleaner/id1449962996?mt=12)
 

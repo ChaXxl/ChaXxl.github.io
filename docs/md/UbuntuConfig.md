@@ -725,7 +725,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 4. 编译和安装
 
    ~~~shell
-   sudo make && make install
+   sudo make && sudo make install
    ~~~
 
    <br/>
@@ -753,7 +753,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 4. 编译和安装
 
    ~~~shell
-   sudo make && make install
+   sudo make && sudo make install
    ~~~
 
    
@@ -783,7 +783,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 4. 编译和安装
 
    ~~~shell
-   sudo make && make install
+   sudo make && sudo make install
    ~~~
 
    <br/>
@@ -813,7 +813,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 4. 编译
 
    ~~~shell
-   sudo make && make install
+   sudo make && sudo make install
    ~~~
 
 5. 创建软链接
@@ -855,7 +855,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 3. 编译代码、安装
 
    ~~~shell
-   sudo ./make.sh && ./make.sh install
+   sudo ./make.sh && sudo ./make.sh install
    ~~~
 
 4. 动态库安装后的路径
