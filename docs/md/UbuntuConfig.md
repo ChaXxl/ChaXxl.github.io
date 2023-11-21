@@ -1424,7 +1424,7 @@ alter table user modify column name varchar(50) character set utf8;
    * PREFIX 表示安装地址
 
    ~~~shell
-   make && make install PREFIX=/usr/local/src/redis/
+   sudo make && sudo make install PREFIX=/usr/local/src/redis/
    ~~~
 
 3. 创建软链接
