@@ -906,6 +906,14 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
+
+
+## 输入法
+
+冰凌五笔输入法：https://www.icesofts.com/download.html
+
+
+
 ## 网盘
 
 ### 百度网盘
