@@ -970,7 +970,7 @@ int mkstemp(char *template);
 >
 >     ~~~c
 >     #include <sys/resource.h>
->     
+>                 
 >     int getpriority(int which, int who);
 >     ~~~
 >
@@ -1021,9 +1021,9 @@ int mkstemp(char *template);
 >     ~~~c
 >     #include <sys/types.h>
 >     #include <sys/wait.h>
->     
+>                 
 >     int wait(int *status);
->     
+>                 
 >     pid_t waitpid(pit_t pid, int *status, int options);
 >     ~~~
 >
@@ -1038,13 +1038,13 @@ int mkstemp(char *template);
 >         
 >
 >     * WEXITSTATUS
->
+>            
 >     * WTERMSIG
->
+>            
 >     * WSTOPSIG
->
+>            
 >     options:
->
+>            
 >     * WNOHANG: no hang 非阻塞
 >     * WUNTRACED: under traced 被调试
 >     * WCONTINUED: continued 发生了信号导致进程暂停
@@ -1057,9 +1057,130 @@ int mkstemp(char *template);
 
 ### 文件和目录函数
 
+> ==文件操作函数==
+>
+> 1. 打开文件
+>
+>     ~~~c
+>     FILE *fopen(const char *path, const char *mode); // 不能指定权限
+>     ~~~
+>
+>     mode:
+>
+>     * r: 读
+>     * w: 写
+>     * r+ 、w+: 可读可写
+>     * +: 创建
+>     * a: 追加
+>     * b: 二进制
+>     * t: 文本 (默认的)
+>
+>     
+>
+> 2. 关闭文件
+>
+>     ~~~c
+>     fclose(FILE *fp);
+>     ~~~
 
 
 
+> 1. 打开文件-文件输入输出重定向
+>
+>     ~~~c
+>     FILE *freopen(const char *filename, const char *mode, FILE *stream);
+>     ~~~
+>
+>     ~~~c
+>     // 示例: 把控制台输出导到文件中
+>     
+>     FILE *pFile = freopen("./test.txt", "a+", stdout);
+>     
+>     std::cout << std::endl;
+>     std::cout << __FILE__ << ":" << __LINE__ << " " << __FUNCTION__ << std::endl;
+>     
+>     if (nullptr != pFile) fclose(pFile);
+>     ~~~
+>
+>     
+>
+> 2. 将文件描述词转为文件指针
+>
+>     用 open 函数打开的时候, 得到一个 fd, 可以把文件描述符转换为 FILE *
+>
+>     ~~~c
+>     FILE *fdopen(int fildes, const char *mode);
+>     ~~~
+>
+> 3. 返回文件流所使用的文件描述词
+>
+>     文件指针转换为文件描述符 (fd: file describtion)
+>
+>     ~~~c
+>     int fileno(FILE *stream);
+>     ~~~
+
+
+
+> 1. 从文件流读取数据
+>
+>     ~~~c
+>     size_t fread(void *buffer, size_t size, size_t count, FILE *stream);
+>     ~~~
+>     
+> 1. 由文件中读取一字符串
+>
+>     ~~~c
+>     int fgetc(FILE *stream);
+>     ~~~
+>     
+> 1. 由文件中读取一字符串
+>
+>     ~~~c
+>     char *fgets(char *str, int n, FILE *stream); // 文件必须以 t 模式打开
+>     ~~~
+>     
+> 1. 将数据写至文件流
+>
+>     ~~~c
+>     size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);
+>     ~~~
+>     
+> 1. 更新缓冲区
+>
+>     ~~~c
+>     int fflush(FILE *stream);
+>     ~~~
+>
+> 
+
+
+
+> 1. 将一指定字符写入文件流中
+>
+>     ~~~c
+>     int fputc(int c, FILE *fp);
+>     ~~~
+>
+> 2. 将一指定的字符串写入文件内
+>
+>     ~~~c
+>     int fputs(const char *str, FILE *stream);
+>     ~~~
+>
+> 3. 将数据写入至文件流
+>
+>     ~~~c
+>     size_t fwrite(const char *ptr, size_t size, size_t nmemb, FILE *stream);
+>     ~~~
+>
+> 4. 更新缓冲区
+>
+>     ~~~c
+>     int fflush(FILE *stream);
+>     ~~~
+>
+>     
 
 
 
@@ -1091,39 +1212,113 @@ int mkstemp(char *template);
 
 ### 网络的基本概念
 
+#### 网络的物理结构
+
+
+
+
+
+<br/>
+
+#### 网络中的地址
+
+
+
+
+
+<br/>
+
+#### 网络的中的端口
+
+
+
+
+
+<br/>
+
+#### 什么是协议
+
+
+
+<br/>
+
+#### TCP协议基础
+
+
+
+
+
+
+
+
+
+
+
 <br/>
 
 ### 套接字介绍
 
-### `<br/>`套接字的创建
+
+
+<br/>
+
+### 套接字的创建
+
+
+
+
 
 <br/>
 
 ### 地址和端口的设置
 
+
+
+
+
 <br/>
 
 ### 绑定地址和端口
+
+
+
+
 
 <br/>
 
 ### 监听和接受连接
 
+
+
+
+
 <br/>
 
 ### 数据的读取和发送
+
+
 
 <br/>
 
 ### 连接服务器
 
+
+
 <br/>
 
 ### 接收和发送数据
 
+
+
 <br/>
 
 ### 关闭连接
+
+
+
+
+
+
 
 ### 错误处理
 
@@ -1134,6 +1329,30 @@ int mkstemp(char *template);
 <br/>
 
 <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # WSL
 
@@ -1380,6 +1599,20 @@ source ~/.zshrc
 ![image-20220426130630207](https://img-blog.csdnimg.cn/8e36d716a98947b58079f92732c4baf8.png)
 
 <br/>
+
+使用 powerlevel10k 主题
+
+~~~shell
+git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+~~~
+
+~~~shell
+ZSH_THEME="powerlevel10k/powerlevel10k"
+~~~
+
+
+
+
 
 ## oh-my-zsh插件
 
