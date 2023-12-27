@@ -12,7 +12,7 @@ sudo java -jar XXXX/SetupSTM32CubeMX-6.0.1.exe
 
 
 
-### OpenOCD
+### 1. OpenOCD
 
 ~~~shell
 brew install open-ocd
@@ -20,7 +20,7 @@ brew install open-ocd
 
 
 
-### ARM toolchain
+### 2. ARM toolchain
 
 ~~~shell
 brew tap ArmMbed/homebrew-formulae
@@ -36,4 +36,4 @@ arm-none-eabi-gcc -v
 
 
 
-### 配置CLion
+### 3. 配置CLion

@@ -1,7 +1,7 @@
 
-##  Redis
+## 一. Redis
 
-### 随机返回 set 中的元素
+### 1. 随机返回 set 中的元素
 
 
 1. 定义
@@ -31,7 +31,7 @@
 
 
 
-### 连接操作相关的命令
+### 2. 连接操作相关的命令
 
 ~~~shell
 默认直接连接 远程连接-h 192.168.1.20 -p 6379
@@ -44,7 +44,7 @@ auth：简单密码认证
 
 <br/>
 
-### 服务端相关命令
+### 3. 服务端相关命令
 
 1. 返回当前服务器时间
 
@@ -132,7 +132,7 @@ auth：简单密码认证
 
 <br/>
 
-### 发布订阅相关命令
+### 4. 发布订阅相关命令
 
 1. 订阅一个或多个符合给定模式的频道 例如psubscribe news.* tweet.*
 
@@ -184,7 +184,7 @@ auth：简单密码认证
 
 <br/>
 
-### 对KEY操作的命令
+### 5. 对KEY操作的命令
 
 1. 确认一个key是否存在
 
@@ -260,7 +260,7 @@ auth：简单密码认证
 
 <br/>
 
-### 对String操作的命令
+### 6. 对String操作的命令
 
 1. 给数据库中名称为key的string赋予值value
 
@@ -348,7 +348,7 @@ auth：简单密码认证
 
 <br/>
 
-### 对List操作的命令
+### 7. 对List操作的命令
 
 ~~~shell
 rpush(key, value)：在名称为key的list尾添加一个值为value的元素
@@ -368,7 +368,7 @@ rpoplpush(srckey, dstkey)：返回并删除名称为srckey的list的尾元素，
 
 <br/>
 
-### #对Set操作的命令
+### 8. #对Set操作的命令
 
 ~~~shell
 sadd(key, member)：向名称为key的set中添加元素member
@@ -389,7 +389,7 @@ srandmember(key) ：随机返回名称为key的set的一个元素
 
 <br/>
 
-### 对Hash操作的命令
+### 9. 对Hash操作的命令
 
 ~~~shell
 hset(key, field, value)：向名称为key的hash中添加元素field

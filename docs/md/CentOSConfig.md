@@ -2,13 +2,13 @@
 
 <br/><br/>
 
-##  Clash科学上网
+## 一. Clash科学上网
 
 GitHub官网：https://github.com/Dreamacro/clash
 
 <br/><br/>
 
-## 一、 Python安装
+## 二. Python安装
 
 官网：https://www.python.org/
 
@@ -68,7 +68,7 @@ GitHub官网：https://github.com/Dreamacro/clash
 
 <br/><br/>
 
-## 二、 Vim安装
+## 三. Vim安装
 
 [Vim GitHub 主页](https://github.com/vim/vim)
 
@@ -81,7 +81,7 @@ set ts=4	" 设置Tab键为4个空格
 
 <br/>
 
-### vim-plug插件库
+### 1. vim-plug插件库
 
 [vim-plug GitHub 主页](https://github.com/junegunn/vim-plug)
 
@@ -131,19 +131,19 @@ Plug 'Valloric/YouCompleteMe'
 
 <br/><br/>
 
-## 三、 MySql
+## 四. MySql
 
 官网：https://www.mysql.com/
 
 <br/><br/>
 
-## 四、 MongoDB
+## 五. MongoDB
 
 官网：https://www.mongodb.com/
 
 <br/><br/>
 
-## 五、 Sqlite3
+## 六. Sqlite3
 
 [Sqlite 官网](https://www.sqlite.org)
 
@@ -201,7 +201,7 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/><br/>
 
-## 六、 Nginx
+## 七. Nginx
 
 [Nginx 官网](http://nginx.org)
 
@@ -243,7 +243,7 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/><br/>
 
-## 七、 Node
+## 八. Node
 
 [Nodejs 中文官网](http://nodejs.cn/)
 
@@ -262,15 +262,15 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/><br/>
 
-## 八、 Redis
+## 九. Redis
 
 [Redis 官网](https://redis.io/)
 
 <br/><br/>
 
-## 九、 终端美化
+## 十. 终端美化
 
-### 安装 zsh
+### 1. 安装 zsh
 
 1. 安装 zsh
 
@@ -299,7 +299,7 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/>
 
-### 安装 oh-my-zsh
+### 2. 安装 oh-my-zsh
 
 1. 安装 oh-my-zsh
 
@@ -319,7 +319,7 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
  <br/>
 
-### 安装插件
+### 3. 安装插件
 
 #### 智能提示
 
@@ -356,7 +356,7 @@ plugins=(
 
 <br/><br/>
 
-## 十、 安装 Chrome 并使用 selenium
+## 十一. 安装 Chrome 并使用 selenium
 
 1. 下载安装包
 

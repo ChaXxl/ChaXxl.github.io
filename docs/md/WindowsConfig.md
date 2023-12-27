@@ -8,11 +8,11 @@
 
 <br/>
 
-##  一、科学上网
+## 一. 一、科学上网
 
 
 
-### 机场
+### 1. 机场
 
 [RabbitPro](https://rabbitpro.net/auth/login)
 
@@ -32,7 +32,7 @@
 
 <br/>
 
-### 自建VPS
+### 2. 自建VPS
 
 服务器：VLUT
 
@@ -42,7 +42,7 @@
 
 <br/>
 
-### 代理软件
+### 3. 代理软件
 
 [Clash](https://github.com/Dreamacro/clash/releases)
 
@@ -62,9 +62,9 @@ SSR
 
 <br/><br/>
 
-## 一、 四、编程环境
+## 二. 四、编程环境
 
-### Python
+### 1. Python
 
 conda 修改镜像源
 
@@ -227,7 +227,7 @@ print(torch.version.cuda)
 
 <br/>
 
-### MingW、Make、GCC、G++
+### 2. MingW、Make、GCC、G++
 
 
 
@@ -237,7 +237,7 @@ print(torch.version.cuda)
 
 <br/>
 
-### Java
+### 3. Java
 
 ![img](https://img-blog.csdnimg.cn/20190601181336234.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMDE3MTUy,size_16,color_FFFFFF,t_70)
 
@@ -257,7 +257,7 @@ print(torch.version.cuda)
 
 <br/>
 
-### CMake
+### 4. CMake
 
 
 
@@ -267,7 +267,7 @@ print(torch.version.cuda)
 
 <br/>
 
-### node.js
+### 5. node.js
 
 
 
@@ -275,7 +275,7 @@ print(torch.version.cuda)
 
 <br/>
 
-### Git
+### 6. Git
 
 
 
@@ -283,19 +283,9 @@ print(torch.version.cuda)
 
 <br/><br/>
 
-## 二、 数据库
+## 三. 数据库
 
-### MySQL
-
-
-
-
-
-
-
-<br/>
-
-### Redis
+### 1. MySQL
 
 
 
@@ -305,7 +295,17 @@ print(torch.version.cuda)
 
 <br/>
 
-### PostgreSQL
+### 2. Redis
+
+
+
+
+
+
+
+<br/>
+
+### 3. PostgreSQL
 
 
 
@@ -319,7 +319,7 @@ print(torch.version.cuda)
 
 <br/>
 
-## 三、 wget配置
+## 四. wget配置
 
 
 
@@ -369,11 +369,11 @@ wget 具体的下载地址
 
 <br/><br/>
 
-## 四、 美化部分
+## 五. 美化部分
 
 
 
-### 桌面背景
+### 1. 桌面背景
 
 
 
@@ -389,7 +389,7 @@ wget 具体的下载地址
 
 <br/>
 
-### 主题
+### 2. 主题
 
 暗色
 
@@ -403,7 +403,7 @@ wget 具体的下载地址
 
 <br/>
 
-### 字体
+### 3. 字体
 
 苹方
 
@@ -413,7 +413,7 @@ wget 具体的下载地址
 
 <br/>
 
-### 光标
+### 4. 光标
 
 
 
@@ -429,7 +429,7 @@ wget 具体的下载地址
 
 <br/>
 
-### 任务栏居中透明
+### 5. 任务栏居中透明
 
 
 
@@ -437,7 +437,7 @@ wget 具体的下载地址
 
 <br/>
 
-### 桌面小部件
+### 6. 桌面小部件
 
 雨滴
 
@@ -447,11 +447,11 @@ wget 具体的下载地址
 
 <br/><br/>
 
-## 五、 软件部分
+## 六. 软件部分
 
 
 
-### 写代码软件 / IDE
+### 1. 写代码软件 / IDE
 
 #### Pycharm
 
@@ -566,7 +566,7 @@ wget 具体的下载地址
 
 <br/>
 
-### 开发工具
+### 2. 开发工具
 
 #### Beyond Compare
 
@@ -580,7 +580,7 @@ wget 具体的下载地址
 
 <br/>
 
-### 笔记软件
+### 3. 笔记软件
 
 #### typora
 
@@ -713,7 +713,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 抓包工具
+### 4. 抓包工具
 
 #### Charles
 
@@ -735,7 +735,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 
 
-### 浏览器
+### 5. 浏览器
 
 #### Edge
 
@@ -836,7 +836,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 安全/杀毒软件
+### 6. 安全/杀毒软件
 
 #### 火绒
 
@@ -846,7 +846,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 卸载软件
+### 7. 卸载软件
 
 #### Ashampoo Uninstaller v11.00.16 Portable
 
@@ -872,7 +872,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 聊天软件
+### 8. 聊天软件
 
 #### 微信
 
@@ -908,13 +908,13 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 
 
-### 输入法
+### 9. 输入法
 
 冰凌五笔输入法：https://www.icesofts.com/download.html
 
 
 
-### 网盘
+### 10. 网盘
 
 #### 百度网盘
 
@@ -962,7 +962,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 下载工具
+### 11. 下载工具
 
 #### IDM
 
@@ -988,7 +988,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 解压缩软件
+### 12 解压缩软件
 
 #### Bandizip
 
@@ -1006,7 +1006,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 截图软件
+### 13. 截图软件
 
 #### Snipaste
 
@@ -1032,7 +1032,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 视频播放软件
+### 14. 视频播放软件
 
 #### PotPlayer
 
@@ -1042,7 +1042,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 图片查看器
+### 15. 图片查看器
 
 #### Honey View
 
@@ -1052,7 +1052,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 图片压缩
+### 16. 图片压缩
 
 #### 图压
 
@@ -1062,7 +1062,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 文本编辑器
+### 17. 文本编辑器
 
 #### Notepad3
 
@@ -1094,7 +1094,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### PDF标记软件(支持手写笔)
+### 18. PDF标记软件(支持手写笔)
 
 #### Xournal++
 
@@ -1110,7 +1110,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 阅读软件
+### 19. 阅读软件
 
 #### BookxNote Pro
 
@@ -1120,7 +1120,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### PDF阅读器
+### 20. PDF阅读器
 
 #### SumatraPDF
 
@@ -1138,7 +1138,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 效率工具
+### 21. 效率工具
 
 #### Listary
 
@@ -1170,7 +1170,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 查看电脑硬件信息软件
+### 22. 查看电脑硬件信息软件
 
 [Windows超级管理器](https://www.collithel.com/windows_super_manager/)
 
@@ -1198,7 +1198,7 @@ AiDa64
 
 <br/>
 
-### 激活软件
+### 23. 激活软件
 
 
 
@@ -1206,7 +1206,7 @@ AiDa64
 
 <br/>
 
-### 远程连接软件
+### 24. 远程连接软件
 
 #### AnLink
 
@@ -1266,7 +1266,7 @@ Xftp
 
 <br/>
 
-### 录屏软件
+### 25. 录屏软件
 
 #### OBS
 
@@ -1292,7 +1292,7 @@ Xftp
 
 <br/>
 
-### 护眼软件
+### 26. 护眼软件
 
 #### Iris
 
@@ -1300,7 +1300,7 @@ Xftp
 
 
 
-### Adobe软件
+### 27. Adobe软件
 
 
 
@@ -1332,7 +1332,7 @@ Xftp
 
 <br/>
 
-### GIS软件
+### 28. GIS软件
 
 #### ArcGIS Pro 2.8
 
@@ -1362,7 +1362,7 @@ Xftp
 
 
 
-### 字典软件
+### 29. 字典软件
 
 #### Mdict
 
@@ -1382,7 +1382,7 @@ Xftp
 
 <br/>
 
-### 三维软件
+### 30. 三维软件
 
 
 
@@ -1400,7 +1400,7 @@ Xftp
 
 <br/>
 
-### 字幕制作软件
+### 31. 字幕制作软件
 
 #### Arctime Pro
 
@@ -1412,9 +1412,9 @@ Xftp
 
 <br/><br/>
 
-## 六、 小技巧
+## 七. 小技巧
 
-### OneDrive 设置同步任意文件夹
+### 1. OneDrive 设置同步任意文件夹
 
 原理：使用 `mklink`命令。
 
@@ -1449,7 +1449,7 @@ mklink /d "C:\Users\73446\OneDrive\文件夹B" "C:\Users\73446\Documents\文件�
 
 <br/>
 
-### 使用 PowerShell 命令操作环境变量
+### 2. 使用 PowerShell 命令操作环境变量
 
 [参考微软官方文档](https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7.3)
 
@@ -1573,7 +1573,7 @@ mklink /d "C:\Users\73446\OneDrive\文件夹B" "C:\Users\73446\Documents\文件�
    
    
 
-## 七、 Windows Terminal
+## 八. Windows Terminal
 
 https://github.com/microsoft/terminal
 
@@ -1581,7 +1581,7 @@ https://github.com/microsoft/terminal
 
 <br/>
 
-### Powershell 7
+### 1. Powershell 7
 
 https://github.com/PowerShell/PowerShell
 
@@ -1681,7 +1681,7 @@ C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3
 
 <br/>
 
-### 安装Nerd字体
+### 2. 安装Nerd字体
 
 [下载地址](https://www.nerdfonts.com/font-downloads)
 
@@ -1701,7 +1701,7 @@ C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3
 
 <br/>
 
-### 配置服务器SSH连接
+### 3. 配置服务器SSH连接
 
 参考教程：https://www.jianshu.com/p/b7a105a67253/
 
@@ -1775,7 +1775,7 @@ rm tmp.pub
 
 <br/>
 
-### 终端代理
+### 4. 终端代理
 
 > clash 打开 TUN 隧道模式即可
 
@@ -1809,7 +1809,7 @@ set https_proxy=http://127.0.0.1:1080
 
 <br/>
 
-### Vim插件安装
+### 5. Vim插件安装
 
 官方：插件管理：[vim-plug](https://github.com/junegunn/vim-plug)
 

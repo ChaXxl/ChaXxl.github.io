@@ -1,8 +1,8 @@
 # Ubuntu配置
 
-##  命令
+## 一. 命令
 
-### ls 命令
+### 1. ls 命令
 
 1. -a
 
@@ -20,7 +20,7 @@
 
    文件用双引号打印出来
 
-### echo 命令
+### 2. echo 命令
 
 1. 显示字符串
 
@@ -55,7 +55,7 @@
    echo `date` `time`
    ```
 
-### cd 命令
+### 3. cd 命令
 
 `Change Directory`
 
@@ -63,7 +63,7 @@
 
    表示当前用户
 
-### head 命令
+### 4. head 命令
 
 1. -c n
 
@@ -90,7 +90,7 @@
 
    不显示文件名（默认就是带 -q）
 
-### tail 命令
+### 5. tail 命令
 
 1. -f
 
@@ -114,7 +114,7 @@
    tail -c 20 hello.txt
    ```
 
-### ps 命令
+### 6. ps 命令
 
 1. -AL
 
@@ -133,7 +133,7 @@
 
    ![image-20231209143602908](https://img-blog.csdnimg.cn/direct/714e362a2a654d88b259c4fe97453d6a.png)
 
-### cp 命令
+### 7. cp 命令
 
 1. -a
 
@@ -178,7 +178,7 @@
    
    ```
 
-### rm 命令
+### 8. rm 命令
 
 1. -i
 
@@ -202,13 +202,13 @@
    
    ```
 
-### chmod
+### 9. chmod
 
 777 (111 111 111)
 
 当前用户、当前用户组、其它用户。读、写、执行
 
-### 解压命令
+### 10. 解压命令
 
 ```shell
 1、.tar 用 tar –xvf 解压
@@ -225,7 +225,7 @@
 
 `<br/><br/>`
 
-### SSH 免密登录
+### 11. SSH 免密登录
 
 1. 首先在本机生成公钥和私钥
 
@@ -241,7 +241,7 @@
 
 `<br/><br/>`
 
-### 上传下载文件
+### 12 上传下载文件
 
 #### 上传
 
@@ -270,9 +270,9 @@ scp -r 远程服务器用户名@远程服务器ip:远程文件路径 本地存�
 
 `<br/><br/>`
 
-## 一、 Linux 开发入门
+## 二. Linux 开发入门
 
-### 开发环境搭建
+### 1. 开发环境搭建
 
 #### gcc 安装
 
@@ -282,7 +282,7 @@ scp -r 远程服务器用户名@远程服务器ip:远程文件路径 本地存�
 
 <br/>
 
-### Linux 标准库函数
+### 2. Linux 标准库函数
 
 #### 字符串函数
 
@@ -1208,7 +1208,7 @@ int mkstemp(char *template);
 
 
 
-### 网络编程基础
+### 3. 网络编程基础
 
 #### 网络的基本概念
 
@@ -1354,15 +1354,15 @@ int mkstemp(char *template);
 
 
 
-## 二、 WSL
+## 三. WSL
 
-### WSL微软官方教程
+### 1. WSL微软官方教程
 
 [适用于 Linux 的 Windows 子系统文档 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/wsl/)
 
 <br/>
 
-### 固定IP
+### 2. 固定IP
 
 ```vbscript
 Set ws = WScript.CreateObject("WScript.Shell")
@@ -1376,7 +1376,7 @@ netsh interface ip add address "vEthernet (WSL)" 172.28.131.102 255.255.240.0
 
 <br/>
 
-## 三、 clash配置
+## 四. clash配置
 
 [参考教程](https://blog.csdn.net/DPCFish/article/details/121663625)
 
@@ -1419,7 +1419,7 @@ netsh interface ip add address "vEthernet (WSL)" 172.28.131.102 255.255.240.0
 
    `<br/><br/>`
 
-## 四、 更换源
+## 五. 更换源
 
 备份原来的文件
 
@@ -1462,19 +1462,19 @@ sudo apt update
 
 <br/>
 
-## 五、 依赖项安装
+## 六. 依赖项安装
 
 ```shell
 sudo apt-get install -y  gcc  cmake  gdb net-tools openssl curl build-essential  libtool  ca-certificates  gnupg  lsb-release  git-core bison  libreadline6-dev zlib1g  zlib1g-dev  libssl-dev  libyaml-dev  libsqlite3-0 libsqlite3-dev  sqlite3  autoconf libc6-dev  libpcre3-dev  libcurl4-nss-dev  libxml2-dev libxslt-dev imagemagick libffi-dev firewalld
 ```
 
 ```shell
-## 六、 sudo apt-get install -y python3-pip python3-dev python-dev
+## 七. sudo apt-get install -y python3-pip python3-dev python-dev
 ```
 
 <br/>
 
-## 七、 安装proxychains
+## 八. 安装proxychains
 
 ```shell
 sudo apt-get install -y proxychains
@@ -1515,9 +1515,9 @@ sudo apt-get install -y proxychains
 
 `<br/><br/>`
 
-## 八、 终端美化与加强
+## 九. 终端美化与加强
 
-### 安装 zsh
+### 1. 安装 zsh
 
 1. 查看系统是否装了 zsh
 
@@ -1614,7 +1614,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 
 
-### oh-my-zsh插件
+### 2. oh-my-zsh插件
 
 #### 智能提示
 
@@ -1661,9 +1661,9 @@ source ~/.zshrc
 
 `<br/><br/>`
 
-## 九、 Vim
+## 十. Vim
 
-### 配置 Vim
+### 1. 配置 Vim
 
 ```shell
 sudo vim ~/.vimrc
@@ -1716,7 +1716,7 @@ inoremap { {}<ESC>i
 
 <br/>
 
-### 更改主题
+### 2. 更改主题
 
 1. 下载主题
 
@@ -1750,7 +1750,7 @@ inoremap { {}<ESC>i
 
 <br/>
 
-### vim-plug 插件管理 安装
+### 3. vim-plug 插件管理 安装
 
 GitHub 主页：https://github.com/junegunn/vim-plug
 
@@ -1797,7 +1797,7 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-### 自动补全插件 coc 安装
+### 4. 自动补全插件 coc 安装
 
 GitHub 主页：https://github.com/neoclide/coc.nvim
 
@@ -1811,7 +1811,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 <br/>
 
-### 自动补全插件 YCM 安装
+### 5. 自动补全插件 YCM 安装
 
 ```shell
 cd ~/.vim/plugged/YouCompleteMe
@@ -1869,19 +1869,19 @@ nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR> "
 
 `<br/><br/>`
 
-## 十、 安装 Miniconda
+## 十一. 安装 Miniconda
 
 [Index of miniconda 清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/?C=M&O=D)
 
 `<br/><br/>`
 
-## 十一、 安装 workon
+## 十二. 安装 workon
 
 `<br/><br/>`
 
-## 十二、 编程环境
+## 十三. 编程环境
 
-### Python
+### 1. Python
 
 1. 下载
 
@@ -1932,7 +1932,7 @@ trusted-host = pypi.doubanio.com
 
 <br/>
 
-### PCRE 库
+### 2. PCRE 库
 
 PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/pcre/8.39/pcre-8.39.tar.gz
 
@@ -1983,7 +1983,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 
 <br/>
 
-### OpenSSL 开发库
+### 3. OpenSSL 开发库
 
 1. 下载
 
@@ -2008,7 +2008,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 
    <br/>
 
-### Nginx
+### 4. Nginx
 
 [官网](http://nginx.org)
 
@@ -2040,7 +2040,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 
 <br/>
 
-### FastDFS
+### 5. FastDFS
 
 #### libfastcommon 的安装
 
@@ -2274,7 +2274,7 @@ FastDFS 源码中提供了 client 实现的相应源码 `fdfs_upload_file.c`：
 
 <br/>
 
-### FastCGI
+### 6. FastCGI
 
 #### spawn-fcgi
 
@@ -2303,7 +2303,7 @@ spawn-fcgi 源码包下载地址：http://redmine.lighttpd.net/projects/spawn-fc
 
    <br/>
 
-### 软件开发套件 fcgi
+### 7. 软件开发套件 fcgi
 
 > 使用 C/C++编写 FastCGI 应用程序，可以使用 FastCGI 软件开发套件或者其它开发框架，如 fcgi 。
 
@@ -2331,15 +2331,15 @@ fcgi 下载地址：wget https://fossies.org/linux/www/old/fcgi-2.4.0.tar.gz
 
    <br/>
 
-### hiredis
+### 8. hiredis
 
 > hiredis 是 Redis 数据库的一个 C 客户端库。
 
 `<br/><br/>`
 
-## 十三、 数据库
+## 十四. 数据库
 
-### mysql
+### 1. mysql
 
 #### 一、安装
 
@@ -2478,7 +2478,7 @@ default_authentication_plugin=mysql_native_password
 ```shell
 ifconfig
 
-## 十四 或者
+## 十五. 或者
 
 ip addr
 ```
@@ -2521,7 +2521,7 @@ alter table user modify column name varchar(50) character set utf8;
 
 <br/>
 
-### Redis 6.0
+### 1. Redis 6.0
 
 #### 安装
 
@@ -2648,7 +2648,7 @@ redis-cli -h 172.28.131.101 -p 6379
 
 <br/>
 
-### MongoDB
+### 2. MongoDB
 
 [Install MongoDB Community Edition on Ubuntu — MongoDB Manual](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
 
@@ -2699,20 +2699,20 @@ dpkg -i libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
 
 <br/>
 
-### PostgreSQL
+### 3. PostgreSQL
 
 <br/>
 
-### SQLite3
+### 4. SQLite3
 
 `<br/><br/>`
 
-## 十五、 容器
+## 十六. 容器
 
-### docker
+### 1. docker
 
 [Install on Ubuntu | Docker Documentation](https://docs.docker.com/desktop/install/ubuntu/)
 
 <br/>
 
-### Kubenates(k8s)
+### 2. Kubenates(k8s)

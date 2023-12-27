@@ -1,6 +1,6 @@
 
 
-##  MacOS 配置
+## 一. MacOS 配置
 
 :::tip
 
@@ -13,7 +13,7 @@
 
 
 
-### 软件破解流程
+### 1. 软件破解流程
 
 #### 允许安装任何来源
 
@@ -101,9 +101,9 @@ sudo spctl --master-disable
 
 <br/>
 
-## 一、 系统设置
+## 二. 系统设置
 
-### Finder 访达显示隐藏文件
+### 1. Finder 访达显示隐藏文件
 
 * 方法一：
 
@@ -139,9 +139,9 @@ killall Finder
 
 <br/>
 
-## 二、 软件部分
+## 三. 软件部分
 
-### 聊天社交
+### 1. 聊天社交
 
 #### <img src="https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png" alt="img" style="zoom:15%;" />微信
 
@@ -177,7 +177,7 @@ killall Finder
 
 
 
-### 输入法
+### 2. 输入法
 
 #### 百度输入法
 
@@ -185,7 +185,7 @@ killall Finder
 
 <br/>
 
-### 网盘客户端
+### 3. 网盘客户端
 
 #### 百度云盘
 
@@ -203,7 +203,7 @@ killall Finder
 
 <br/>
 
-### 笔记软件
+### 4. 笔记软件
 
 #### Typora
 
@@ -217,7 +217,7 @@ killall Finder
 
 <br/>
 
-### Adobe
+### 5. Adobe
 
 #### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/acrobat-reader.svg" style="height:30px;" /> Adobe Acrobat
 
@@ -283,7 +283,7 @@ killall Finder
 
 <br/>
 
-### Jetbrains
+### 6. Jetbrains
 
 ####  <img src="https://img-blog.csdnimg.cn/34b1bbafd5a74779bd0a5e12c7b09fe7.png" alt="Clion" style="zoom:30%;" /> CLion
 
@@ -320,7 +320,7 @@ killall Finder
 
 <br/>
 
-### 像 Windows一样 Alt+Tab 切换窗口
+### 7. 像 Windows一样 Alt+Tab 切换窗口
 
 #### <img src="https://d33wubrfki0l68.cloudfront.net/a006a16dc9b4af9d985b410d7813d2bffe4d51d1/96112/public/android-chrome-256x256.png" alt="img" style="zoom:13%;" /> AltTab
 
@@ -337,7 +337,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### 快速启动
+### 8. 快速启动
 
 #### <img src="https://avatars.githubusercontent.com/u/58117316?s=200&v=4" alt="img" style="zoom:20%;" />Raycast
 
@@ -361,7 +361,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### 点云常用软件
+### 9. 点云常用软件
 
 #### <img src="https://cloudcompare.org/images/cc_logo_v2_small.jpg" alt="img" style="zoom:30%;" /> CloudCompare
 
@@ -381,7 +381,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### 截图软件
+### 10. 截图软件
 
 #### <img src="https://bkimg.cdn.bcebos.com/pic/0ff41bd5ad6eddc451da4bfacd8fa1fd5266d016952f?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="iShot" style="zoom:15%;" /> iShot
 
@@ -411,7 +411,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### 视频播放器
+### 11. 视频播放器
 
 #### <img src="https://iina.io/images/iina-icon-60.png" alt="iina-icon-60.png (60×60)" style="zoom:67%;" /> IINA
 
@@ -427,7 +427,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### 录屏软件
+### 12 录屏软件
 
 #### <img src="https://obsproject.com/assets/images/new_icon_small-r.png" alt="img" style="zoom:15%;" />obs
 
@@ -444,7 +444,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### 全局鼠标手势软件
+### 13. 全局鼠标手势软件
 
 #### <img src="https://raw.githubusercontent.com/mtjo/MacStroke/release/logo.png" alt="img" style="zoom:37%;" /> MacStroke
 
@@ -462,13 +462,13 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### DropOver
+### 14. DropOver
 
 <br/>
 
 
 
-### 开发者工具
+### 15. 开发者工具
 
 #### DevToysMac
 
@@ -496,7 +496,7 @@ brew install --cask devtoys
 
 
 
-### 虚拟音频
+### 16. 虚拟音频
 
 #### BlackHole
 
@@ -513,7 +513,7 @@ BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程
 * 下载地址（123盘）：https://www.123pan.com/s/KYxeVv-0m3Wh.html
 * 提取码：tutu
 
-### 电脑音频推送到手机
+### 17. 电脑音频推送到手机
 
 #### SoundWire
 
@@ -543,7 +543,7 @@ BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程
 
   
 
-### BetterAndBetter
+### 18. BetterAndBetter
 
 :::info
 
@@ -555,7 +555,7 @@ https://wwa.lanzoui.com/macBAB
 
 
 
-### Mounty
+### 19. Mounty
 
 :::info
 
@@ -567,14 +567,14 @@ https://wwa.lanzoui.com/Mounty
 
 
 
-### 超级右键
+### 20. 超级右键
 
 * 收费情况：收费
 * 软件大小：381.7 MB
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-bjVsh.html
 * 提取码：61T6
 
-### CrossOver
+### 21. CrossOver
 
 :::info
 
@@ -589,7 +589,7 @@ https://wwa.lanzoui.com/Mounty
 
 <br/>
 
-### 鼠标平滑滚动
+### 22. 鼠标平滑滚动
 
 #### <img src="https://mousefix.org/resources/app_icon_round.png" alt="app_icon_round.png (1024×1024) (mousefix.org)" style="zoom:5%;" /> Mac Mouse Fix
 
@@ -608,7 +608,7 @@ https://wwa.lanzoui.com/Mounty
 
 
 
-### 隐藏鼠标
+### 23. 隐藏鼠标
 
 #### Mouse Hider for Mac
 
@@ -632,7 +632,7 @@ brew install --cask cursorcerer
 
 <br/><br/>
 
-### 电脑运行状态显示
+### 24. 电脑运行状态显示
 
 #### <img src="https://bjango.com/images/mac/istatmenus6/icon-istatmenus6.png" alt="img" style="zoom:15%;" /> iStat Menus
 
@@ -687,7 +687,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-### 卸载软件
+### 25. 卸载软件
 
 #### App Cleaner & Uninstaller
 
@@ -705,7 +705,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-### 清理软件
+### 26. 清理软件
 
 #### <img src="https://pc1.gtimg.com/guanjia/images/b3/1c/b31c43975f3335e21138fc6556f15e8d.png" alt="img" style="zoom:60%;" /> Tencent-Lemon
 
@@ -725,7 +725,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-### 状态栏隐藏图标
+### 27. 状态栏隐藏图标
 
 #### iBar
 
@@ -758,7 +758,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-### 数据恢复软件
+### 28. 数据恢复软件
 
 #### Disk Drill
 
@@ -769,7 +769,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-### 剪贴板管理
+### 29. 剪贴板管理
 
 #### <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/72/94/79/7294791c-064c-03cb-585e-0e094032886d/AppIcon-0-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0-0-0.png/230x0w.webp" alt="img" style="zoom:20%;" /> Pastebot
 
@@ -802,7 +802,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-### 解压缩软件
+### 30. 解压缩软件
 
 #### <img src="https://i1.hdslb.com/bfs/archive/f841124e306e9cebf9afc6a1ed6547c34d1802e8.png" alt="img" style="zoom:5%;" />Bandizip
 
@@ -810,7 +810,7 @@ brew install --cask cursorcerer
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-WfvWh.html
 * 提取码：tutu
 
-### 键盘按键重映射
+### 31. 键盘按键重映射
 
 #### <img src="https://karabiner-elements.pqrs.org/favicons/apple-touch-icon-180x180.png" alt="img" style="zoom:25%;" /> Karabiner-Elements
 
@@ -820,7 +820,7 @@ brew install --cask cursorcerer
 
 
 
-### 思维导图
+### 32. 思维导图
 
 #### <img src="https://xmind.cn/webapp-icon/icon_72.png" alt="img" style="zoom:50%;" /> XMind
 
@@ -829,7 +829,7 @@ brew install --cask cursorcerer
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-v1Vsh.html
 * 提取码：y2Ou
 
-### 下载软件
+### 33. 下载软件
 
 #### <img src="https://s.motrix.app/images/app-icon-square.png" alt="img" style="zoom:20%;" /> Motrix
 
@@ -843,7 +843,7 @@ ndm 官网：http://www.neatdownloadmanager.com
 
 <br/>
 
-### 科学上网
+### 34. 科学上网
 
 全平台翻墙客户端
 
@@ -862,7 +862,7 @@ https://binghe.gitbook.io/fq/
 
 <br/>
 
-### 护眼软件
+### 35. 护眼软件
 
 #### <img src="https://justgetflux.com/flux-icon-sm.png" alt="img" style="zoom: 67%;" /> f.lux
 
@@ -872,13 +872,13 @@ https://justgetflux.com
 
 
 
-### Office 2021
+### 36. Office 2021
 
 * 软件大小：1.8 GB
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-XfvWh.html
 * 提取码：tutu
 
-### 词典软件
+### 37. 词典软件
 
 #### <img src="https://www.mdict.cn/wp/wp-content/uploads/2016/06/logo.png" alt="MDict" style="zoom:80%;" /> Mditc
 
@@ -900,7 +900,7 @@ https://justgetflux.com
 
 <br/>
 
-### PDF 阅读工具
+### 38. PDF 阅读工具
 
 #### <img src="https://skim-app.sourceforge.io/images/skimIcon.png" alt="Skim icon" style="zoom:40%;" /> SKim
 
@@ -921,7 +921,7 @@ https://justgetflux.com
 
 
 
-### PDF标记软件
+### 39. PDF标记软件
 
 #### <img src="https://xournalpp.github.io/img/favicon.ico" alt="logo" style="zoom:18%;" /> Xournal++
 
@@ -931,7 +931,7 @@ https://justgetflux.com
 
 
 
-### 数据库管理工具
+### 40. 数据库管理工具
 
 #### <img src="https://www.navicat.com.cn/images/02.Product_00_AllProducts_MySQL.svg" style="zoom:33%;" /> Navicat
 
@@ -939,7 +939,7 @@ https://justgetflux.com
 
 <br/>
 
-### <img src="https://bkimg.cdn.bcebos.com/pic/77c6a7efce1b9d16b3b39b56ffdeb48f8c546494?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="Qt" style="zoom:12%;" /> QT
+### 41. <img src="https://bkimg.cdn.bcebos.com/pic/77c6a7efce1b9d16b3b39b56ffdeb48f8c546494?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="Qt" style="zoom:12%;" /> QT
 
 使用 brew 安装
 
@@ -949,7 +949,7 @@ https://justgetflux.com
 
 <br/>
 
-### SSH 远程连接工具
+### 42. SSH 远程连接工具
 
 #### <img src="https://static.oschina.net/uploads/logo/tabby_uMU2B.png" alt="img" style="zoom:40%;" /> Tabby
 
@@ -961,7 +961,7 @@ https://justgetflux.com
 
 <br/>
 
-### 控制安卓手机
+### 43. 控制安卓手机
 
 #### ![scrcpy](https://github.com/Genymobile/scrcpy/raw/master/app/data/icon.svg) scrcpy
 
@@ -975,7 +975,7 @@ https://justgetflux.com
 
 <br/>
 
-### 文件传输
+### 44. 文件传输
 
 #### Landrop
 
@@ -983,7 +983,7 @@ https://justgetflux.com
 
 <br/>
 
-### 虚拟机
+### 45. 虚拟机
 
 #### Parreles Desktop
 
@@ -1001,7 +1001,7 @@ tutu
 
 <br/>
 
-### 黑萍果工具
+### 46. 黑萍果工具
 
 #### OpenCore Configuration
 
@@ -1027,7 +1027,7 @@ tutu
 
 <br/>
 
-### 抓包软件
+### 47. 抓包软件
 
 #### Charles
 
@@ -1041,7 +1041,7 @@ tutu
 
 <br/>
 
-## 三、 <img src="https://static.oschina.net/uploads/logo/homebrew_sTU9q.png" alt="img" style="zoom: 50%;" /> brew
+## 四. <img src="https://static.oschina.net/uploads/logo/homebrew_sTU9q.png" alt="img" style="zoom: 50%;" /> brew
 
 简介
 Homebrew 是 mac 系统下一款自由及开放源代码的软件包管理系统，用以简化 macOS 系统上的软件安装过程。
@@ -1119,7 +1119,7 @@ Homebrew 主要有四个部分组成:
 
   <br/>
 
-### brew 常用命令
+### 1. brew 常用命令
 
 * 查看brew版本
 
@@ -1184,9 +1184,9 @@ Homebrew 主要有四个部分组成:
 
 <br/>
 
-## 四、 使用 brew 安装第三方包
+## 五. 使用 brew 安装第三方包
 
-### 安装 Miniconda
+### 1. 安装 Miniconda
 
 ~~~shell
 brew install cask miniconda
@@ -1194,7 +1194,7 @@ brew install cask miniconda
 
 <br/>
 
-### 安装 MySQL
+### 2. 安装 MySQL
 
 
 
@@ -1259,7 +1259,7 @@ sudo chmod 777 /home/你的用户名/Library/LaunchAgents/homebrew.mxcl.mysql@5.
 
 <br/>
 
-### 安装 Redis
+### 3. 安装 Redis
 
 1. 查找有哪些版本
 
@@ -1288,7 +1288,7 @@ sudo chmod 777 /home/你的用户名/Library/LaunchAgents/homebrew.mxcl.mysql@5.
 
 <br/>
 
-### 安装 MongoDB 社区版
+### 4. 安装 MongoDB 社区版
 
 1. 添加
 
@@ -1365,7 +1365,7 @@ sudo chmod 777 /home/你的用户名/Library/LaunchAgents/homebrew.mxcl.mysql@5.
 
 <br/>
 
-### 安装 nodejs
+### 5. 安装 nodejs
 
 1. 查找有哪些版本
 
@@ -1465,7 +1465,7 @@ sudo chmod a+rwx /usr/local/Cellar/node/20.0.0/bin
 
 <br/>
 
-### 安装 docker
+### 6. 安装 docker
 
 将 docker 安装到应用程序中：
 
@@ -1479,7 +1479,7 @@ brew install --cask --appdir=/Applications docker
 
 <br/>
 
-### 安装 Golang
+### 7. 安装 Golang
 
 ~~~sh
 brew install golang
@@ -1487,7 +1487,7 @@ brew install golang
 
 <br/>
 
-### 安装 scrcpy
+### 8. 安装 scrcpy
 
 > 使用的开源工具 scrcpy 同时支持有线和无线控制安卓设备
 
@@ -1533,7 +1533,7 @@ brew install golang
 
 <br/>
 
-### 安装 Qt
+### 9. 安装 Qt
 
 1. 安装
 
@@ -1571,9 +1571,9 @@ brew install golang
 
 <br/>
 
-## 五、 终端配置
+## 六. 终端配置
 
-### 终端使用代理
+### 1. 终端使用代理
 
 ~~~shell
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
@@ -1581,7 +1581,7 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 
 
 
-### 安装 zsh
+### 2. 安装 zsh
 
 1. 查看系统是否装了 zsh
 
@@ -1675,7 +1675,7 @@ source ~/.zshrc
 
 <br/>
 
-### oh-my-zsh插件
+### 3. oh-my-zsh插件
 
 
 
@@ -1724,9 +1724,9 @@ source ~/.zshrc
 
 <br/><br/>
 
-## 六、 Vim
+## 七. Vim
 
-### 配置 Vim
+### 1. 配置 Vim
 
 ~~~shell
 sudo vim ~/.vimrc
@@ -1779,7 +1779,7 @@ inoremap { {}<ESC>i
 
 <br/>
 
-### 更改主题
+### 2. 更改主题
 
 1. 下载主题
 
@@ -1819,7 +1819,7 @@ inoremap { {}<ESC>i
 
 <br/>
 
-### vim-plug 插件管理 安装
+### 3. vim-plug 插件管理 安装
 
 GitHub 主页：https://github.com/junegunn/vim-plug
 
@@ -1879,21 +1879,21 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-## 七、 Safari 插件
+## 八. Safari 插件
 
-### AdBlocker
-
-
-
-<br/>
-
-### LastPass
+### 1. AdBlocker
 
 
 
 <br/>
 
-### Tampermonkey
+### 2. LastPass
+
+
+
+<br/>
+
+### 3. Tampermonkey
 
 
 
@@ -1901,9 +1901,9 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-## 八、 字体
+## 九. 字体
 
-### Cascadia Code
+### 1. Cascadia Code
 
 [Github 主页](https://github.com/microsoft/cascadia-code)
 
@@ -1915,11 +1915,11 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-## 九、 Mac 快捷键介绍
+## 十. Mac 快捷键介绍
 
 
 
-## 十、 参考
+## 十一. 参考
 
 https://www.sorrycc.com/posts/macbook-pro-configuration-from-zero
 
@@ -1927,6 +1927,6 @@ https://www.sorrycc.com/posts/macbook-pro-configuration-from-zero
 
 
 
-## 十一、 黑莱果
+## 十二. 黑莱果
 
 kext驱动更新插件：https://github.com/MacThings/kextupdater

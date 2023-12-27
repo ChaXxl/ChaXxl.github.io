@@ -1,8 +1,8 @@
 
 
-##  Python
+## 一. Python
 
-### pip 换源
+### 1. pip 换源
 
 1.使用清华源
 
@@ -10,7 +10,7 @@
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ~~~
 
-### 时间格式转换
+### 2. 时间格式转换
 
 ~~~python
 def convertTime(timestamp: int):
@@ -25,7 +25,7 @@ def convertTime(timestamp: int):
 
 
 
-### 操作数据库
+### 3. 操作数据库
 
 #### MySQL
 
@@ -60,7 +60,7 @@ con = redis.StrictRedis(
 
 <br/>
 
-### 爬虫
+### 4. 爬虫
 
 #### 代理
 
@@ -205,7 +205,7 @@ print title
 
 <br/>
 
-### 文件路径操作
+### 5. 文件路径操作
 
 获取当前 py 文件的绝对路径：
 
@@ -224,7 +224,7 @@ p2 = os.path.realpath(__file__)
 
 <br/><br/>
 
-### 操作 Windows
+### 6. 操作 Windows
 
 
 
@@ -280,7 +280,7 @@ pip install win11toast
 
 <br/><br/>
 
-### 第三方包的使用
+### 7. 第三方包的使用
 
 #### colorama
 
@@ -531,7 +531,7 @@ pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --e
 
 <br/>
 
-### 进程、线程、进程池、线程池
+### 8. 进程、线程、进程池、线程池
 
 
 
@@ -740,7 +740,7 @@ def task():
  # 创建多(子)线程的方式
 sub_thread = threading.Thread(target=task)
 
-## 一、 开启线程
+## 二. 开启线程
 sub_thread.start()    
 ```
 
@@ -962,7 +962,7 @@ def sum_num2():
 
 <br/><br/>
 
-### Web 框架
+### 1. Web 框架
 
 
 
@@ -1113,7 +1113,7 @@ DATABASES = {
 ~~~
 
 ```python
-## 二、 数据库使用SQLite----默认就是用这个
+## 三. 数据库使用SQLite----默认就是用这个
 DATABASES = {
 'default': {
       'ENGINE': 'django.db.backends.sqlite3',
@@ -1241,7 +1241,7 @@ def readFile(filename):
 
 <br/><br/>
 
-## 三、 打印彩色日志
+## 四. 打印彩色日志
 
 :::tip 为什么用彩色日志
 
@@ -1251,7 +1251,7 @@ def readFile(filename):
 
 <br/>
 
-### 不使用第三方库
+### 1. 不使用第三方库
 
 自定内容颜色的格式
 
@@ -1299,7 +1299,7 @@ if __name__ == '__main__':
 
 
 
-### 使用第三方库
+### 2. 使用第三方库
 
 
 
@@ -1307,7 +1307,7 @@ if __name__ == '__main__':
 
 <br/>
 
-## 四、 将当前时间改为北京时间
+## 五. 将当前时间改为北京时间
 
 :::info
 
@@ -1329,7 +1329,7 @@ next_day = current_day + timedelta(days=1)  # 明天的日期
 
 <br/>
 
-### Shodan
+### 1. Shodan
 
 参考教程：https://mp.weixin.qq.com/s/ubJ_3EDT34ao4m_quJQmQA
 

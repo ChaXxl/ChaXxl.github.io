@@ -28,9 +28,9 @@ GPIO_Init(GPIOB, &GPIO_InitStructure);	// 根据参数初始化 GPIOB.8
 
 
 
-##  工程创建
+## 一. 工程创建
 
-### 点击项目选项新建工程
+### 1. 点击项目选项新建工程
 
 ![image-20230617202420937](https://img-blog.csdnimg.cn/f019621f24c04727a3a06de7c34a9d48.png)
 
@@ -40,13 +40,13 @@ GPIO_Init(GPIOB, &GPIO_InitStructure);	// 根据参数初始化 GPIOB.8
 
 
 
-### 选择自己的芯片
+### 2. 选择自己的芯片
 
 ![image-20230617202530023](https://img-blog.csdnimg.cn/b134ebb1030d4fa8831b54c19d43f4f3.png)
 
 
 
-### 复制文件
+### 3. 复制文件
 
 
 
@@ -68,13 +68,13 @@ GPIO_Init(GPIOB, &GPIO_InitStructure);	// 根据参数初始化 GPIOB.8
 
 
 
-### Start 目录内容
+### 4. Start 目录内容
 
 ![image-20230617203649718](https://img-blog.csdnimg.cn/732e9b5b000048f3b5244a8fac0b2a39.png)
 
 
 
-### 添加文件到工程
+### 5. 添加文件到工程
 
 点击 Manager Project Items。启动文件要根据自己的芯片选择对应的，再把 start 目录下所有.c 和.h 文件添加进来。
 
@@ -86,7 +86,7 @@ GPIO_Init(GPIOB, &GPIO_InitStructure);	// 根据参数初始化 GPIOB.8
 
 
 
-### 添加 main 函数
+### 6. 添加 main 函数
 
 ![image-20230617204531619](https://img-blog.csdnimg.cn/b33458551e9f492394edc40678651c7f.png)
 
@@ -164,9 +164,9 @@ USE_STDPERIPH_DRIVER
 
 
 
-## 一、 Mac 环境配置
+## 二. Mac 环境配置
 
-### STM32CubeMX
+### 1. STM32CubeMX
 
 
 
@@ -220,4 +220,4 @@ brew install stlink
 
 
 
-### Parallels Desktop
+### 2. Parallels Desktop

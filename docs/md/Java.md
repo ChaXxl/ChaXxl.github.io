@@ -1,5 +1,5 @@
 
-##  Java
+## 一. Java
 
 ![image-20210628112913721](https://i.loli.net/2021/06/28/vf2sc9wuIgEGAj8.png)
 
@@ -9,13 +9,13 @@ JRE: Jvava Runtime Enviroment，是java程序的运行时环境，包含JVM和�
 
 JDK:Java Development Kit，是java程序开发工具包，包含JRE和开发人员使用的工具，工具有编译工具(javac.exe)和运行工具(java.exe)
 
-### java安装目录
+### 1. java安装目录
 
 ![image-20210628113406347](https://i.loli.net/2021/06/28/x1wRWT4KsiDVH6j.png)
 
 ![image-20210628113431182](https://i.loli.net/2021/06/28/XxdNwDYO3nBMIJ9.png)
 
-### Hello World案例
+### 2. Hello World案例
 
 编译：`javac 文件名.java`
 
@@ -40,7 +40,7 @@ System.out.print("content") //输出内容不换行
 
 
 
-### 数据类型
+### 3. 数据类型
 
 ![image-20210628170547090](https://i.loli.net/2021/06/28/GsfPz5vKFaWj4XV.png)
 
@@ -63,7 +63,7 @@ public class 变量 {
 }
 ~~~
 
-### 标识符
+### 4. 标识符
 
 * 由数字、字母、下划线和美元符号组成
 * 不能以数字开头
@@ -96,7 +96,7 @@ public class 变量 {
 int k = (int)88.88 //有数据丢失
 ~~~
 
-### 算术运算符
+### 5. 算术运算符
 
 ![image-20210628223927949](https://i.loli.net/2021/06/28/V5Rt9NGqdrgAp3h.png)
 
@@ -127,7 +127,7 @@ s = (short)(s + 20);
 
 
 
-### 多路逻辑运算符&&、逻辑运算符&的区别
+### 6. 多路逻辑运算符&&、逻辑运算符&的区别
 
 ![image-20210628231305514](https://i.loli.net/2021/06/28/VEIg5Yrnv19N3Bw.png)
 
@@ -155,7 +155,7 @@ System.out.println("j = " + j); //输出1
 
 ![image-20210628231322746](https://i.loli.net/2021/06/29/fcSn1b62iYEaysd.png)
 
-### 数据输入-Scanner
+### 7. 数据输入-Scanner
 
 ① 导包
 
@@ -232,7 +232,7 @@ public class random{
 int num = r.nextInt(10) + 1;
 ~~~
 
-### 数组
+### 8. 数组
 
 定义：
 
@@ -261,7 +261,7 @@ int[] arr = new []{1, 2, 3, 4, 5, 6}
 int[] arr = {1, 2, 3, 4, 5, 6} //简化格式
 ~~~
 
-### 方法（函数）
+### 9. 方法（函数）
 
 ~~~java
 public static void 方法名(){
@@ -287,7 +287,7 @@ public static int sum(int num1,int num2,int num3){
 
 
 
-### 类
+### 10. 类
 
 是java程序的基本组成单位。
 
@@ -331,7 +331,7 @@ public class ClassDemo1 {
 
 ~~~
 
-### String类
+### 11. String类
 
 字符串比较：
 
@@ -346,7 +346,7 @@ String s2 = "abc";
 System.out.println(s1.equals(s2)); //输出true
 ~~~
 
-### 遍历字符串
+### 12 遍历字符串
 
 ~~~java
 String str;
@@ -415,7 +415,7 @@ public static String reverse(String str){
 }
 ~~~
 
-### StringBuilder
+### 13. StringBuilder
 
 ![image-20210630105048900](https://i.loli.net/2021/06/30/5U2iCBn6RgVk7qK.png)
 
@@ -460,7 +460,7 @@ System.out.println(sb); //输出：olleh
 
 
 
-### StringBuilder和String互相转换
+### 14. StringBuilder和String互相转换
 
 #### StringBuilder转为String
 
@@ -515,7 +515,7 @@ public static String reverse(String str){
 
 
 
-### 集合ArrayList
+### 15. 集合ArrayList
 
 使用前要导包：<kbd>java.util </kbd>
 
@@ -576,7 +576,7 @@ System.exit(0);  //退出JVM
 
 
 
-### 继承
+### 16. 继承
 
 继承格式：
 
@@ -617,7 +617,7 @@ public class Zi extends{
 
 
 
-### 继承中构造方法的访问特点
+### 17. 继承中构造方法的访问特点
 
 子类中所有的构造方法默认都会访问父类中无参的构造方法
 
@@ -641,7 +641,7 @@ public void show(int i){
 
   **<font color="red">推荐：自己给出无参构造方法</font>**
 
-### 方法重写
+### 18. 方法重写
 
 ![image-20210630220537191](https://i.loli.net/2021/06/30/jnFpB3DgRe8APc5.png)
 
@@ -669,7 +669,7 @@ public class NewPhone extends Phone {
 
 
 
-### java继承的问题
+### 19. java继承的问题
 
 ![image-20210630222311958](https://i.loli.net/2021/06/30/Q1YiKJnhcPMyVLz.png)
 
@@ -683,7 +683,7 @@ public class Son extends Mother,Father { //该写法是错误的
 
 * java支持多层继承，也就是爷爷类，爸爸类，儿子类，那儿子类就拥有爷爷类的所有特性
 
-### 包
+### 20. 包
 
 其实就是文件夹，方便对类进行管理
 
@@ -751,7 +751,7 @@ java -d . hello.java //它会自动建立文件夹
 java com.xxl.hello
 ~~~
 
-### 导包
+### 21. 导包
 
 ```java
 import 包.包.类名
@@ -764,7 +764,7 @@ public class 导包 {
 }
 ```
 
-### 修饰符
+### 22. 修饰符
 
 #### 权限修饰符
 
@@ -873,7 +873,7 @@ System.out.println(z2.name);
 
 
 
-### 多态
+### 23. 多态
 
 同一个对象，在不同时刻表现出来的不同形态
 
@@ -916,7 +916,7 @@ Cat c = (Cat)a; //把a强转为子类对象
 
 
 
-### 抽象类
+### 24. 抽象类
 
 就是一个类的方法只给出声明，不写实现，不是具体的，是抽象的，因此不能创建对象。
 
@@ -937,7 +937,7 @@ Animal a = new Animal(); //会报错，抽象类不是具体的，不能创建�
 
 
 
-### 接口
+### 25. 接口
 
 新建Java Class时选择Interface
 
@@ -987,7 +987,7 @@ j.jump();
 
 
 
-### 类和接口的关系
+### 26. 类和接口的关系
 
 ~~~java
 public class Intertemp extends Object implements Inter1, Inter2, Inter3{
@@ -997,7 +997,7 @@ public class Intertemp extends Object implements Inter1, Inter2, Inter3{
 
 
 
-### 抽象类和接口的区别
+### 27. 抽象类和接口的区别
 
 ![image-20210701214447115](https://i.loli.net/2021/07/01/TEvztlWbmF3Infc.png)
 
@@ -1005,14 +1005,14 @@ public class Intertemp extends Object implements Inter1, Inter2, Inter3{
 
 
 
-### 类名作为形参和返回值
+### 28. 类名作为形参和返回值
 
 * 方法的形参是类名，其实需要的是该类的对象
 * 方法的返回值是类名，其实返回的是该类的对象
 
 
 
-### 抽象类名作为形参和返回值
+### 29. 抽象类名作为形参和返回值
 
 由于抽象类不能实例化，因此也要利用多态类来实现，然后子类再重写抽象类的方法。
 
@@ -1021,7 +1021,7 @@ public class Intertemp extends Object implements Inter1, Inter2, Inter3{
 
 
 
-### 接口名作为形参和返回值
+### 30. 接口名作为形参和返回值
 
 由于接口也是不能实例化，也需要借助子类来创建
 
@@ -1030,7 +1030,7 @@ public class Intertemp extends Object implements Inter1, Inter2, Inter3{
 
 
 
-### 内部类
+### 31. 内部类
 
 就是在一个类中定义一个类。比如在类A的内部定义一个类B，类B就被称为内部类
 
@@ -1203,7 +1203,7 @@ public class test {
 
 
 
-### 常用API
+### 32. 常用API
 
 #### Math类
 
@@ -1249,7 +1249,7 @@ System.out.println("共耗时：" + (endTime - statTime) + "毫秒"); //结束�
 
 
 
-### 冒泡排序
+### 33. 冒泡排序
 
 ```java
 for (int j = 0; j<arr.length - 1;j++){
@@ -1265,7 +1265,7 @@ for (int j = 0; j<arr.length - 1;j++){
 
 
 
-### Arrays类
+### 34. Arrays类
 
 <kbd>java.util</kbd>
 
@@ -1275,7 +1275,7 @@ for (int j = 0; j<arr.length - 1;j++){
 
 
 
-### 基本类型包装类
+### 35. 基本类型包装类
 
 将基本数据类型封装成对象的好处在于可以在对象中定义更多的功能方法操作该数据
 
@@ -1484,7 +1484,7 @@ public class DateUtils {
 
 
 
-### Calendar类
+### 36. Calendar类
 
 <kbd>[java.util]</kbd>
 
@@ -1534,7 +1534,7 @@ System.out.println(c.get(Calendar.DATE)); //输出
 
 
 
-### 异常
+### 37. 异常
 
 ![image-20210703134226736](https://i.loli.net/2021/07/03/XfVwMa81BS6YQp3.png)
 
@@ -1609,7 +1609,7 @@ throws 异常类名;
 
 
 
-### Collection
+### 38. Collection
 
 #### 集合类体系结构
 
@@ -1676,7 +1676,7 @@ while (iterator2.hasNext()){
 
 
 
-### List集合
+### 39. List集合
 
 <kbd>java.util</kbd>
 
@@ -1716,7 +1716,7 @@ for (Student s : l){
 
 
 
-### ArrayList和LinkedList的区别
+### 40. ArrayList和LinkedList的区别
 
 ArrayList：是通过数组实现的。可以通过索引访问元素，因此遍历快，增删慢
 
@@ -1724,13 +1724,13 @@ LinkedList：是通过链表实现的。不能通过索引访问元素。因此�
 
 
 
-### LinkedList集合的特有功能
+### 41. LinkedList集合的特有功能
 
 ![image-20210703210207686](https://i.loli.net/2021/07/03/KrvCdMsxHRigVUf.png)
 
 
 
-### Set集合
+### 42. Set集合
 
 <kbd>java.util</kbd>
 
@@ -1752,7 +1752,7 @@ for (String str : s){
 
 
 
-### 哈希值
+### 43. 哈希值
 
 是JDK根据对象的**地址**或者**字符串**或者**数字**算出来的int类型的数值
 
@@ -1778,7 +1778,7 @@ System.out.println("重地".hashCode()); //它们的哈希值是一样的，Stri
 
 
 
-### HaseSet集合
+### 44. HaseSet集合
 
 也是不包含重复元素
 
@@ -1802,13 +1802,13 @@ for (Iterator<String> it = hs.iterator();it.hasNext();){
 
 
 
-### LinkedHaseSet集合
+### 45. LinkedHaseSet集合
 
 ![image-20210703220822557](https://i.loli.net/2021/07/03/nlwEaOhY9ZCULzH.png)
 
 
 
-### TreeSet集合
+### 46. TreeSet集合
 
 <kbd>java.util</kbd>
 
@@ -1830,7 +1830,7 @@ for (Iterator<Integer> it = ts.iterator();it.hasNext();){
 
 
 
-### 自然排序Comparable的使用
+### 47. 自然排序Comparable的使用
 
 ![image-20210703223631543](https://i.loli.net/2021/07/03/IaisFhKS7EUozJq.png)
 
@@ -1906,7 +1906,7 @@ for (Iterator<Student> it = ths.iterator();it.hasNext();){
 
 
 
-### 比较器Comparator的使用
+### 48. 比较器Comparator的使用
 
 ![image-20210704193854873](https://i.loli.net/2021/07/04/LepM3qBfOvkaRzl.png)
 
@@ -1923,7 +1923,7 @@ reeSet<Student> ts = new TreeSet<Student>(new Comparator<Student>() {
 
 
 
-### 泛型
+### 49. 泛型
 
 <font color=red>相当于C++的模板</font>
 
@@ -2051,7 +2051,7 @@ public static int sum2(int b ,int ...a){ //如果形参有多个参数，则放�
 
 
 
-### Map类
+### 50. Map类
 
 有点像Python的字典
 
@@ -2177,7 +2177,7 @@ System.out.println(sb.toString());
 
 
 
-### Collections
+### 51. Collections
 
 <kbd>java.util</kbd>
 
@@ -2193,7 +2193,7 @@ public static void shuffle(List<?> list)//:使用默认的随机源随机排列�
 
 
 
-### 模拟斗地主发牌看牌
+### 52. 模拟斗地主发牌看牌
 
 ~~~java
 //创建牌盒，也就是一个集合对象
@@ -2260,7 +2260,7 @@ public static void shuffle(List<?> list)//:使用默认的随机源随机排列�
 
 
 
-### 模拟斗地主升级版
+### 53. 模拟斗地主升级版
 
 需求:通过程序实现斗地主过程中的洗牌，发牌和看牌。要求:对牌进行排序
 
@@ -2334,7 +2334,7 @@ public static void shuffle(List<?> list)//:使用默认的随机源随机排列�
 
 
 
-### File类
+### 54. File类
 
 <kbd>java.io</kbd>
 
@@ -2456,7 +2456,7 @@ System.out.println(f.delete());
 
 
 
-### 字节流
+### 55. 字节流
 
 #### IO流
 

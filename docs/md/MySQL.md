@@ -2,7 +2,7 @@
 
 
 
-### 创建数据库
+### 1. 创建数据库
 
 创建数据库 testDB 并指定字符集为 utf8，校对规则 utf8_general_ci
 
@@ -19,7 +19,7 @@ create database mydb default charset utf8 collate utf8_general_ci
 
 <br/>
 
-### 导入 csv 数据
+### 2. 导入 csv 数据
 
 
 
@@ -55,7 +55,7 @@ LOAD DATA INFILE '/home/paul/clientdata.csv' INTO TABLE CSVImport;
 
 <br/>
 
-### 创建用户
+### 3. 创建用户
 
 1. 使用 Create User 语句创建用户
 
