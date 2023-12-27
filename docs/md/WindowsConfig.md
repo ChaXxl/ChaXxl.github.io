@@ -1008,6 +1008,22 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 ### 13. 截图软件
 
+#### shottr
+
+:::info 软件介绍
+
+它又不只是一款截图软件，还支持滚动截长图、取色、量像素、OCR 等很多付费工具才提供的功能，并且完全免费，功能强大。
+
+:::
+
+* 收费情况：免费
+* 软件大小：1.7 MB
+* 下载地址（官网）：https://shottr.cc/
+
+<br/>
+
+
+
 #### Snipaste
 
 [Snipaste](https://www.snipaste.com/)
