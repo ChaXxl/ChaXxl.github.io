@@ -466,6 +466,36 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
+
+
+## 开发者工具
+
+### DevToysMac
+
+:::info 软件介绍
+
+为开发者提供了多种实用工具，包括转换、编码解码、格式化、生成器、校验和检查等功能。
+
+![](https://user-images.githubusercontent.com/20896810/154781951-f4c6fa80-2fcc-40fe-a94b-fccfc0f2ccf1.png)
+
+:::
+
+* 收费情况：免费开源
+* Github 主页：https://github.com/mtjo/MacStroke
+* 软件大小：40 MB
+* 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-PDysh.html
+* 提取码：tutu
+
+也可以通过 Homebrew 安装：
+
+~~~shell
+brew install --cask devtoys
+~~~
+
+
+
+
+
 ## 虚拟音频
 
 ### BlackHole
@@ -477,17 +507,10 @@ BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程
 :::
 
 * 
-
 * 收费情况：免费开源
-
-* Github 主页：https://github.com/ExistentialAudio/BlackHole
-
+* Github 主页：https://github.com/ObuchiYuki/DevToysMac
 * 软件大小：
-
-* 下载地址（官网）：https://existential.audio/blackhole/?pk_campaign=github&pk_kwd=readme
-
-* 下载地址（123盘）：https://www.123pan.com/s/KYxeVv-rfvWh.html
-
+* 下载地址（123盘）：https://www.123pan.com/s/KYxeVv-0m3Wh.html
 * 提取码：tutu
 
 ## 电脑音频推送到手机
