@@ -1,6 +1,6 @@
 
 
-## MacOS 配置
+##  MacOS 配置
 
 :::tip
 
@@ -101,7 +101,7 @@ sudo spctl --master-disable
 
 <br/>
 
-## 系统设置
+## 一、 系统设置
 
 ### Finder 访达显示隐藏文件
 
@@ -139,7 +139,7 @@ killall Finder
 
 <br/>
 
-## 软件部分
+## 二、 软件部分
 
 ### 聊天社交
 
@@ -1041,7 +1041,7 @@ tutu
 
 <br/>
 
-## <img src="https://static.oschina.net/uploads/logo/homebrew_sTU9q.png" alt="img" style="zoom: 50%;" /> brew
+## 三、 <img src="https://static.oschina.net/uploads/logo/homebrew_sTU9q.png" alt="img" style="zoom: 50%;" /> brew
 
 简介
 Homebrew 是 mac 系统下一款自由及开放源代码的软件包管理系统，用以简化 macOS 系统上的软件安装过程。
@@ -1184,7 +1184,7 @@ Homebrew 主要有四个部分组成:
 
 <br/>
 
-## 使用 brew 安装第三方包
+## 四、 使用 brew 安装第三方包
 
 ### 安装 Miniconda
 
@@ -1571,7 +1571,7 @@ brew install golang
 
 <br/>
 
-## 终端配置
+## 五、 终端配置
 
 ### 终端使用代理
 
@@ -1724,7 +1724,7 @@ source ~/.zshrc
 
 <br/><br/>
 
-## Vim
+## 六、 Vim
 
 ### 配置 Vim
 
@@ -1879,7 +1879,7 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-## Safari 插件
+## 七、 Safari 插件
 
 ### AdBlocker
 
@@ -1901,7 +1901,7 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-## 字体
+## 八、 字体
 
 ### Cascadia Code
 
@@ -1915,11 +1915,11 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-## Mac 快捷键介绍
+## 九、 Mac 快捷键介绍
 
 
 
-## 参考
+## 十、 参考
 
 https://www.sorrycc.com/posts/macbook-pro-configuration-from-zero
 
@@ -1927,6 +1927,6 @@ https://www.sorrycc.com/posts/macbook-pro-configuration-from-zero
 
 
 
-## 黑莱果
+## 十一、 黑莱果
 
 kext驱动更新插件：https://github.com/MacThings/kextupdater

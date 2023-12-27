@@ -1,6 +1,6 @@
-## Ubuntu配置
+# Ubuntu配置
 
-## 命令
+##  命令
 
 ### ls 命令
 
@@ -270,7 +270,7 @@ scp -r 远程服务器用户名@远程服务器ip:远程文件路径 本地存�
 
 `<br/><br/>`
 
-## Linux 开发入门
+## 一、 Linux 开发入门
 
 ### 开发环境搭建
 
@@ -1354,7 +1354,7 @@ int mkstemp(char *template);
 
 
 
-## WSL
+## 二、 WSL
 
 ### WSL微软官方教程
 
@@ -1376,7 +1376,7 @@ netsh interface ip add address "vEthernet (WSL)" 172.28.131.102 255.255.240.0
 
 <br/>
 
-## clash配置
+## 三、 clash配置
 
 [参考教程](https://blog.csdn.net/DPCFish/article/details/121663625)
 
@@ -1419,7 +1419,7 @@ netsh interface ip add address "vEthernet (WSL)" 172.28.131.102 255.255.240.0
 
    `<br/><br/>`
 
-## 更换源
+## 四、 更换源
 
 备份原来的文件
 
@@ -1462,19 +1462,19 @@ sudo apt update
 
 <br/>
 
-## 依赖项安装
+## 五、 依赖项安装
 
 ```shell
 sudo apt-get install -y  gcc  cmake  gdb net-tools openssl curl build-essential  libtool  ca-certificates  gnupg  lsb-release  git-core bison  libreadline6-dev zlib1g  zlib1g-dev  libssl-dev  libyaml-dev  libsqlite3-0 libsqlite3-dev  sqlite3  autoconf libc6-dev  libpcre3-dev  libcurl4-nss-dev  libxml2-dev libxslt-dev imagemagick libffi-dev firewalld
 ```
 
 ```shell
-## sudo apt-get install -y python3-pip python3-dev python-dev
+## 六、 sudo apt-get install -y python3-pip python3-dev python-dev
 ```
 
 <br/>
 
-## 安装proxychains
+## 七、 安装proxychains
 
 ```shell
 sudo apt-get install -y proxychains
@@ -1515,7 +1515,7 @@ sudo apt-get install -y proxychains
 
 `<br/><br/>`
 
-## 终端美化与加强
+## 八、 终端美化与加强
 
 ### 安装 zsh
 
@@ -1661,7 +1661,7 @@ source ~/.zshrc
 
 `<br/><br/>`
 
-## Vim
+## 九、 Vim
 
 ### 配置 Vim
 
@@ -1869,17 +1869,17 @@ nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR> "
 
 `<br/><br/>`
 
-## 安装 Miniconda
+## 十、 安装 Miniconda
 
 [Index of miniconda 清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/?C=M&O=D)
 
 `<br/><br/>`
 
-## 安装 workon
+## 十一、 安装 workon
 
 `<br/><br/>`
 
-## 编程环境
+## 十二、 编程环境
 
 ### Python
 
@@ -2337,7 +2337,7 @@ fcgi 下载地址：wget https://fossies.org/linux/www/old/fcgi-2.4.0.tar.gz
 
 `<br/><br/>`
 
-## 数据库
+## 十三、 数据库
 
 ### mysql
 
@@ -2478,7 +2478,7 @@ default_authentication_plugin=mysql_native_password
 ```shell
 ifconfig
 
-## 或者
+## 十四 或者
 
 ip addr
 ```
@@ -2707,7 +2707,7 @@ dpkg -i libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
 
 `<br/><br/>`
 
-## 容器
+## 十五、 容器
 
 ### docker
 

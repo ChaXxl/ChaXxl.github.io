@@ -28,7 +28,7 @@ GPIO_Init(GPIOB, &GPIO_InitStructure);	// 根据参数初始化 GPIOB.8
 
 
 
-## 工程创建
+##  工程创建
 
 ### 点击项目选项新建工程
 
@@ -164,7 +164,7 @@ USE_STDPERIPH_DRIVER
 
 
 
-## Mac 环境配置
+## 一、 Mac 环境配置
 
 ### STM32CubeMX
 

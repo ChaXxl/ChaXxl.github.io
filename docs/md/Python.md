@@ -1,6 +1,6 @@
 
 
-## Python
+##  Python
 
 ### pip 换源
 
@@ -740,7 +740,7 @@ def task():
  # 创建多(子)线程的方式
 sub_thread = threading.Thread(target=task)
 
-## 开启线程
+## 一、 开启线程
 sub_thread.start()    
 ```
 
@@ -1113,7 +1113,7 @@ DATABASES = {
 ~~~
 
 ```python
-## 数据库使用SQLite----默认就是用这个
+## 二、 数据库使用SQLite----默认就是用这个
 DATABASES = {
 'default': {
       'ENGINE': 'django.db.backends.sqlite3',
@@ -1241,7 +1241,7 @@ def readFile(filename):
 
 <br/><br/>
 
-## 打印彩色日志
+## 三、 打印彩色日志
 
 :::tip 为什么用彩色日志
 
@@ -1307,7 +1307,7 @@ if __name__ == '__main__':
 
 <br/>
 
-## 将当前时间改为北京时间
+## 四、 将当前时间改为北京时间
 
 :::info
 

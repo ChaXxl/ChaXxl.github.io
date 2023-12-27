@@ -1,14 +1,14 @@
-## CentOS配置
+# CentOS配置
 
 <br/><br/>
 
-## Clash科学上网
+##  Clash科学上网
 
 GitHub官网：https://github.com/Dreamacro/clash
 
 <br/><br/>
 
-## Python安装
+## 一、 Python安装
 
 官网：https://www.python.org/
 
@@ -68,7 +68,7 @@ GitHub官网：https://github.com/Dreamacro/clash
 
 <br/><br/>
 
-## Vim安装
+## 二、 Vim安装
 
 [Vim GitHub 主页](https://github.com/vim/vim)
 
@@ -131,19 +131,19 @@ Plug 'Valloric/YouCompleteMe'
 
 <br/><br/>
 
-## MySql
+## 三、 MySql
 
 官网：https://www.mysql.com/
 
 <br/><br/>
 
-## MongoDB
+## 四、 MongoDB
 
 官网：https://www.mongodb.com/
 
 <br/><br/>
 
-## Sqlite3
+## 五、 Sqlite3
 
 [Sqlite 官网](https://www.sqlite.org)
 
@@ -201,7 +201,7 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/><br/>
 
-## Nginx
+## 六、 Nginx
 
 [Nginx 官网](http://nginx.org)
 
@@ -243,7 +243,7 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/><br/>
 
-## Node
+## 七、 Node
 
 [Nodejs 中文官网](http://nodejs.cn/)
 
@@ -262,13 +262,13 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/><br/>
 
-## Redis
+## 八、 Redis
 
 [Redis 官网](https://redis.io/)
 
 <br/><br/>
 
-## 终端美化
+## 九、 终端美化
 
 ### 安装 zsh
 
@@ -356,7 +356,7 @@ plugins=(
 
 <br/><br/>
 
-## 安装 Chrome 并使用 selenium
+## 十、 安装 Chrome 并使用 selenium
 
 1. 下载安装包
 
