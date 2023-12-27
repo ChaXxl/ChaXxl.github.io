@@ -1,8 +1,8 @@
 
 
-# Python
+## Python
 
-## pip 换源
+### pip 换源
 
 1.使用清华源
 
@@ -10,7 +10,7 @@
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ~~~
 
-## 时间格式转换
+### 时间格式转换
 
 ~~~python
 def convertTime(timestamp: int):
@@ -25,9 +25,9 @@ def convertTime(timestamp: int):
 
 
 
-## 操作数据库
+### 操作数据库
 
-### MySQL
+#### MySQL
 
 
 
@@ -35,13 +35,13 @@ def convertTime(timestamp: int):
 
 
 
-### Redis
+#### Redis
 
 ~~~shell
 pip install redis
 ~~~
 
-#### 连接
+##### 连接
 
 ```python
 import redis
@@ -60,9 +60,9 @@ con = redis.StrictRedis(
 
 <br/>
 
-## 爬虫
+### 爬虫
 
-### 代理
+#### 代理
 
 代理的使用形式
 
@@ -77,7 +77,7 @@ proxies_dict = {
 
 
 
-### XPath
+#### XPath
 
 
 
@@ -131,7 +131,7 @@ div[]		 表示选择div标签，里面	@id	@class	可以根据id和class定位
 
 
 
-#### contains
+##### contains
 
 取包含 '某文字' 三个字的节点
 
@@ -147,7 +147,7 @@ div[]		 表示选择div标签，里面	@id	@class	可以根据id和class定位
 
 
 
-#### start-with
+##### start-with
 
 ~~~shell
 //ul[@id="uid"]/li/a[start-with(@id, "uu")]
@@ -157,7 +157,7 @@ div[]		 表示选择div标签，里面	@id	@class	可以根据id和class定位
 
 
 
-#### ends-with
+##### ends-with
 
 ~~~shell
 //ul[@id="uid"]/li/a[ends-with(@id, "uu")]
@@ -173,7 +173,7 @@ div[]		 表示选择div标签，里面	@id	@class	可以根据id和class定位
 
 
 
-### CSS 选择器
+#### CSS 选择器
 
 
 
@@ -205,7 +205,7 @@ print title
 
 <br/>
 
-## 文件路径操作
+### 文件路径操作
 
 获取当前 py 文件的绝对路径：
 
@@ -224,11 +224,11 @@ p2 = os.path.realpath(__file__)
 
 <br/><br/>
 
-## 操作 Windows
+### 操作 Windows
 
 
 
-### 操作剪贴板
+#### 操作剪贴板
 
 ~~~shell
 pip install pyperclip
@@ -240,7 +240,7 @@ pip install pyperclip
 
 <br/>
 
-### 调用 Windows API
+#### 调用 Windows API
 
 ~~~shell
 pip install pypiwin32
@@ -248,13 +248,13 @@ pip install pypiwin32
 
 <br/>
 
-#### 根据窗口标题找窗口
+##### 根据窗口标题找窗口
 
 
 
 <br/>
 
-#### 切换窗口
+##### 切换窗口
 
 ~~~python
 def switch_roles(hwnd):
@@ -269,7 +269,7 @@ def switch_roles(hwnd):
 
 <br/>
 
-### 调用 Windows 10 / 11 通知
+#### 调用 Windows 10 / 11 通知
 
 ~~~shell
 pip install win10toast
@@ -280,9 +280,9 @@ pip install win11toast
 
 <br/><br/>
 
-## 第三方包的使用
+### 第三方包的使用
 
-### colorama
+#### colorama
 
 > 打印带颜色
 
@@ -307,7 +307,7 @@ print(
 
 <br/>
 
-### pyinstaller
+#### pyinstaller
 
 > 将 Python 代码打包成可执行文件 .exe
 
@@ -319,7 +319,7 @@ print(
 
 <br/>
 
-### httpx
+#### httpx
 
 > 支持 http 2.0 的请求库
 
@@ -366,7 +366,7 @@ while True:
 
 <br/>
 
-### isort
+#### isort
 
 > 自动整理 import 
 
@@ -378,7 +378,7 @@ while True:
 
 <br/>
 
-### openpyxl
+#### openpyxl
 
 > 读写 Excel 文件 (.xlsx)
 
@@ -512,7 +512,7 @@ pip install openpyxl
 
 <br/>
 
-### PyTorch
+#### PyTorch
 
 ~~~shell
 pip install torch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0
@@ -531,13 +531,13 @@ pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --e
 
 <br/>
 
-## 进程、线程、进程池、线程池
+### 进程、线程、进程池、线程池
 
 
 
-### 进程 Process
+#### 进程 Process
 
-#### 进程的介绍
+##### 进程的介绍
 
 进程是实现多任务的一种方式。通俗地说，一个程序就相当于一个进程，一个进程又可以有许多的线程。
 
@@ -563,7 +563,7 @@ pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --e
 
 
 
-#### 创建多进程
+##### 创建多进程
 
 ~~~python
 import multiprocessing #导入多任务处理包
@@ -588,7 +588,7 @@ if __name__ == '__main__': # 主进程
 
 
 
-#### 获取当前进程的编号
+##### 获取当前进程的编号
 
 ~~~python
 os.getpid()
@@ -607,7 +607,7 @@ def sing():
 
 
 
-#### 获取父进程的编号
+##### 获取父进程的编号
 
 ~~~python
 os.getppid()
@@ -629,7 +629,7 @@ def sing():
 
 
 
-#### 开启进程给函数传参
+##### 开启进程给函数传参
 
 方法一：利用args，传的是元组
 
@@ -663,7 +663,7 @@ if __name__ == '__main__':
 
 
 
-#### 进程注意事项
+##### 进程注意事项
 
 * 进程之间不共享全局变量
 
@@ -700,7 +700,7 @@ if __name__ == '__main__':
 
 
 
-#### 进程池
+##### 进程池
 
 ~~~python
 from cocurrent.fetures import ProcessPoolExecutor
@@ -724,9 +724,9 @@ pp.shutdown()
 
 
 
-### 线程 Thread
+#### 线程 Thread
 
-#### 基本介绍
+##### 基本介绍
 
 比如说百度网盘，下载是一个线程，上传也是一个线程，在线看视频也是一个线程，它们可以同时进行。
 
@@ -740,7 +740,7 @@ def task():
  # 创建多(子)线程的方式
 sub_thread = threading.Thread(target=task)
 
-# 开启线程
+## 开启线程
 sub_thread.start()    
 ```
 
@@ -783,7 +783,7 @@ sub_thread = threading.Thread(target=show_info, daemon=True) # 守护线程，�
 
 
 
-#### 线程池
+##### 线程池
 
 ~~~python
 import threading
@@ -823,7 +823,7 @@ tp.shutdown()
 
 
 
-#### 线程同步的方式
+##### 线程同步的方式
 
 * 方法一：线程等待
 
@@ -839,7 +839,7 @@ sub_thread.join() # 表示sub_thread这个线程执行完成后再执行下一�
 
 
 
-#### 线程之间共享全局变量
+##### 线程之间共享全局变量
 
 ~~~python
 g_list = [] # 全局变量
@@ -862,7 +862,7 @@ read_thread.start()
 
 
 
-#### 实例
+##### 实例
 
 ~~~python
 import threading # 导入线程包
@@ -890,9 +890,9 @@ def sum_num2():
 
 
 
-### 协程 Coroutine
+#### 协程 Coroutine
 
-#### asyncio
+##### asyncio
 
 ~~~python
 
@@ -904,7 +904,7 @@ def sum_num2():
 
 
 
-### 进程和线程的对比
+#### 进程和线程的对比
 
 
 
@@ -914,7 +914,7 @@ def sum_num2():
 
 
 
-### 多进程、多线程、多协程对比
+#### 多进程、多线程、多协程对比
 
 [参考教程](https://www.cnblogs.com/chichung/p/9566734.html)
 
@@ -952,7 +952,7 @@ def sum_num2():
 
 
 
-### 到底应该选择哪个来用？
+#### 到底应该选择哪个来用？
 
 ![image-20210824161057997](https://i.loli.net/2021/08/24/vgwC5S8mBWFjJu4.png)
 
@@ -962,7 +962,7 @@ def sum_num2():
 
 <br/><br/>
 
-## Web 框架
+### Web 框架
 
 
 
@@ -1027,7 +1027,7 @@ var dataSource = new Array(count);
 {% endraw %}
 
 
-#### 跨域
+##### 跨域
 
 ~~~shell
 pip install django-cors-headers
@@ -1057,7 +1057,7 @@ MIDDLEWARE = [
 
 ~~~
 
-#### 配置局域网访问
+##### 配置局域网访问
 
 ~~~python
 ALLOWED_HOSTS = ['*']
@@ -1065,7 +1065,7 @@ ALLOWED_HOSTS = ['*']
 
 
 
-#### 配置安装的APP
+##### 配置安装的APP
 
 ~~~python
 INSTALLED_APPS = [
@@ -1081,7 +1081,7 @@ INSTALLED_APPS = [
 
 
 
-#### 配置数据库
+##### 配置数据库
 
 ~~~python
 # 数据库使用PostgreSQL
@@ -1113,7 +1113,7 @@ DATABASES = {
 ~~~
 
 ```python
-# 数据库使用SQLite----默认就是用这个
+## 数据库使用SQLite----默认就是用这个
 DATABASES = {
 'default': {
       'ENGINE': 'django.db.backends.sqlite3',
@@ -1132,7 +1132,7 @@ DATABASES = {
 
 
 
-#### 配置语言和时区
+##### 配置语言和时区
 
 ~~~python
 LANGUAGE_CODE = 'zh-hans'
@@ -1148,7 +1148,7 @@ USE_TZ = False
 
 
 
-#### 配置静态模板
+##### 配置静态模板
 
 ~~~python
 # 静态文件配置
@@ -1163,7 +1163,7 @@ STATICFILES_DIRS = (
 
 
 
-#### 模板HTML写法
+##### 模板HTML写法
 {% raw %} 
 ~~~html
 {% load static %}  
@@ -1182,7 +1182,7 @@ STATICFILES_DIRS = (
 
 
 
-### 上传文件并解析内容
+#### 上传文件并解析内容
 
 利用表单，上传文件，
 
@@ -1241,7 +1241,7 @@ def readFile(filename):
 
 <br/><br/>
 
-# 打印彩色日志
+## 打印彩色日志
 
 :::tip 为什么用彩色日志
 
@@ -1251,7 +1251,7 @@ def readFile(filename):
 
 <br/>
 
-## 不使用第三方库
+### 不使用第三方库
 
 自定内容颜色的格式
 
@@ -1299,7 +1299,7 @@ if __name__ == '__main__':
 
 
 
-## 使用第三方库
+### 使用第三方库
 
 
 
@@ -1307,7 +1307,7 @@ if __name__ == '__main__':
 
 <br/>
 
-# 将当前时间改为北京时间
+## 将当前时间改为北京时间
 
 :::info
 
@@ -1329,7 +1329,7 @@ next_day = current_day + timedelta(days=1)  # 明天的日期
 
 <br/>
 
-## Shodan
+### Shodan
 
 参考教程：https://mp.weixin.qq.com/s/ubJ_3EDT34ao4m_quJQmQA
 
@@ -1339,7 +1339,7 @@ Shodan 爬取的是互联网上所有设备的 IP 地址及其端口号。
 
 
 
-### 使用python联合Shodan进行搜索
+#### 使用python联合Shodan进行搜索
 
 安装
 

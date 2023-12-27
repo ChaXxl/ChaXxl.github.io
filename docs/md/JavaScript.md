@@ -2,7 +2,7 @@
 
 
 
-# Javascript
+## Javascript
 
 给select元素下拉框赋值
 
@@ -21,9 +21,9 @@ for (var i = 0; i < dataList.length; i++) {
 
 
 
-### Ajax
+#### Ajax
 
-#### ajax以get方式请求数据
+##### ajax以get方式请求数据
 
 方法一：代码行数比较少，看起来通俗易懂
 
@@ -87,7 +87,7 @@ def index1(request):
 
 
 
-#### ajax以post方式请求数据
+##### ajax以post方式请求数据
 
 参考文章：https://www.cnblogs.com/qianguyihao/p/8485028.html
 

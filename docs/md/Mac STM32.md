@@ -1,4 +1,4 @@
-## 下载STM32CubeMX
+### 下载STM32CubeMX
 
 https://www.st.com/en/development-tools/stm32cubemx.html#get-software
 
@@ -12,7 +12,7 @@ sudo java -jar XXXX/SetupSTM32CubeMX-6.0.1.exe
 
 
 
-## OpenOCD
+### OpenOCD
 
 ~~~shell
 brew install open-ocd
@@ -20,7 +20,7 @@ brew install open-ocd
 
 
 
-## ARM toolchain
+### ARM toolchain
 
 ~~~shell
 brew tap ArmMbed/homebrew-formulae
@@ -36,4 +36,4 @@ arm-none-eabi-gcc -v
 
 
 
-## 配置CLion
+### 配置CLion

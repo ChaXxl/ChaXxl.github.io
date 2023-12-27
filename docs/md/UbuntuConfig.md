@@ -1,8 +1,8 @@
-# Ubuntu配置
+## Ubuntu配置
 
-# 命令
+## 命令
 
-## ls 命令
+### ls 命令
 
 1. -a
 
@@ -20,7 +20,7 @@
 
    文件用双引号打印出来
 
-## echo 命令
+### echo 命令
 
 1. 显示字符串
 
@@ -55,7 +55,7 @@
    echo `date` `time`
    ```
 
-## cd 命令
+### cd 命令
 
 `Change Directory`
 
@@ -63,7 +63,7 @@
 
    表示当前用户
 
-## head 命令
+### head 命令
 
 1. -c n
 
@@ -90,7 +90,7 @@
 
    不显示文件名（默认就是带 -q）
 
-## tail 命令
+### tail 命令
 
 1. -f
 
@@ -114,7 +114,7 @@
    tail -c 20 hello.txt
    ```
 
-## ps 命令
+### ps 命令
 
 1. -AL
 
@@ -133,7 +133,7 @@
 
    ![image-20231209143602908](https://img-blog.csdnimg.cn/direct/714e362a2a654d88b259c4fe97453d6a.png)
 
-## cp 命令
+### cp 命令
 
 1. -a
 
@@ -178,7 +178,7 @@
    
    ```
 
-## rm 命令
+### rm 命令
 
 1. -i
 
@@ -202,13 +202,13 @@
    
    ```
 
-## chmod
+### chmod
 
 777 (111 111 111)
 
 当前用户、当前用户组、其它用户。读、写、执行
 
-## 解压命令
+### 解压命令
 
 ```shell
 1、.tar 用 tar –xvf 解压
@@ -225,7 +225,7 @@
 
 `<br/><br/>`
 
-## SSH 免密登录
+### SSH 免密登录
 
 1. 首先在本机生成公钥和私钥
 
@@ -241,9 +241,9 @@
 
 `<br/><br/>`
 
-## 上传下载文件
+### 上传下载文件
 
-### 上传
+#### 上传
 
 ```shell
 scp 文件路径 目的地用户名@目的地ip:目的地路径
@@ -256,7 +256,7 @@ scp -r  dir user@ip:/directory          ##长传目录
 
 <br/>
 
-### 下载
+#### 下载
 
 ```shell
 scp     user@ip:/filename   /direcotry  ##下载文件
@@ -270,21 +270,21 @@ scp -r 远程服务器用户名@远程服务器ip:远程文件路径 本地存�
 
 `<br/><br/>`
 
-# Linux 开发入门
+## Linux 开发入门
 
-## 开发环境搭建
+### 开发环境搭建
 
-### gcc 安装
-
-<br/>
-
-### ssh 服务安装
+#### gcc 安装
 
 <br/>
 
-## Linux 标准库函数
+#### ssh 服务安装
 
-### 字符串函数
+<br/>
+
+### Linux 标准库函数
+
+#### 字符串函数
 
 ```c
 #include <ctype.h>
@@ -358,7 +358,7 @@ scp -r 远程服务器用户名@远程服务器ip:远程文件路径 本地存�
 
 <br/>
 
-### 数据转换函数
+#### 数据转换函数
 
 ```C
 #include <stdlib.h>
@@ -474,7 +474,7 @@ scp -r 远程服务器用户名@远程服务器ip:远程文件路径 本地存�
 
 <br/>
 
-### 格式化输入输出函数
+#### 格式化输入输出函数
 
 1. 格式化输出数据
 
@@ -546,9 +546,9 @@ scp -r 远程服务器用户名@远程服务器ip:远程文件路径 本地存�
 
 <br/>
 
-### 权限控制函数
+#### 权限控制函数
 
-#### Linux 权限说明
+##### Linux 权限说明
 
 出于在 Linux 一切皆文件，所以这些权限对进程、内存都是有效的
 
@@ -654,7 +654,7 @@ r-x: 其它组的权限
 
 <br/>
 
-### I/O 函数
+#### I/O 函数
 
 > ```c
 > #include <sys/types.h>
@@ -826,7 +826,7 @@ int mkstemp(char *template);
 
 `<br/>`
 
-### 进程控制函数
+#### 进程控制函数
 
 
 
@@ -1055,7 +1055,7 @@ int mkstemp(char *template);
 
 <br/>
 
-### 文件和目录函数
+#### 文件和目录函数
 
 > ==文件操作函数==
 >
@@ -1188,7 +1188,7 @@ int mkstemp(char *template);
 
 <br/>
 
-### printf 函数 format 详解
+#### printf 函数 format 详解
 
 
 
@@ -1200,7 +1200,7 @@ int mkstemp(char *template);
 
 <br/>
 
-### scanf 函数 format 详解
+#### scanf 函数 format 详解
 
 
 
@@ -1208,19 +1208,11 @@ int mkstemp(char *template);
 
 
 
-## 网络编程基础
+### 网络编程基础
 
-### 网络的基本概念
+#### 网络的基本概念
 
-#### 网络的物理结构
-
-
-
-
-
-<br/>
-
-#### 网络中的地址
+##### 网络的物理结构
 
 
 
@@ -1228,7 +1220,7 @@ int mkstemp(char *template);
 
 <br/>
 
-#### 网络的中的端口
+##### 网络中的地址
 
 
 
@@ -1236,19 +1228,7 @@ int mkstemp(char *template);
 
 <br/>
 
-#### 什么是协议
-
-
-
-<br/>
-
-#### TCP协议基础
-
-
-
-
-
-
+##### 网络的中的端口
 
 
 
@@ -1256,29 +1236,19 @@ int mkstemp(char *template);
 
 <br/>
 
-### 套接字介绍
+##### 什么是协议
 
 
 
 <br/>
 
-### 套接字的创建
+##### TCP协议基础
 
 
 
 
 
-<br/>
 
-### 地址和端口的设置
-
-
-
-
-
-<br/>
-
-### 绑定地址和端口
 
 
 
@@ -1286,7 +1256,13 @@ int mkstemp(char *template);
 
 <br/>
 
-### 监听和接受连接
+#### 套接字介绍
+
+
+
+<br/>
+
+#### 套接字的创建
 
 
 
@@ -1294,25 +1270,49 @@ int mkstemp(char *template);
 
 <br/>
 
-### 数据的读取和发送
+#### 地址和端口的设置
+
+
 
 
 
 <br/>
 
-### 连接服务器
+#### 绑定地址和端口
+
+
 
 
 
 <br/>
 
-### 接收和发送数据
+#### 监听和接受连接
+
+
 
 
 
 <br/>
 
-### 关闭连接
+#### 数据的读取和发送
+
+
+
+<br/>
+
+#### 连接服务器
+
+
+
+<br/>
+
+#### 接收和发送数据
+
+
+
+<br/>
+
+#### 关闭连接
 
 
 
@@ -1320,7 +1320,7 @@ int mkstemp(char *template);
 
 
 
-### 错误处理
+#### 错误处理
 
 <br/>
 
@@ -1354,15 +1354,15 @@ int mkstemp(char *template);
 
 
 
-# WSL
+## WSL
 
-## WSL微软官方教程
+### WSL微软官方教程
 
 [适用于 Linux 的 Windows 子系统文档 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/wsl/)
 
 <br/>
 
-## 固定IP
+### 固定IP
 
 ```vbscript
 Set ws = WScript.CreateObject("WScript.Shell")
@@ -1376,7 +1376,7 @@ netsh interface ip add address "vEthernet (WSL)" 172.28.131.102 255.255.240.0
 
 <br/>
 
-# clash配置
+## clash配置
 
 [参考教程](https://blog.csdn.net/DPCFish/article/details/121663625)
 
@@ -1419,7 +1419,7 @@ netsh interface ip add address "vEthernet (WSL)" 172.28.131.102 255.255.240.0
 
    `<br/><br/>`
 
-# 更换源
+## 更换源
 
 备份原来的文件
 
@@ -1462,19 +1462,19 @@ sudo apt update
 
 <br/>
 
-# 依赖项安装
+## 依赖项安装
 
 ```shell
 sudo apt-get install -y  gcc  cmake  gdb net-tools openssl curl build-essential  libtool  ca-certificates  gnupg  lsb-release  git-core bison  libreadline6-dev zlib1g  zlib1g-dev  libssl-dev  libyaml-dev  libsqlite3-0 libsqlite3-dev  sqlite3  autoconf libc6-dev  libpcre3-dev  libcurl4-nss-dev  libxml2-dev libxslt-dev imagemagick libffi-dev firewalld
 ```
 
 ```shell
-# sudo apt-get install -y python3-pip python3-dev python-dev
+## sudo apt-get install -y python3-pip python3-dev python-dev
 ```
 
 <br/>
 
-# 安装proxychains
+## 安装proxychains
 
 ```shell
 sudo apt-get install -y proxychains
@@ -1515,9 +1515,9 @@ sudo apt-get install -y proxychains
 
 `<br/><br/>`
 
-# 终端美化与加强
+## 终端美化与加强
 
-## 安装 zsh
+### 安装 zsh
 
 1. 查看系统是否装了 zsh
 
@@ -1614,9 +1614,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 
 
-## oh-my-zsh插件
+### oh-my-zsh插件
 
-### 智能提示
+#### 智能提示
 
 ```shell
 git clone https://gitee.com/xs66/zsh-autosuggestions $ZSH/plugins/zsh-autosuggestions
@@ -1624,7 +1624,7 @@ git clone https://gitee.com/xs66/zsh-autosuggestions $ZSH/plugins/zsh-autosugges
 
 <br/>
 
-### 语法高亮
+#### 语法高亮
 
 ```shell
 git clone https://gitee.com/xs66/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
@@ -1632,7 +1632,7 @@ git clone https://gitee.com/xs66/zsh-syntax-highlighting.git $ZSH/plugins/zsh-sy
 
 <br/>
 
-### 载入配置
+#### 载入配置
 
 ```shell
 vim ~/.zshrc
@@ -1653,7 +1653,7 @@ plugins=(
 
 <br/>
 
-### 使配置生效
+#### 使配置生效
 
 ```shell
 source ~/.zshrc
@@ -1661,9 +1661,9 @@ source ~/.zshrc
 
 `<br/><br/>`
 
-# Vim
+## Vim
 
-## 配置 Vim
+### 配置 Vim
 
 ```shell
 sudo vim ~/.vimrc
@@ -1716,7 +1716,7 @@ inoremap { {}<ESC>i
 
 <br/>
 
-## 更改主题
+### 更改主题
 
 1. 下载主题
 
@@ -1750,7 +1750,7 @@ inoremap { {}<ESC>i
 
 <br/>
 
-## vim-plug 插件管理 安装
+### vim-plug 插件管理 安装
 
 GitHub 主页：https://github.com/junegunn/vim-plug
 
@@ -1797,7 +1797,7 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-## 自动补全插件 coc 安装
+### 自动补全插件 coc 安装
 
 GitHub 主页：https://github.com/neoclide/coc.nvim
 
@@ -1811,7 +1811,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 <br/>
 
-## 自动补全插件 YCM 安装
+### 自动补全插件 YCM 安装
 
 ```shell
 cd ~/.vim/plugged/YouCompleteMe
@@ -1869,19 +1869,19 @@ nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR> "
 
 `<br/><br/>`
 
-# 安装 Miniconda
+## 安装 Miniconda
 
 [Index of miniconda 清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/?C=M&O=D)
 
 `<br/><br/>`
 
-# 安装 workon
+## 安装 workon
 
 `<br/><br/>`
 
-# 编程环境
+## 编程环境
 
-## Python
+### Python
 
 1. 下载
 
@@ -1915,7 +1915,7 @@ nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR> "
 
    <br/>
 
-### 更换 pip 源
+#### 更换 pip 源
 
 ```shell
 vim ~/.pip/pip.conf
@@ -1932,7 +1932,7 @@ trusted-host = pypi.doubanio.com
 
 <br/>
 
-## PCRE 库
+### PCRE 库
 
 PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/pcre/8.39/pcre-8.39.tar.gz
 
@@ -1983,7 +1983,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 
 <br/>
 
-## OpenSSL 开发库
+### OpenSSL 开发库
 
 1. 下载
 
@@ -2008,7 +2008,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 
    <br/>
 
-## Nginx
+### Nginx
 
 [官网](http://nginx.org)
 
@@ -2040,9 +2040,9 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 
 <br/>
 
-## FastDFS
+### FastDFS
 
-### libfastcommon 的安装
+#### libfastcommon 的安装
 
 > libfastcommon 为 FastDFS 操作的基础库，FastDFS 没有使用标准的库，而是封装了一套和
 > FastDFS 相关的库。
@@ -2079,7 +2079,7 @@ PCRE 库源码包下载地址: https://sourceforge.mirrorservice.org/p/pc/pcre/p
 
    <br/>
 
-### FastDFS 的安装
+#### FastDFS 的安装
 
 FastDFS 源代码下载地址：
 https://code.google.com/archive/p/fastdfs/downloads
@@ -2110,13 +2110,13 @@ https://github.com/happyfish100/fastdfs.git
 
 <br/>
 
-### FastDFS 的配置
+#### FastDFS 的配置
 
 > 先配置 tracker，再添加一个 storage，每添加添加一个 storage，实际上是 storage 连接 tracker，tracker 必须存在，否则 storage 无法加进来，client 主要用于测试上传、下载文件。
 
 <br/>
 
-#### tracker 的配置
+##### tracker 的配置
 
 1. 拷贝配置文件
 
@@ -2139,7 +2139,7 @@ https://github.com/happyfish100/fastdfs.git
 
 <br/>
 
-#### storage 的配置
+##### storage 的配置
 
 1. 拷贝配置文件
 
@@ -2168,7 +2168,7 @@ https://github.com/happyfish100/fastdfs.git
 
 <br/>
 
-#### client 的配置
+##### client 的配置
 
 1. 拷贝配置文件
 
@@ -2190,7 +2190,7 @@ https://github.com/happyfish100/fastdfs.git
 
 <br/>
 
-#### 启动服务
+##### 启动服务
 
 1. 启动 tracker
 
@@ -2218,9 +2218,9 @@ https://github.com/happyfish100/fastdfs.git
 
 <br/>
 
-### FastDFS 客户端
+#### FastDFS 客户端
 
-#### 测试 storage 状态
+##### 测试 storage 状态
 
 storage server 的状态通常有七种
 
@@ -2234,7 +2234,7 @@ fdfs_monitor /etc/fdfs/client.conf
 
 <br/>
 
-#### 上传、下载文件测试
+##### 上传、下载文件测试
 
 在 **client 所在的机器**完成上传测试
 
@@ -2266,7 +2266,7 @@ fdfs_delete_file /etc/fdfs/client.conf group1/M00/00/00/rBj_CGPHX-qAZ1itAAAADK8I
 
 <br/>
 
-### 上传文件源码简析
+#### 上传文件源码简析
 
 FastDFS 源码中提供了 client 实现的相应源码 `fdfs_upload_file.c`：
 
@@ -2274,9 +2274,9 @@ FastDFS 源码中提供了 client 实现的相应源码 `fdfs_upload_file.c`：
 
 <br/>
 
-## FastCGI
+### FastCGI
 
-### spawn-fcgi
+#### spawn-fcgi
 
 spawn-fcgi 源码包下载地址：http://redmine.lighttpd.net/projects/spawn-fcgi/wiki
 
@@ -2303,7 +2303,7 @@ spawn-fcgi 源码包下载地址：http://redmine.lighttpd.net/projects/spawn-fc
 
    <br/>
 
-## 软件开发套件 fcgi
+### 软件开发套件 fcgi
 
 > 使用 C/C++编写 FastCGI 应用程序，可以使用 FastCGI 软件开发套件或者其它开发框架，如 fcgi 。
 
@@ -2331,17 +2331,17 @@ fcgi 下载地址：wget https://fossies.org/linux/www/old/fcgi-2.4.0.tar.gz
 
    <br/>
 
-## hiredis
+### hiredis
 
 > hiredis 是 Redis 数据库的一个 C 客户端库。
 
 `<br/><br/>`
 
-# 数据库
+## 数据库
 
-## mysql
+### mysql
 
-### 一、安装
+#### 一、安装
 
 1. 下载安装（这条命令会下载最新版）
 
@@ -2384,7 +2384,7 @@ fcgi 下载地址：wget https://fossies.org/linux/www/old/fcgi-2.4.0.tar.gz
 
 <br/>
 
-### 二、更改 root 用户密码
+#### 二、更改 root 用户密码
 
 更改 root 用户的密码（同时修改加密方式为：mysql_native_password）：
 
@@ -2409,7 +2409,7 @@ alter user "root"@localhost identified by "123";
 
 <br/>
 
-### 三、配置允许远程访问
+#### 三、配置允许远程访问
 
 1. 修改用户权限
 
@@ -2446,7 +2446,7 @@ alter user "root"@localhost identified by "123";
 
 <br/>
 
-#### 开放端口
+##### 开放端口
 
 1. 使用 firewall-cmd 命令开放端口（若没安装则安装 `sudo apt install -y firewalld`）：
 
@@ -2471,14 +2471,14 @@ default_authentication_plugin=mysql_native_password
 
 <br/>
 
-#### 远程访问命令
+##### 远程访问命令
 
 查看 Linux 主机的 IP 地址
 
 ```shell
 ifconfig
 
-# 或者
+## 或者
 
 ip addr
 ```
@@ -2491,7 +2491,7 @@ mysql -h  172.18.248.230 -P 3306 -u root -p123
 
 <br/>
 
-#### 连接成功
+##### 连接成功
 
 ![image-20230102110027397](https://img-blog.csdnimg.cn/fb6f7df6f69441e5854c9587cdf92e4f.png)
 
@@ -2521,9 +2521,9 @@ alter table user modify column name varchar(50) character set utf8;
 
 <br/>
 
-## Redis 6.0
+### Redis 6.0
 
-### 安装
+#### 安装
 
 [Redis 发行版下载地址](https://download.redis.io/releases)
 
@@ -2579,7 +2579,7 @@ alter table user modify column name varchar(50) character set utf8;
 
 <br/>
 
-### 远程连接命令
+#### 远程连接命令
 
 ```shell
 redis-cli -h 172.28.131.101 -p 6379
@@ -2587,7 +2587,7 @@ redis-cli -h 172.28.131.101 -p 6379
 
 <br/>
 
-### 设置开机自启动
+#### 设置开机自启动
 
 1. 编写 `redisd`  （**通常都以d结尾表示是后台自启动服务**）
 
@@ -2644,11 +2644,11 @@ redis-cli -h 172.28.131.101 -p 6379
 
 <br/>
 
-### Redis 的一些命令
+#### Redis 的一些命令
 
 <br/>
 
-## MongoDB
+### MongoDB
 
 [Install MongoDB Community Edition on Ubuntu — MongoDB Manual](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
 
@@ -2699,20 +2699,20 @@ dpkg -i libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
 
 <br/>
 
-## PostgreSQL
+### PostgreSQL
 
 <br/>
 
-## SQLite3
+### SQLite3
 
 `<br/><br/>`
 
-# 容器
+## 容器
 
-## docker
+### docker
 
 [Install on Ubuntu | Docker Documentation](https://docs.docker.com/desktop/install/ubuntu/)
 
 <br/>
 
-## Kubenates(k8s)
+### Kubenates(k8s)

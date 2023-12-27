@@ -1,4 +1,4 @@
-# Windows 配置
+## Windows 配置
 
 
 
@@ -8,11 +8,11 @@
 
 <br/>
 
-# 一、科学上网
+## 一、科学上网
 
 
 
-## 机场
+### 机场
 
 [RabbitPro](https://rabbitpro.net/auth/login)
 
@@ -32,7 +32,7 @@
 
 <br/>
 
-## 自建VPS
+### 自建VPS
 
 服务器：VLUT
 
@@ -42,7 +42,7 @@
 
 <br/>
 
-## 代理软件
+### 代理软件
 
 [Clash](https://github.com/Dreamacro/clash/releases)
 
@@ -62,9 +62,9 @@ SSR
 
 <br/><br/>
 
-# 四、编程环境
+## 四、编程环境
 
-## Python
+### Python
 
 conda 修改镜像源
 
@@ -123,7 +123,7 @@ conda config --set auto_activate_base True
 
 <br/>
 
-### Python、pip多版本共存
+#### Python、pip多版本共存
 
 [Python各版本最新版下载地址](https://www.python.org/downloads/)
 
@@ -182,7 +182,7 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 
 <br/>
 
-### CUDA工具包
+#### CUDA工具包
 
 https://developer.nvidia.cn/zh-cn/cuda-toolkit
 
@@ -190,7 +190,7 @@ https://developer.nvidia.cn/zh-cn/cuda-toolkit
 
 <br/>
 
-### cuDNN
+#### cuDNN
 
 https://developer.nvidia.com/rdp/cudnn-download
 
@@ -198,7 +198,7 @@ https://developer.nvidia.com/rdp/cudnn-download
 
 <br/>
 
-### pytorch 安装
+#### pytorch 安装
 
 [参考教程](https://blog.csdn.net/weixin_44842318/article/details/127487476)
 
@@ -227,7 +227,7 @@ print(torch.version.cuda)
 
 <br/>
 
-## MingW、Make、GCC、G++
+### MingW、Make、GCC、G++
 
 
 
@@ -237,7 +237,7 @@ print(torch.version.cuda)
 
 <br/>
 
-## Java
+### Java
 
 ![img](https://img-blog.csdnimg.cn/20190601181336234.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMDE3MTUy,size_16,color_FFFFFF,t_70)
 
@@ -257,7 +257,7 @@ print(torch.version.cuda)
 
 <br/>
 
-## CMake
+### CMake
 
 
 
@@ -267,7 +267,7 @@ print(torch.version.cuda)
 
 <br/>
 
-## node.js
+### node.js
 
 
 
@@ -275,7 +275,7 @@ print(torch.version.cuda)
 
 <br/>
 
-## Git
+### Git
 
 
 
@@ -283,19 +283,9 @@ print(torch.version.cuda)
 
 <br/><br/>
 
-# 数据库
+## 数据库
 
-## MySQL
-
-
-
-
-
-
-
-<br/>
-
-## Redis
+### MySQL
 
 
 
@@ -305,7 +295,17 @@ print(torch.version.cuda)
 
 <br/>
 
-## PostgreSQL
+### Redis
+
+
+
+
+
+
+
+<br/>
+
+### PostgreSQL
 
 
 
@@ -319,7 +319,7 @@ print(torch.version.cuda)
 
 <br/>
 
-# wget配置
+## wget配置
 
 
 
@@ -369,11 +369,11 @@ wget 具体的下载地址
 
 <br/><br/>
 
-# 美化部分
+## 美化部分
 
 
 
-## 桌面背景
+### 桌面背景
 
 
 
@@ -389,7 +389,7 @@ wget 具体的下载地址
 
 <br/>
 
-## 主题
+### 主题
 
 暗色
 
@@ -403,7 +403,7 @@ wget 具体的下载地址
 
 <br/>
 
-## 字体
+### 字体
 
 苹方
 
@@ -413,7 +413,7 @@ wget 具体的下载地址
 
 <br/>
 
-## 光标
+### 光标
 
 
 
@@ -429,7 +429,7 @@ wget 具体的下载地址
 
 <br/>
 
-## 任务栏居中透明
+### 任务栏居中透明
 
 
 
@@ -437,7 +437,7 @@ wget 具体的下载地址
 
 <br/>
 
-## 桌面小部件
+### 桌面小部件
 
 雨滴
 
@@ -447,13 +447,13 @@ wget 具体的下载地址
 
 <br/><br/>
 
-# 软件部分
+## 软件部分
 
 
 
-## 写代码软件 / IDE
+### 写代码软件 / IDE
 
-### Pycharm
+#### Pycharm
 
 [Pycharm](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows)
 
@@ -461,7 +461,7 @@ wget 具体的下载地址
 
 
 
-### CLion
+#### CLion
 
 [CLion](https://www.jetbrains.com/clion/download/download-thanks.html?platform=windows)
 
@@ -469,7 +469,7 @@ wget 具体的下载地址
 
 <br/>
 
-### IDEA
+#### IDEA
 
 [IDEA](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows)
 
@@ -477,19 +477,19 @@ wget 具体的下载地址
 
 <br/>
 
-### WebStorm
+#### WebStorm
 
 
 
 <br/>
 
-### Visual Studio
+#### Visual Studio
 
 [Visual Studio](https://visualstudio.microsoft.com/zh-hans/)
 
 
 
-#### 配置默认终端
+##### 配置默认终端
 
 ```json
 "terminal.integrated.profiles.windows": {
@@ -504,15 +504,15 @@ wget 具体的下载地址
 
 <br/>
 
-#### 插件
+##### 插件
 
-##### Moegi Theme
+###### Moegi Theme
 
 
 
 <br/>
 
-##### Power Mode
+###### Power Mode
 
 ```json
 "powermode.presets": "particles",
@@ -526,7 +526,7 @@ wget 具体的下载地址
 
 <br/>
 
-### live server
+#### live server
 
 > 浏览器跟随vscode代码的编辑实时刷新
 
@@ -542,7 +542,7 @@ wget 具体的下载地址
 
 <br/>
 
-### Visual Studio Code
+#### Visual Studio Code
 
 [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -550,7 +550,7 @@ wget 具体的下载地址
 
 <br/>
 
-### Qt Creator
+#### Qt Creator
 
 [Qt Creator](https://www.qt.io/zh-cn/)
 
@@ -558,7 +558,7 @@ wget 具体的下载地址
 
 <br/>
 
-### HBulder
+#### HBulder
 
 [HBulder](https://www.dcloud.io/hbuilderx.html)
 
@@ -566,31 +566,31 @@ wget 具体的下载地址
 
 <br/>
 
-## 开发工具
+### 开发工具
 
-### Beyond Compare
-
-
-
-<br/>
-
-### IDA_Pro
+#### Beyond Compare
 
 
 
 <br/>
 
-## 笔记软件
+#### IDA_Pro
 
-### typora
+
+
+<br/>
+
+### 笔记软件
+
+#### typora
 
 [typora](https://www.typora.io/#windows)
 
 <br/>
 
-#### 图床配置
+##### 图床配置
 
-##### SMMS
+###### SMMS
 
 ```json
 {
@@ -618,7 +618,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-##### 七牛云
+###### 七牛云
 
 ```json
 "qiniu": { // 七牛云存储
@@ -636,7 +636,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-##### 腾讯云COS
+###### 腾讯云COS
 
 ```json
 "tcyun":{ // 腾讯云COS云存储
@@ -652,7 +652,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-##### 合并配置
+###### 合并配置
 
 ```json
 {
@@ -689,13 +689,13 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Notion
+#### Notion
 
 
 
 <br/>
 
-### 有道云笔记
+#### 有道云笔记
 
 [有道云笔记](https://note.youdao.com/download.html)
 
@@ -703,7 +703,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Obsidian
+#### Obsidian
 
 [Obsidian](https://obsidian.md/)
 
@@ -713,9 +713,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 抓包工具
+### 抓包工具
 
-### Charles
+#### Charles
 
 [Charles](https://www.charlesproxy.com/latest-release/download.do)
 
@@ -729,21 +729,21 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Wireshark
+#### Wireshark
 
 
 
 
 
-## 浏览器
+### 浏览器
 
-### Edge
+#### Edge
 
 
 
 <br/>
 
-### Cent Brower
+#### Cent Brower
 
 [Cent Brower](https://www.centbrowser.cn/)
 
@@ -751,7 +751,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Google Chrome
+#### Google Chrome
 
 [Google Chrome](https://www.google.cn/chrome/)
 
@@ -769,9 +769,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 
 
-### 百度搜索过滤 CSDN 的下载
+#### 百度搜索过滤 CSDN 的下载
 
-#### 一、前言-吐槽
+##### 一、前言-吐槽
 
 最烦 C某N 的下载了，看到一次我就血压高。我直接在百度搜索把它给**屏蔽**！
 
@@ -781,7 +781,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-#### 二、安装油猴插件
+##### 二、安装油猴插件
 
 [点击下载 Tampermonkey](https://chrome.zzzmh.cn/info/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
@@ -791,7 +791,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-#### 三、下载  AC-baidu-重定向优化 脚本
+##### 三、下载  AC-baidu-重定向优化 脚本
 
 [点击下载](https://greasyfork.org/zh-CN/scripts/14178)
 
@@ -799,7 +799,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-#### 四、配置拦截域名
+##### 四、配置拦截域名
 
 1. 点击 **自定义**，即 AC-baidu 脚本的设置。
 2. 点击 **DIY**。
@@ -820,7 +820,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-#### 五、拦截效果
+##### 五、拦截效果
 
 拦截前：
 
@@ -836,9 +836,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 安全/杀毒软件
+### 安全/杀毒软件
 
-### 火绒
+#### 火绒
 
 [火绒](https://www.huorong.cn/)
 
@@ -846,15 +846,15 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 卸载软件
+### 卸载软件
 
-### Ashampoo Uninstaller v11.00.16 Portable
+#### Ashampoo Uninstaller v11.00.16 Portable
 
 
 
 <br/>
 
-### Geek
+#### Geek
 
 [Geek](https://geekuninstaller.com/download)
 
@@ -862,7 +862,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### IOBit Uninstaller
+#### IOBit Uninstaller
 
 [IOBit Uninstaller](https://www.iobit.com/en/index.php?s)
 
@@ -872,9 +872,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 聊天软件
+### 聊天软件
 
-### 微信
+#### 微信
 
 [微信](https://pc.weixin.qq.com/)
 
@@ -882,7 +882,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### QQ
+#### QQ
 
 [QQ](https://im.qq.com/index)
 
@@ -890,7 +890,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Telegram
+#### Telegram
 
 [Telegram](https://desktop.telegram.org/)
 
@@ -898,7 +898,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Discord
+#### Discord
 
 [Discord](https://discord.onl/)
 
@@ -908,15 +908,15 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 
 
-## 输入法
+### 输入法
 
 冰凌五笔输入法：https://www.icesofts.com/download.html
 
 
 
-## 网盘
+### 网盘
 
-### 百度网盘
+#### 百度网盘
 
 [百度网盘](https://pan.baidu.com/download#win)
 
@@ -924,7 +924,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 阿里网盘
+#### 阿里网盘
 
 [阿里网盘](https://yunpan.aliyun.com/downloads/apps/desktop/aDrive.exe)
 
@@ -932,13 +932,13 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 阿里网盘小白羊版
+#### 阿里网盘小白羊版
 
 
 
 <br/>
 
-### 城通网盘
+#### 城通网盘
 
 [城通网盘](https://imgstatic.ctfile.com/upload/apps/ctfile.exe)
 
@@ -946,7 +946,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 天翼云网盘
+#### 天翼云网盘
 
 [天翼云网盘](https://cloud.189.cn/web/static/download-client/index.html)
 
@@ -954,7 +954,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 蓝凑云
+#### 蓝凑云
 
 [蓝凑云](https://www.lanzou.com/)
 
@@ -962,15 +962,15 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 下载工具
+### 下载工具
 
-### IDM
+#### IDM
 
 
 
 <br/>
 
-### Motrix
+#### Motrix
 
 [Motrix](https://motrix.app/)
 
@@ -978,7 +978,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 迅雷
+#### 迅雷
 
 [迅雷](https://www.xunlei.com/)
 
@@ -988,9 +988,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 解压缩软件
+### 解压缩软件
 
-### Bandizip
+#### Bandizip
 
 [Bandizip](http://www.bandisoft.com/)
 
@@ -998,7 +998,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 7z
+#### 7z
 
 [7z](https://sparanoid.com/lab/7z/)
 
@@ -1006,9 +1006,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 截图软件
+### 截图软件
 
-### Snipaste
+#### Snipaste
 
 [Snipaste](https://www.snipaste.com/)
 
@@ -1016,13 +1016,13 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### QQ截图独立版
+#### QQ截图独立版
 
 
 
 <br/>
 
-### ShareX
+#### ShareX
 
 [ShareX](https://getsharex.com/)
 
@@ -1032,9 +1032,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 视频播放软件
+### 视频播放软件
 
-### PotPlayer
+#### PotPlayer
 
 [PotPlayer](http://potplayer.daum.net/)
 
@@ -1042,9 +1042,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 图片查看器
+### 图片查看器
 
-### Honey View
+#### Honey View
 
 [Honey View](http://www.bandisoft.com/)
 
@@ -1052,9 +1052,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 图片压缩
+### 图片压缩
 
-### 图压
+#### 图压
 
 [图压](https://tuya.xinxiao.tech/)
 
@@ -1062,9 +1062,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 文本编辑器
+### 文本编辑器
 
-### Notepad3
+#### Notepad3
 
 [Notepad3](https://www.rizonesoft.com/downloads/notepad3/)
 
@@ -1072,7 +1072,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Sublime Text
+#### Sublime Text
 
 [Sublime Text](http://www.sublimetext.com/3)
 
@@ -1080,7 +1080,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Vim
+#### Vim
 
 [Vim](https://github.com/vim/vim-win32-installer/releases/tag/v8.2.3977)
 
@@ -1094,9 +1094,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## PDF标记软件(支持手写笔)
+### PDF标记软件(支持手写笔)
 
-### Xournal++
+#### Xournal++
 
 [Xournal++](https://xournalpp.github.io/installation/)
 
@@ -1104,15 +1104,15 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Drawboard
+#### Drawboard
 
 
 
 <br/>
 
-## 阅读软件
+### 阅读软件
 
-### BookxNote Pro
+#### BookxNote Pro
 
 [BookxNote Pro](http://www.bookxnote.com/)
 
@@ -1120,9 +1120,9 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## PDF阅读器
+### PDF阅读器
 
-### SumatraPDF
+#### SumatraPDF
 
 [SumatraPDF](http://www.pdfyuedu.com/)
 
@@ -1130,7 +1130,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### 极速PDF阅读器
+#### 极速PDF阅读器
 
 [极速PDF阅读器](https://jisupdf.com/)
 
@@ -1138,15 +1138,15 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 效率工具
+### 效率工具
 
-### Listary
+#### Listary
 
 
 
 <br/>
 
-### utools
+#### utools
 
 [utools](http://www.u.tools/)
 
@@ -1154,7 +1154,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Everything
+#### Everything
 
 [Everything](https://www.voidtools.com/zh-cn/)
 
@@ -1162,7 +1162,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-### Wox
+#### Wox
 
 [Wox](http://www.wox.one/)
 
@@ -1170,7 +1170,7 @@ cd C:\Users\73446\AppData\Roaming\Typora\picgo\win64
 
 <br/>
 
-## 查看电脑硬件信息软件
+### 查看电脑硬件信息软件
 
 [Windows超级管理器](https://www.collithel.com/windows_super_manager/)
 
@@ -1198,7 +1198,7 @@ AiDa64
 
 <br/>
 
-## 激活软件
+### 激活软件
 
 
 
@@ -1206,9 +1206,9 @@ AiDa64
 
 <br/>
 
-## 远程连接软件
+### 远程连接软件
 
-### AnLink
+#### AnLink
 
 [AnLink](https://cn.anlinksoft.com/)
 
@@ -1216,7 +1216,7 @@ AiDa64
 
 <br/>
 
-### scrcpy
+#### scrcpy
 
 [scrcpy 投屏控制器](http://download.jamcz.com/d/29434354-43505884-32e560?45536779)
 
@@ -1224,7 +1224,7 @@ AiDa64
 
 <br/>
 
-### 向日葵
+#### 向日葵
 
 [向日葵](https://sunlogin.oray.com/download)
 
@@ -1266,9 +1266,9 @@ Xftp
 
 <br/>
 
-## 录屏软件
+### 录屏软件
 
-### OBS
+#### OBS
 
 [OBS](https://obsproject.com/)
 
@@ -1276,13 +1276,13 @@ Xftp
 
 <br/>
 
-### Bandicam
+#### Bandicam
 
 
 
 <br/>
 
-### EV录屏
+#### EV录屏
 
 [EV录屏](https://www.ieway.cn/)
 
@@ -1292,37 +1292,37 @@ Xftp
 
 <br/>
 
-## 护眼软件
+### 护眼软件
 
-### Iris
-
-
+#### Iris
 
 
 
-## Adobe软件
+
+
+### Adobe软件
 
 
 
-### PS
-
-
-
-<br/>
-
-### PR
+#### PS
 
 
 
 <br/>
 
-### AI
+#### PR
 
 
 
 <br/>
 
-### Acrobat
+#### AI
+
+
+
+<br/>
+
+#### Acrobat
 
 
 
@@ -1332,21 +1332,21 @@ Xftp
 
 <br/>
 
-## GIS软件
+### GIS软件
 
-### ArcGIS Pro 2.8
-
-
-
-<br/>
-
-### ArcGIS
+#### ArcGIS Pro 2.8
 
 
 
 <br/>
 
-### QGis
+#### ArcGIS
+
+
+
+<br/>
+
+#### QGis
 
 [QGis](https://qgis.org/en/site/index.html)
 
@@ -1354,7 +1354,7 @@ Xftp
 
 <br/>
 
-### ENVI
+#### ENVI
 
 
 
@@ -1362,9 +1362,9 @@ Xftp
 
 
 
-## 字典软件
+### 字典软件
 
-### Mdict
+#### Mdict
 
 [Mdict](https://www.mdict.cn/wp/?page_id=5227&lang=zh)
 
@@ -1372,7 +1372,7 @@ Xftp
 
 <br/>
 
-### 有道词典
+#### 有道词典
 
 [有道词典](http://cidian.youdao.com/)
 
@@ -1382,17 +1382,17 @@ Xftp
 
 <br/>
 
-## 三维软件
+### 三维软件
 
 
 
-### C4D
+#### C4D
 
 
 
 <br/>
 
-### blender
+#### blender
 
 [blender](https://www.blender.org/)
 
@@ -1400,9 +1400,9 @@ Xftp
 
 <br/>
 
-## 字幕制作软件
+### 字幕制作软件
 
-### Arctime Pro
+#### Arctime Pro
 
 [Arctime Pro](https://arctime.org/download.html)
 
@@ -1412,9 +1412,9 @@ Xftp
 
 <br/><br/>
 
-# 小技巧
+## 小技巧
 
-## OneDrive 设置同步任意文件夹
+### OneDrive 设置同步任意文件夹
 
 原理：使用 `mklink`命令。
 
@@ -1449,7 +1449,7 @@ mklink /d "C:\Users\73446\OneDrive\文件夹B" "C:\Users\73446\Documents\文件�
 
 <br/>
 
-## 使用 PowerShell 命令操作环境变量
+### 使用 PowerShell 命令操作环境变量
 
 [参考微软官方文档](https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7.3)
 
@@ -1465,7 +1465,7 @@ mklink /d "C:\Users\73446\OneDrive\文件夹B" "C:\Users\73446\Documents\文件�
 
 <br/>
 
-### 显示环境变量的值
+#### 显示环境变量的值
 
 1. 方法一：变量语法
    
@@ -1507,7 +1507,7 @@ mklink /d "C:\Users\73446\OneDrive\文件夹B" "C:\Users\73446\Documents\文件�
    
    
 
-### 创建和更新环境变量的值
+#### 创建和更新环境变量的值
 
 1. 方法一：变量语法
    
@@ -1539,7 +1539,7 @@ mklink /d "C:\Users\73446\OneDrive\文件夹B" "C:\Users\73446\Documents\文件�
 
 <br/>
 
-### 删除环境变量
+#### 删除环境变量
 
 由于环境变量不能为空字符串，因此将环境变量设置为 `$null` 或空字符串会将其删除。
 
@@ -1573,7 +1573,7 @@ mklink /d "C:\Users\73446\OneDrive\文件夹B" "C:\Users\73446\Documents\文件�
    
    
 
-# Windows Terminal
+## Windows Terminal
 
 https://github.com/microsoft/terminal
 
@@ -1581,7 +1581,7 @@ https://github.com/microsoft/terminal
 
 <br/>
 
-## Powershell 7
+### Powershell 7
 
 https://github.com/PowerShell/PowerShell
 
@@ -1615,7 +1615,7 @@ Set-PoshPrompt -Theme robbyrussel
 
 <br/>
 
-### 安装文件图标库
+#### 安装文件图标库
 
 ```
 Install-Module -Name Terminal-Icons -Repository PSGallery
@@ -1623,7 +1623,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 
 <br/>
 
-### 使用图标
+#### 使用图标
 
 ```
 Import-Module -Name Terminal-Icons
@@ -1631,7 +1631,7 @@ Import-Module -Name Terminal-Icons
 
 <br/>
 
-### 命令行自动补全和提示
+#### 命令行自动补全和提示
 
 ```
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
@@ -1639,7 +1639,7 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 <br/>
 
-### 智能提示
+#### 智能提示
 
 https://zhuanlan.zhihu.com/p/421568420
 
@@ -1657,7 +1657,7 @@ Set-PSReadLineOption -PredictionSource History
 Set-PoshPrompt -Theme atomic
 ```
 
-### ssh自动对接到PowerShell
+#### ssh自动对接到PowerShell
 
 ssh默认是连接到cmd的。管理员权限在PowerShell执行以下命令(注意改成自己的powershell路径), 使 SSH 连接Windows时默认使用 Powershell
 
@@ -1681,7 +1681,7 @@ C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3
 
 <br/>
 
-## 安装Nerd字体
+### 安装Nerd字体
 
 [下载地址](https://www.nerdfonts.com/font-downloads)
 
@@ -1701,7 +1701,7 @@ C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3
 
 <br/>
 
-## 配置服务器SSH连接
+### 配置服务器SSH连接
 
 参考教程：https://www.jianshu.com/p/b7a105a67253/
 
@@ -1775,7 +1775,7 @@ rm tmp.pub
 
 <br/>
 
-## 终端代理
+### 终端代理
 
 > clash 打开 TUN 隧道模式即可
 
@@ -1785,7 +1785,7 @@ rm tmp.pub
 
 参考教程：https://www.cnblogs.com/xch-jiang/p/14324636.html
 
-### PowerShell
+#### PowerShell
 
 ```shell
 $env:HTTP_PROXY="http://127.0.0.1:7890"
@@ -1794,7 +1794,7 @@ $env:HTTPS_PROXY="http://127.0.0.1:7890"
 
 <br/>
 
-### cmd
+#### cmd
 
 ```shell
 set http_proxy=http://127.0.0.1:1080
@@ -1809,7 +1809,7 @@ set https_proxy=http://127.0.0.1:1080
 
 <br/>
 
-## Vim插件安装
+### Vim插件安装
 
 官方：插件管理：[vim-plug](https://github.com/junegunn/vim-plug)
 

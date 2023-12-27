@@ -1,4 +1,4 @@
-# docker
+## docker
 
 :::info 镜像和容器的区别
 
@@ -48,7 +48,7 @@
 
    <br/>
 
-## docker 镜像相关的基本命令
+### docker 镜像相关的基本命令
 
 1. 查看镜像可用版本，以 nginx 为例
 
@@ -161,7 +161,7 @@
 
     <br/>
 
-## docker 容器相关的基本命令
+### docker 容器相关的基本命令
 
 1. 列出容器
 
@@ -283,7 +283,7 @@
 
     <br/>
 
-## Dockerfile 的命令
+### Dockerfile 的命令
 
 ~~~dockerfile
 FROM 基础镜像，一切从这里开始

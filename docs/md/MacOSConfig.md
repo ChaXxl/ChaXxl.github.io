@@ -1,6 +1,6 @@
 
 
-# MacOS 配置
+## MacOS 配置
 
 :::tip
 
@@ -13,9 +13,9 @@
 
 
 
-## 软件破解流程
+### 软件破解流程
 
-### 允许安装任何来源
+#### 允许安装任何来源
 
 在终端中输入命令：
 
@@ -29,7 +29,7 @@ sudo spctl --master-disable
 
 <br/>
 
-### 关闭系统完整性保护机制
+#### 关闭系统完整性保护机制
 
 :::info 系统完整性保护机制
 
@@ -41,7 +41,7 @@ sudo spctl --master-disable
 
 <br/>
 
-#### 检查是否启用了SIP系统完整性保护
+##### 检查是否启用了SIP系统完整性保护
 
 * 方法一：
 
@@ -65,7 +65,7 @@ sudo spctl --master-disable
 
 <br/>
 
-### 关闭 SIP 保护机制的方法
+#### 关闭 SIP 保护机制的方法
 
 1. 重启，当黑屏后，按住 <kbd>Command</kbd>+<kbd>R</kbd>，稍待片刻，电脑会进入到恢复模式。
 
@@ -85,7 +85,7 @@ sudo spctl --master-disable
 
 <br/>
 
-### 破解软件的安装
+#### 破解软件的安装
 
 1. 双击打开安装包，再双击 Manual install 文件夹里面的 .dmg 文件安装即可。
 
@@ -101,9 +101,9 @@ sudo spctl --master-disable
 
 <br/>
 
-# 系统设置
+## 系统设置
 
-## Finder 访达显示隐藏文件
+### Finder 访达显示隐藏文件
 
 * 方法一：
 
@@ -139,35 +139,35 @@ killall Finder
 
 <br/>
 
-# 软件部分
+## 软件部分
 
-## 聊天社交
+### 聊天社交
 
-### <img src="https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png" alt="img" style="zoom:15%;" />微信
+#### <img src="https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png" alt="img" style="zoom:15%;" />微信
 
 * 下载地址（官网）：https://weixin.qq.com/
 
 <br/>
 
-### <img src="https://t10.baidu.com/it/u=2364017865,3817073223&fm=179&app=42&f=JPEG?w=75&h=75&s=033468226CF857B16834F5BC0200C023" alt="img" style="zoom:50%;" />QQ
+#### <img src="https://t10.baidu.com/it/u=2364017865,3817073223&fm=179&app=42&f=JPEG?w=75&h=75&s=033468226CF857B16834F5BC0200C023" alt="img" style="zoom:50%;" />QQ
 
 * 下载地址（官网）：https://im.qq.com/macqq/index.shtml
 
 <br/>
 
-### <img src="https://t12.baidu.com/it/u=2122110178,729847657&fm=179&app=42&f=JPEG?w=75&h=75&s=C0F78D728F7653800B723149020050B0" alt="img" style="zoom:50%;" />企业微信
+#### <img src="https://t12.baidu.com/it/u=2122110178,729847657&fm=179&app=42&f=JPEG?w=75&h=75&s=C0F78D728F7653800B723149020050B0" alt="img" style="zoom:50%;" />企业微信
 
 * 下载地址（官网）：https://work.weixin.qq.com/#indexDownload
 
 <br/>
 
-### Twitter
+#### Twitter
 
 * 下载地址（官网）：
 
 <br/>
 
-### Telegram
+#### Telegram
 
 * 下载地址（官网）：
 
@@ -177,23 +177,23 @@ killall Finder
 
 
 
-## 输入法
+### 输入法
 
-### 百度输入法
+#### 百度输入法
 
 * 下载地址（官网）：https://srf.baidu.com/input/mac.html
 
 <br/>
 
-## 网盘客户端
+### 网盘客户端
 
-### 百度云盘
+#### 百度云盘
 
 
 
 <br/>
 
-### 阿里云盘-小白羊
+#### 阿里云盘-小白羊
 
 * 收费情况：免费开源
 * Github 主页：https://github.com/gaozhangmin/aliyunpan
@@ -203,9 +203,9 @@ killall Finder
 
 <br/>
 
-## 笔记软件
+### 笔记软件
 
-### Typora
+#### Typora
 
 * 版本：1.7.4
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-elTWh.html
@@ -213,13 +213,13 @@ killall Finder
 
 <br/>
 
-### Obsidion
+#### Obsidion
 
 <br/>
 
-## Adobe
+### Adobe
 
-### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/acrobat-reader.svg" style="height:30px;" /> Adobe Acrobat
+#### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/acrobat-reader.svg" style="height:30px;" /> Adobe Acrobat
 
 * 版本：2023
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-RfvWh.html
@@ -227,7 +227,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/audition.svg" style="height:30px;" /> Adobe Audition( Au )
+#### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/audition.svg" style="height:30px;" /> Adobe Audition( Au )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -235,7 +235,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/after-effects.svg" style="height:30px;" /> Adobe After Effects( Ae )
+#### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/after-effects.svg" style="height:30px;" /> Adobe After Effects( Ae )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -243,7 +243,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/character-animator.svg" style="height:30px;" /> Adobe Character Animator( Ch )
+#### <img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/character-animator.svg" style="height:30px;" /> Adobe Character Animator( Ch )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -251,7 +251,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/cc1/en/genuine/images/AFC/LR_icon.svg" style="height:30px;" /> Adobe LightRoom( Lr )
+#### <img src="https://www.adobe.com/content/dam/cc1/en/genuine/images/AFC/LR_icon.svg" style="height:30px;" /> Adobe LightRoom( Lr )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -259,7 +259,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" style="height:30px;" />Adobe premiere Pro( Pr )
+#### <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" style="height:30px;" />Adobe premiere Pro( Pr )
 
 * 版本：2023
 * 下载地址（破解版）：
@@ -267,7 +267,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/cc/icons/illustrator.svg" style="height:30px;" /> Adobe Illustrator( Ai )
+#### <img src="https://www.adobe.com/content/dam/cc/icons/illustrator.svg" style="height:30px;" /> Adobe Illustrator( Ai )
 
 * 版本：2023
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-wLysh.html
@@ -275,7 +275,7 @@ killall Finder
 
 <br/>
 
-### <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" style="height:30px;" /> Adobe Photoshop( Ps )
+#### <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" style="height:30px;" /> Adobe Photoshop( Ps )
 
 * 版本：2023
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-2fvWh.html
@@ -283,46 +283,46 @@ killall Finder
 
 <br/>
 
-## Jetbrains
+### Jetbrains
 
-###  <img src="https://img-blog.csdnimg.cn/34b1bbafd5a74779bd0a5e12c7b09fe7.png" alt="Clion" style="zoom:30%;" /> CLion
+####  <img src="https://img-blog.csdnimg.cn/34b1bbafd5a74779bd0a5e12c7b09fe7.png" alt="Clion" style="zoom:30%;" /> CLion
 
 * 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/clion/download/#section=mac
 
 <br/>
 
-###  DataGrip
+####  DataGrip
 
 * 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/datagrip/download/#section=mac
 
 <br/>
 
-###  IntelliJ IDEA
+####  IntelliJ IDEA
 
 * 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/idea/download/#section=mac
 
 <br/>
 
-###  <img src="https://img-blog.csdnimg.cn/e9dd401fae51435d81d0ed947e29945d.png" alt="Pycharm" style="zoom:30%;" /> PyCharm
+####  <img src="https://img-blog.csdnimg.cn/e9dd401fae51435d81d0ed947e29945d.png" alt="Pycharm" style="zoom:30%;" /> PyCharm
 
 * 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/pycharm/download/#section=mac
 
 <br/>
 
-###  <img src="https://img-blog.csdnimg.cn/278045f737854d4db126114a5d8a47c2.png" alt="Webstorm" style="zoom:30%;" /> WebStorm
+####  <img src="https://img-blog.csdnimg.cn/278045f737854d4db126114a5d8a47c2.png" alt="Webstorm" style="zoom:30%;" /> WebStorm
 
 * 版本：专业版
 * 下载地址（官网）：https://www.jetbrains.com/webstorm/download/#section=mac
 
 <br/>
 
-## 像 Windows一样 Alt+Tab 切换窗口
+### 像 Windows一样 Alt+Tab 切换窗口
 
-### <img src="https://d33wubrfki0l68.cloudfront.net/a006a16dc9b4af9d985b410d7813d2bffe4d51d1/96112/public/android-chrome-256x256.png" alt="img" style="zoom:13%;" /> AltTab
+#### <img src="https://d33wubrfki0l68.cloudfront.net/a006a16dc9b4af9d985b410d7813d2bffe4d51d1/96112/public/android-chrome-256x256.png" alt="img" style="zoom:13%;" /> AltTab
 
 ::: note 软件介绍
 Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个切换是可以预览的，相比于 Mac 的 <kbd>Command</kbd>+<kbd>Tab</kbd>，不知道好到哪里去。而 AltTab 这个软件正如其名，可以实现 Windows 那样的效果，效果如图：
@@ -337,9 +337,9 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-## 快速启动
+### 快速启动
 
-### <img src="https://avatars.githubusercontent.com/u/58117316?s=200&v=4" alt="img" style="zoom:20%;" />Raycast
+#### <img src="https://avatars.githubusercontent.com/u/58117316?s=200&v=4" alt="img" style="zoom:20%;" />Raycast
 
 * 收费情况：免费
 * 软件大小：50.3 MB
@@ -347,7 +347,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### utools
+#### utools
 
 
 
@@ -355,15 +355,15 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### Afred
+#### Afred
 
 
 
 <br/>
 
-## 点云常用软件
+### 点云常用软件
 
-### <img src="https://cloudcompare.org/images/cc_logo_v2_small.jpg" alt="img" style="zoom:30%;" /> CloudCompare
+#### <img src="https://cloudcompare.org/images/cc_logo_v2_small.jpg" alt="img" style="zoom:30%;" /> CloudCompare
 
 * 收费情况：免费开源
 * Github 主页：https://github.com/CloudCompare/CloudCompare
@@ -372,7 +372,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### <img src="https://www.meshlab.net/img/meshlabjsLogo.png" alt="img" style="zoom:20%;" /> Meshlab
+#### <img src="https://www.meshlab.net/img/meshlabjsLogo.png" alt="img" style="zoom:20%;" /> Meshlab
 
 * 收费情况：免费开源
 * Github 主页：https://github.com/cnr-isti-vclab/meshlab
@@ -381,9 +381,9 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-## 截图软件
+### 截图软件
 
-### <img src="https://bkimg.cdn.bcebos.com/pic/0ff41bd5ad6eddc451da4bfacd8fa1fd5266d016952f?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="iShot" style="zoom:15%;" /> iShot
+#### <img src="https://bkimg.cdn.bcebos.com/pic/0ff41bd5ad6eddc451da4bfacd8fa1fd5266d016952f?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="iShot" style="zoom:15%;" /> iShot
 
 :::info 软件介绍
 
@@ -397,7 +397,7 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-### <img src="https://zh.snipaste.com/img/logo.svg" style="zoom: 5%;" /> Snipaste
+#### <img src="https://zh.snipaste.com/img/logo.svg" style="zoom: 5%;" /> Snipaste
 
 :::info 软件介绍
 
@@ -411,9 +411,9 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-## 视频播放器
+### 视频播放器
 
-### <img src="https://iina.io/images/iina-icon-60.png" alt="iina-icon-60.png (60×60)" style="zoom:67%;" /> IINA
+#### <img src="https://iina.io/images/iina-icon-60.png" alt="iina-icon-60.png (60×60)" style="zoom:67%;" /> IINA
 
 :::info 软件介绍
 
@@ -427,9 +427,9 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-## 录屏软件
+### 录屏软件
 
-### <img src="https://obsproject.com/assets/images/new_icon_small-r.png" alt="img" style="zoom:15%;" />obs
+#### <img src="https://obsproject.com/assets/images/new_icon_small-r.png" alt="img" style="zoom:15%;" />obs
 
 * 收费情况：免费开源
 * 下载地址（官网）：https://www.obsproject.com
@@ -444,9 +444,9 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-## 全局鼠标手势软件
+### 全局鼠标手势软件
 
-### <img src="https://raw.githubusercontent.com/mtjo/MacStroke/release/logo.png" alt="img" style="zoom:37%;" /> MacStroke
+#### <img src="https://raw.githubusercontent.com/mtjo/MacStroke/release/logo.png" alt="img" style="zoom:37%;" /> MacStroke
 
 :::info 软件介绍
 
@@ -462,15 +462,15 @@ Windows 按 <kbd>Alt</kbd>+<kbd>Tab</kbd> 可快速切换窗口，而且这个�
 
 <br/>
 
-## DropOver
+### DropOver
 
 <br/>
 
 
 
-## 开发者工具
+### 开发者工具
 
-### DevToysMac
+#### DevToysMac
 
 :::info 软件介绍
 
@@ -496,9 +496,9 @@ brew install --cask devtoys
 
 
 
-## 虚拟音频
+### 虚拟音频
 
-### BlackHole
+#### BlackHole
 
 :::info 软件介绍
 
@@ -513,9 +513,9 @@ BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程
 * 下载地址（123盘）：https://www.123pan.com/s/KYxeVv-0m3Wh.html
 * 提取码：tutu
 
-## 电脑音频推送到手机
+### 电脑音频推送到手机
 
-### SoundWire
+#### SoundWire
 
 :::info 软件介绍
 
@@ -529,7 +529,7 @@ BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程
 
 
 
-### AudioRelay
+#### AudioRelay
 
 :::info 软件介绍
 
@@ -543,7 +543,7 @@ BlackHole 是一种现代 macOS 虚拟音频环回驱动程序，允许应用程
 
   
 
-## BetterAndBetter
+### BetterAndBetter
 
 :::info
 
@@ -555,7 +555,7 @@ https://wwa.lanzoui.com/macBAB
 
 
 
-## Mounty
+### Mounty
 
 :::info
 
@@ -567,14 +567,14 @@ https://wwa.lanzoui.com/Mounty
 
 
 
-## 超级右键
+### 超级右键
 
 * 收费情况：收费
 * 软件大小：381.7 MB
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-bjVsh.html
 * 提取码：61T6
 
-## CrossOver
+### CrossOver
 
 :::info
 
@@ -589,9 +589,9 @@ https://wwa.lanzoui.com/Mounty
 
 <br/>
 
-## 鼠标平滑滚动
+### 鼠标平滑滚动
 
-### <img src="https://mousefix.org/resources/app_icon_round.png" alt="app_icon_round.png (1024×1024) (mousefix.org)" style="zoom:5%;" /> Mac Mouse Fix
+#### <img src="https://mousefix.org/resources/app_icon_round.png" alt="app_icon_round.png (1024×1024) (mousefix.org)" style="zoom:5%;" /> Mac Mouse Fix
 
 :::info 软件介绍
 
@@ -608,9 +608,9 @@ https://wwa.lanzoui.com/Mounty
 
 
 
-## 隐藏鼠标
+### 隐藏鼠标
 
-### Mouse Hider for Mac
+#### Mouse Hider for Mac
 
 * 收费情况：收费
 * 软件大小：555.1 KB
@@ -620,7 +620,7 @@ https://wwa.lanzoui.com/Mounty
 
 <br/>
 
-### Cursorcerer
+#### Cursorcerer
 
 ~~~shell
 brew install --cask cursorcerer
@@ -632,9 +632,9 @@ brew install --cask cursorcerer
 
 <br/><br/>
 
-## 电脑运行状态显示
+### 电脑运行状态显示
 
-### <img src="https://bjango.com/images/mac/istatmenus6/icon-istatmenus6.png" alt="img" style="zoom:15%;" /> iStat Menus
+#### <img src="https://bjango.com/images/mac/istatmenus6/icon-istatmenus6.png" alt="img" style="zoom:15%;" /> iStat Menus
 
 :::info 软件介绍
 
@@ -651,7 +651,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-### <img src="https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png" alt="img" style="zoom:20%;" /> Stats For Mac
+#### <img src="https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png" alt="img" style="zoom:20%;" /> Stats For Mac
 
 :::info 软件介绍
 
@@ -667,7 +667,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-### <img src="https://user-images.githubusercontent.com/14722250/93017676-1a009c00-f5fd-11ea-9b8e-c69c2cd4fa89.png" style="zoom:40%;" /> eul
+#### <img src="https://user-images.githubusercontent.com/14722250/93017676-1a009c00-f5fd-11ea-9b8e-c69c2cd4fa89.png" style="zoom:40%;" /> eul
 
 ![image-20230507203937663](https://img-blog.csdnimg.cn/723cb69dbdae40b9b91ca37325beb0ad.png)
 
@@ -678,7 +678,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-###  <img src="https://img.macoshome.com/2022/12/iStatisticas-150x150.png" alt="iStatistica Pro 5.0 状态栏系统信息监控软件" style="zoom:30%;" /> iStatistica Pro
+####  <img src="https://img.macoshome.com/2022/12/iStatisticas-150x150.png" alt="iStatistica Pro 5.0 状态栏系统信息监控软件" style="zoom:30%;" /> iStatistica Pro
 
 * 收费情况：收费
 * 软件大小：17.2 MB
@@ -687,17 +687,9 @@ brew install --cask cursorcerer
 
 <br/>
 
-## 卸载软件
+### 卸载软件
 
-### App Cleaner & Uninstaller
-
-
-
-
-
-<br/>
-
-### APP Clearner
+#### App Cleaner & Uninstaller
 
 
 
@@ -705,9 +697,17 @@ brew install --cask cursorcerer
 
 <br/>
 
-## 清理软件
+#### APP Clearner
 
-### <img src="https://pc1.gtimg.com/guanjia/images/b3/1c/b31c43975f3335e21138fc6556f15e8d.png" alt="img" style="zoom:60%;" /> Tencent-Lemon
+
+
+
+
+<br/>
+
+### 清理软件
+
+#### <img src="https://pc1.gtimg.com/guanjia/images/b3/1c/b31c43975f3335e21138fc6556f15e8d.png" alt="img" style="zoom:60%;" /> Tencent-Lemon
 
 :::info 软件介绍
 
@@ -725,9 +725,9 @@ brew install --cask cursorcerer
 
 <br/>
 
-## 状态栏隐藏图标
+### 状态栏隐藏图标
 
-### iBar
+#### iBar
 
 :::info 软件介绍
 
@@ -741,7 +741,7 @@ brew install --cask cursorcerer
 
 
 
-### <img src="https://pic1.zhimg.com/v2-7ebf4e968b195fd01e648e9480bea7f9_720w.jpg?source=172ae18b" alt="mac隐藏菜单栏图标工具：Hidden Bar" style="zoom:8%;" /> Hidden bar
+#### <img src="https://pic1.zhimg.com/v2-7ebf4e968b195fd01e648e9480bea7f9_720w.jpg?source=172ae18b" alt="mac隐藏菜单栏图标工具：Hidden Bar" style="zoom:8%;" /> Hidden bar
 
 :::info 软件介绍
 
@@ -758,9 +758,9 @@ brew install --cask cursorcerer
 
 <br/>
 
-## 数据恢复软件
+### 数据恢复软件
 
-### Disk Drill
+#### Disk Drill
 
 * 收费情况：收费
 * 软件大小：66.2 MB
@@ -769,9 +769,9 @@ brew install --cask cursorcerer
 
 <br/>
 
-## 剪贴板管理
+### 剪贴板管理
 
-### <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/72/94/79/7294791c-064c-03cb-585e-0e094032886d/AppIcon-0-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0-0-0.png/230x0w.webp" alt="img" style="zoom:20%;" /> Pastebot
+#### <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/72/94/79/7294791c-064c-03cb-585e-0e094032886d/AppIcon-0-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0-0-0.png/230x0w.webp" alt="img" style="zoom:20%;" /> Pastebot
 
 :::info 软件介绍
 
@@ -786,7 +786,7 @@ brew install --cask cursorcerer
 
 <br/>
 
-### <img src="https://bkimg.cdn.bcebos.com/pic/cefc1e178a82b9014a902ba27ed8be773912b31b415e?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="iCopy" style="zoom:10%;" /> ICopy
+#### <img src="https://bkimg.cdn.bcebos.com/pic/cefc1e178a82b9014a902ba27ed8be773912b31b415e?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="iCopy" style="zoom:10%;" /> ICopy
 
 :::info 软件介绍
 
@@ -802,17 +802,17 @@ brew install --cask cursorcerer
 
 <br/>
 
-## 解压缩软件
+### 解压缩软件
 
-### <img src="https://i1.hdslb.com/bfs/archive/f841124e306e9cebf9afc6a1ed6547c34d1802e8.png" alt="img" style="zoom:5%;" />Bandizip
+#### <img src="https://i1.hdslb.com/bfs/archive/f841124e306e9cebf9afc6a1ed6547c34d1802e8.png" alt="img" style="zoom:5%;" />Bandizip
 
 * 软件大小：34.6 MB
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-WfvWh.html
 * 提取码：tutu
 
-## 键盘按键重映射
+### 键盘按键重映射
 
-### <img src="https://karabiner-elements.pqrs.org/favicons/apple-touch-icon-180x180.png" alt="img" style="zoom:25%;" /> Karabiner-Elements
+#### <img src="https://karabiner-elements.pqrs.org/favicons/apple-touch-icon-180x180.png" alt="img" style="zoom:25%;" /> Karabiner-Elements
 
 
 
@@ -820,30 +820,30 @@ brew install --cask cursorcerer
 
 
 
-## 思维导图
+### 思维导图
 
-### <img src="https://xmind.cn/webapp-icon/icon_72.png" alt="img" style="zoom:50%;" /> XMind
+#### <img src="https://xmind.cn/webapp-icon/icon_72.png" alt="img" style="zoom:50%;" /> XMind
 
 * 收费情况：收费
 * 软件大小：220.1 MB
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-v1Vsh.html
 * 提取码：y2Ou
 
-## 下载软件
+### 下载软件
 
-### <img src="https://s.motrix.app/images/app-icon-square.png" alt="img" style="zoom:20%;" /> Motrix
+#### <img src="https://s.motrix.app/images/app-icon-square.png" alt="img" style="zoom:20%;" /> Motrix
 
 Github 主页：https://github.com/agalwood/Motrix
 
 <br/>
 
-### <img src="https://img.wmzhe.top/uploadimg/mac/cb/cb8a/cb8a8adb9f3e0f2de8563929e924ccf9.png" alt="img" style="zoom:80%;" /> Neat DownloadManager（ndm)
+#### <img src="https://img.wmzhe.top/uploadimg/mac/cb/cb8a/cb8a8adb9f3e0f2de8563929e924ccf9.png" alt="img" style="zoom:80%;" /> Neat DownloadManager（ndm)
 
 ndm 官网：http://www.neatdownloadmanager.com
 
 <br/>
 
-## 科学上网
+### 科学上网
 
 全平台翻墙客户端
 
@@ -851,7 +851,7 @@ https://binghe.gitbook.io/fq/
 
 <br/>
 
-### <img src="https://raw.githubusercontent.com/Dreamacro/clash/master/docs/logo.png" alt="img" style="zoom:10%;" />clashX
+#### <img src="https://raw.githubusercontent.com/Dreamacro/clash/master/docs/logo.png" alt="img" style="zoom:10%;" />clashX
 
 * 收费情况：免费开源
 * GitHub 主页：https://github.com/yichengchen/clashX
@@ -862,9 +862,9 @@ https://binghe.gitbook.io/fq/
 
 <br/>
 
-## 护眼软件
+### 护眼软件
 
-### <img src="https://justgetflux.com/flux-icon-sm.png" alt="img" style="zoom: 67%;" /> f.lux
+#### <img src="https://justgetflux.com/flux-icon-sm.png" alt="img" style="zoom: 67%;" /> f.lux
 
 https://justgetflux.com
 
@@ -872,15 +872,15 @@ https://justgetflux.com
 
 
 
-## Office 2021
+### Office 2021
 
 * 软件大小：1.8 GB
 * 下载地址（破解版）：https://www.123pan.com/s/KYxeVv-XfvWh.html
 * 提取码：tutu
 
-## 词典软件
+### 词典软件
 
-### <img src="https://www.mdict.cn/wp/wp-content/uploads/2016/06/logo.png" alt="MDict" style="zoom:80%;" /> Mditc
+#### <img src="https://www.mdict.cn/wp/wp-content/uploads/2016/06/logo.png" alt="MDict" style="zoom:80%;" /> Mditc
 
 :::info 软件介绍
 
@@ -894,15 +894,15 @@ https://justgetflux.com
 
 <br/>
 
-### 欧陆词典
+#### 欧陆词典
 
 
 
 <br/>
 
-## PDF 阅读工具
+### PDF 阅读工具
 
-### <img src="https://skim-app.sourceforge.io/images/skimIcon.png" alt="Skim icon" style="zoom:40%;" /> SKim
+#### <img src="https://skim-app.sourceforge.io/images/skimIcon.png" alt="Skim icon" style="zoom:40%;" /> SKim
 
 :::info 软件介绍
 
@@ -921,25 +921,25 @@ https://justgetflux.com
 
 
 
-## PDF标记软件
+### PDF标记软件
 
-### <img src="https://xournalpp.github.io/img/favicon.ico" alt="logo" style="zoom:18%;" /> Xournal++
-
-
+#### <img src="https://xournalpp.github.io/img/favicon.ico" alt="logo" style="zoom:18%;" /> Xournal++
 
 
 
 
 
-## 数据库管理工具
 
-### <img src="https://www.navicat.com.cn/images/02.Product_00_AllProducts_MySQL.svg" style="zoom:33%;" /> Navicat
+
+### 数据库管理工具
+
+#### <img src="https://www.navicat.com.cn/images/02.Product_00_AllProducts_MySQL.svg" style="zoom:33%;" /> Navicat
 
 
 
 <br/>
 
-## <img src="https://bkimg.cdn.bcebos.com/pic/77c6a7efce1b9d16b3b39b56ffdeb48f8c546494?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="Qt" style="zoom:12%;" /> QT
+### <img src="https://bkimg.cdn.bcebos.com/pic/77c6a7efce1b9d16b3b39b56ffdeb48f8c546494?x-bce-process=image/resize,m_lfit,w_536,limit_1" alt="Qt" style="zoom:12%;" /> QT
 
 使用 brew 安装
 
@@ -949,9 +949,9 @@ https://justgetflux.com
 
 <br/>
 
-## SSH 远程连接工具
+### SSH 远程连接工具
 
-### <img src="https://static.oschina.net/uploads/logo/tabby_uMU2B.png" alt="img" style="zoom:40%;" /> Tabby
+#### <img src="https://static.oschina.net/uploads/logo/tabby_uMU2B.png" alt="img" style="zoom:40%;" /> Tabby
 
 [Tabby Github 地址](https://github.com/Eugeny/tabby)
 
@@ -961,9 +961,9 @@ https://justgetflux.com
 
 <br/>
 
-## 控制安卓手机
+### 控制安卓手机
 
-### ![scrcpy](https://github.com/Genymobile/scrcpy/raw/master/app/data/icon.svg) scrcpy
+#### ![scrcpy](https://github.com/Genymobile/scrcpy/raw/master/app/data/icon.svg) scrcpy
 
 [scrcpy](#安装 scrcpy)
 
@@ -975,17 +975,17 @@ https://justgetflux.com
 
 <br/>
 
-## 文件传输
+### 文件传输
 
-### Landrop
-
-<br/>
+#### Landrop
 
 <br/>
 
-## 虚拟机
+<br/>
 
-### Parreles Desktop
+### 虚拟机
+
+#### Parreles Desktop
 
 https://www.123pan.com/s/KYxeVv-vcVsh.html
 
@@ -993,7 +993,7 @@ tutu
 
 <br/>
 
-### VMware Fusion12
+#### VMware Fusion12
 
 
 
@@ -1001,9 +1001,9 @@ tutu
 
 <br/>
 
-## 黑萍果工具
+### 黑萍果工具
 
-### OpenCore Configuration
+#### OpenCore Configuration
 
 * 版本：0.9.0
 
@@ -1012,7 +1012,7 @@ tutu
 
 <br/>
 
-### Hackintool
+#### Hackintool
 
 * 版本：3.6.1
 
@@ -1027,21 +1027,21 @@ tutu
 
 <br/>
 
-## 抓包软件
+### 抓包软件
 
-### Charles
-
-
-
-<br/>
-
-### Wireshark
+#### Charles
 
 
 
 <br/>
 
-# <img src="https://static.oschina.net/uploads/logo/homebrew_sTU9q.png" alt="img" style="zoom: 50%;" /> brew
+#### Wireshark
+
+
+
+<br/>
+
+## <img src="https://static.oschina.net/uploads/logo/homebrew_sTU9q.png" alt="img" style="zoom: 50%;" /> brew
 
 简介
 Homebrew 是 mac 系统下一款自由及开放源代码的软件包管理系统，用以简化 macOS 系统上的软件安装过程。
@@ -1119,7 +1119,7 @@ Homebrew 主要有四个部分组成:
 
   <br/>
 
-## brew 常用命令
+### brew 常用命令
 
 * 查看brew版本
 
@@ -1184,9 +1184,9 @@ Homebrew 主要有四个部分组成:
 
 <br/>
 
-# 使用 brew 安装第三方包
+## 使用 brew 安装第三方包
 
-## 安装 Miniconda
+### 安装 Miniconda
 
 ~~~shell
 brew install cask miniconda
@@ -1194,7 +1194,7 @@ brew install cask miniconda
 
 <br/>
 
-## 安装 MySQL
+### 安装 MySQL
 
 
 
@@ -1259,7 +1259,7 @@ sudo chmod 777 /home/你的用户名/Library/LaunchAgents/homebrew.mxcl.mysql@5.
 
 <br/>
 
-## 安装 Redis
+### 安装 Redis
 
 1. 查找有哪些版本
 
@@ -1288,7 +1288,7 @@ sudo chmod 777 /home/你的用户名/Library/LaunchAgents/homebrew.mxcl.mysql@5.
 
 <br/>
 
-## 安装 MongoDB 社区版
+### 安装 MongoDB 社区版
 
 1. 添加
 
@@ -1365,7 +1365,7 @@ sudo chmod 777 /home/你的用户名/Library/LaunchAgents/homebrew.mxcl.mysql@5.
 
 <br/>
 
-## 安装 nodejs
+### 安装 nodejs
 
 1. 查找有哪些版本
 
@@ -1403,7 +1403,7 @@ sudo chmod 777 /home/你的用户名/Library/LaunchAgents/homebrew.mxcl.mysql@5.
 
 <br/>
 
-### 更换 npm 源为淘宝源
+#### 更换 npm 源为淘宝源
 
 ~~~shell
 npm config set registry https://registry.npm.taobao.org
@@ -1421,7 +1421,7 @@ npm config get registry
 
 
 
-### npm 安装包
+#### npm 安装包
 
 全局：
 
@@ -1465,7 +1465,7 @@ sudo chmod a+rwx /usr/local/Cellar/node/20.0.0/bin
 
 <br/>
 
-## 安装 docker
+### 安装 docker
 
 将 docker 安装到应用程序中：
 
@@ -1479,7 +1479,7 @@ brew install --cask --appdir=/Applications docker
 
 <br/>
 
-## 安装 Golang
+### 安装 Golang
 
 ~~~sh
 brew install golang
@@ -1487,7 +1487,7 @@ brew install golang
 
 <br/>
 
-## 安装 scrcpy
+### 安装 scrcpy
 
 > 使用的开源工具 scrcpy 同时支持有线和无线控制安卓设备
 
@@ -1533,7 +1533,7 @@ brew install golang
 
 <br/>
 
-## 安装 Qt
+### 安装 Qt
 
 1. 安装
 
@@ -1571,9 +1571,9 @@ brew install golang
 
 <br/>
 
-# 终端配置
+## 终端配置
 
-## 终端使用代理
+### 终端使用代理
 
 ~~~shell
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
@@ -1581,7 +1581,7 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 
 
 
-## 安装 zsh
+### 安装 zsh
 
 1. 查看系统是否装了 zsh
 
@@ -1675,11 +1675,11 @@ source ~/.zshrc
 
 <br/>
 
-## oh-my-zsh插件
+### oh-my-zsh插件
 
 
 
-### 智能提示
+#### 智能提示
 
 ~~~shell
 git clone https://gitee.com/xs66/zsh-autosuggestions $ZSH/plugins/zsh-autosuggestions
@@ -1687,7 +1687,7 @@ git clone https://gitee.com/xs66/zsh-autosuggestions $ZSH/plugins/zsh-autosugges
 
 <br/>
 
-### 语法高亮
+#### 语法高亮
 
 ~~~shell
 git clone https://gitee.com/xs66/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
@@ -1695,7 +1695,7 @@ git clone https://gitee.com/xs66/zsh-syntax-highlighting.git $ZSH/plugins/zsh-sy
 
 <br/>
 
-### 载入配置
+#### 载入配置
 
 ~~~shell 
 vim ~/.zshrc
@@ -1716,7 +1716,7 @@ plugins=(
 
 <br/>
 
-### 使配置生效
+#### 使配置生效
 
 ~~~shell
 source ~/.zshrc
@@ -1724,9 +1724,9 @@ source ~/.zshrc
 
 <br/><br/>
 
-# Vim
+## Vim
 
-## 配置 Vim
+### 配置 Vim
 
 ~~~shell
 sudo vim ~/.vimrc
@@ -1779,7 +1779,7 @@ inoremap { {}<ESC>i
 
 <br/>
 
-## 更改主题
+### 更改主题
 
 1. 下载主题
 
@@ -1819,7 +1819,7 @@ inoremap { {}<ESC>i
 
 <br/>
 
-## vim-plug 插件管理 安装
+### vim-plug 插件管理 安装
 
 GitHub 主页：https://github.com/junegunn/vim-plug
 
@@ -1879,21 +1879,21 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-# Safari 插件
+## Safari 插件
 
-## AdBlocker
-
-
-
-<br/>
-
-## LastPass
+### AdBlocker
 
 
 
 <br/>
 
-## Tampermonkey
+### LastPass
+
+
+
+<br/>
+
+### Tampermonkey
 
 
 
@@ -1901,9 +1901,9 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-# 字体
+## 字体
 
-## Cascadia Code
+### Cascadia Code
 
 [Github 主页](https://github.com/microsoft/cascadia-code)
 
@@ -1915,11 +1915,11 @@ GitHub 主页：https://github.com/junegunn/vim-plug
 
 <br/>
 
-# Mac 快捷键介绍
+## Mac 快捷键介绍
 
 
 
-# 参考
+## 参考
 
 https://www.sorrycc.com/posts/macbook-pro-configuration-from-zero
 
@@ -1927,6 +1927,6 @@ https://www.sorrycc.com/posts/macbook-pro-configuration-from-zero
 
 
 
-# 黑莱果
+## 黑莱果
 
 kext驱动更新插件：https://github.com/MacThings/kextupdater

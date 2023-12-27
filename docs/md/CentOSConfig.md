@@ -1,14 +1,14 @@
-# CentOS配置
+## CentOS配置
 
 <br/><br/>
 
-# Clash科学上网
+## Clash科学上网
 
 GitHub官网：https://github.com/Dreamacro/clash
 
 <br/><br/>
 
-# Python安装
+## Python安装
 
 官网：https://www.python.org/
 
@@ -68,7 +68,7 @@ GitHub官网：https://github.com/Dreamacro/clash
 
 <br/><br/>
 
-# Vim安装
+## Vim安装
 
 [Vim GitHub 主页](https://github.com/vim/vim)
 
@@ -81,7 +81,7 @@ set ts=4	" 设置Tab键为4个空格
 
 <br/>
 
-## vim-plug插件库
+### vim-plug插件库
 
 [vim-plug GitHub 主页](https://github.com/junegunn/vim-plug)
 
@@ -115,7 +115,7 @@ call plug#end()
 
 <br/>
 
-### YCM自动补全
+#### YCM自动补全
 
 ~~~shell
 Plug 'Valloric/YouCompleteMe'
@@ -123,7 +123,7 @@ Plug 'Valloric/YouCompleteMe'
 
 <br/>
 
-### NERDTree目录树
+#### NERDTree目录树
 
 ~~~shell
 
@@ -131,19 +131,19 @@ Plug 'Valloric/YouCompleteMe'
 
 <br/><br/>
 
-# MySql
+## MySql
 
 官网：https://www.mysql.com/
 
 <br/><br/>
 
-# MongoDB
+## MongoDB
 
 官网：https://www.mongodb.com/
 
 <br/><br/>
 
-# Sqlite3
+## Sqlite3
 
 [Sqlite 官网](https://www.sqlite.org)
 
@@ -201,7 +201,7 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/><br/>
 
-# Nginx
+## Nginx
 
 [Nginx 官网](http://nginx.org)
 
@@ -243,7 +243,7 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/><br/>
 
-# Node
+## Node
 
 [Nodejs 中文官网](http://nodejs.cn/)
 
@@ -262,15 +262,15 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/><br/>
 
-# Redis
+## Redis
 
 [Redis 官网](https://redis.io/)
 
 <br/><br/>
 
-# 终端美化
+## 终端美化
 
-## 安装 zsh
+### 安装 zsh
 
 1. 安装 zsh
 
@@ -299,7 +299,7 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
 <br/>
 
-## 安装 oh-my-zsh
+### 安装 oh-my-zsh
 
 1. 安装 oh-my-zsh
 
@@ -319,9 +319,9 @@ Configure是一个可执行脚本，它有很多选项，在待安装的源码�
 
  <br/>
 
-## 安装插件
+### 安装插件
 
-### 智能提示
+#### 智能提示
 
 ~~~shell
 git clone https://gitee.com/xs66/zsh-autosuggestions $ZSH/plugins/zsh-autosuggestions
@@ -329,7 +329,7 @@ git clone https://gitee.com/xs66/zsh-autosuggestions $ZSH/plugins/zsh-autosugges
 
 <br/>
 
-### 语法高亮
+#### 语法高亮
 
 ~~~shell
 git clone https://gitee.com/xs66/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
@@ -337,7 +337,7 @@ git clone https://gitee.com/xs66/zsh-syntax-highlighting.git $ZSH/plugins/zsh-sy
 
 <br/>
 
-### 载入配置
+#### 载入配置
 
 `vim ~/.zshrc`
 
@@ -356,7 +356,7 @@ plugins=(
 
 <br/><br/>
 
-# 安装 Chrome 并使用 selenium
+## 安装 Chrome 并使用 selenium
 
 1. 下载安装包
 

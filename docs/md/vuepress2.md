@@ -1,9 +1,9 @@
 
-# vuepress2
+## vuepress2
 
 [vuepress 官方文档](https://v2.vuepress.vuejs.org/zh/)
 
-## 安装
+### 安装
 
 初始化项目
 
@@ -66,7 +66,7 @@ npm run docs:dev
 
 
 
-## 访问第三方网站图片
+### 访问第三方网站图片
 
 > 如果源网站设置了防盗链，那么在 vuepress 中的 Markdown 文件引入第三方网站图片会报 403 错误
 >

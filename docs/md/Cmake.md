@@ -1,8 +1,8 @@
 
 
-# Cmake
+## Cmake
 
-## 常用内置变量
+### 常用内置变量
 
 * `CMAKE_SOURCE_DIR`：当前 CMakeLists.txt 文件所在的文件夹路径
 * `CMAKE_BINARY_DIR`：对应 cmake 的 build 的目录，主要是运行时生成的文件目录
@@ -12,9 +12,9 @@
 
 <br/>
 
-## 基础设置
+### 基础设置
 
-### 设置工程名
+#### 设置工程名
 
 ~~~cmake
 project("Demo")
@@ -22,7 +22,7 @@ project("Demo")
 
 <br/>
 
-### 最低支持的版本
+#### 最低支持的版本
 
 ~~~cmake
 cmake_minimum_required(VERSION 3.10.2)
@@ -30,7 +30,7 @@ cmake_minimum_required(VERSION 3.10.2)
 
 <br/>
 
-### 生成静态库和动态库
+#### 生成静态库和动态库
 
 * SHARED：表示生成动态库（.so）
 * STATIC：表示生成静态库（.a）
@@ -41,7 +41,7 @@ add_library(nativeLib SHARED nativeLib.cpp)
 
 <br/>
 
-### 批量导入源码文件
+#### 批量导入源码文件
 
 ~~~cmake
 file(GLOB ALL_FILE *.cpp *.c)
@@ -56,7 +56,7 @@ add_library(nativeLib SHARED ${ALL_FILE})
 
 <br/>
 
-### 添加一个子目录并构建该子目录
+#### 添加一个子目录并构建该子目录
 
 `sub/CMakeLists.txt`
 
@@ -80,9 +80,9 @@ add_subdirectory(sub)
 
 <br/>
 
-## 普通变量
+### 普通变量
 
-### 定义
+#### 定义
 
 声明变量，CMake 中所有变量都是 string 类型
 
@@ -92,7 +92,7 @@ set(变量名, 变量值)
 
 <br/>
 
-### 示例
+#### 示例
 
 把 var 赋值为 666
 
@@ -102,7 +102,7 @@ set(var 66)
 
 <br/>
 
-### 引用
+#### 引用
 
 ~~~cmake
 message("var = ${var}")
@@ -110,7 +110,7 @@ message("var = ${var}")
 
 <br/>
 
-### 移除
+#### 移除
 
 移除之后，就不能再使用了
 
@@ -120,9 +120,9 @@ unset(var)
 
 <br/>
 
-## 列表变量
+### 列表变量
 
-### 定义
+#### 定义
 
 ~~~cmake
 set(列表名 值1 值2 值3)
@@ -134,7 +134,7 @@ set(列表名 "值1;值2;值3")
 
 <br/>
 
-### 示例
+#### 示例
 
 ~~~cmake
 set(list_var 1 2 3 4 5 6)
@@ -148,7 +148,7 @@ set(list_var "1;2;3;4;5;6")
 
 <br/>
 
-## 条件判断
+### 条件判断
 
 
 
@@ -156,7 +156,7 @@ set(list_var "1;2;3;4;5;6")
 
 <br/>
 
-## 循环
+### 循环
 
 
 
@@ -164,7 +164,7 @@ set(list_var "1;2;3;4;5;6")
 
 <br/>
 
-## 函数定义
+### 函数定义
 
 
 
@@ -174,7 +174,7 @@ set(list_var "1;2;3;4;5;6")
 
 <br/>
 
-## 构建单个源文件
+### 构建单个源文件
 
 项目只有一个源文件，结构如下，我们一般会新建一个目录存储 cmake 运行的产物，这里我新建了一个 build 目录。
 
@@ -242,7 +242,7 @@ make
 
 <br/>
 
-## 同一个目录，多个源文件
+### 同一个目录，多个源文件
 
 将 main.cc 的 power 函数抽取出来放到 MathFunctions.cc 中，项目结构如下：
 
@@ -280,7 +280,7 @@ add_executable(rrrr ${DIR_SRCS})
 
 <br/>
 
-## 多个目录多个源文件
+### 多个目录多个源文件
 
 现在我们将 MathFounction.h 和 MathFounction.cpp 移动到 math 目录下，项目结构如下：
 
