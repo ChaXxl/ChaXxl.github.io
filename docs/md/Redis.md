@@ -1,6 +1,22 @@
 ## 一. Redis
 
-### 1. Redis 命令
+### 1. Redis 介绍
+
+> Redis 是一种基于内存的数据库，对数据的读写操作都是在内存中完成，因此读写速度非常快，常用于缓存、消息队列、分布式锁等场景。
+
+
+
+<br/>
+
+> Redis 提供了多种数据类型来支持不同的业务场景，比如 String、Hash、List、Set、Zset(有充集合)、Bitmaps(位图)、HyperLogLog(基数统计)、GEO(地理信息)、Stream，并且对数据类型的操作都是原子性的，因为执行命令由单线程负责的，不存在并发竞争问题。
+
+<br/>
+
+>除此之外，Redis 还支持事务、持久化、Lua 脚本、多种集群方案（主从复制模式、哨兵模式、切片集群模式）、发布/订阅模式、内存淘汰机制、过期删除机制等。
+
+
+
+### 2. Redis 命令
 
 #### 1.1 随机返回 set 中的元素
 
@@ -430,6 +446,6 @@ hgetall(key)：返回名称为key的hash中所有的键（field）及其对应�
 
 
 
-### 2.Redis 八股文
+### 3.Redis 八股文
 
 ![](https://mmbiz.qpic.cn/sz_mmbiz_png/J0g14CUwaZfm7N5Liboo9ddZSsn8OnjdPgdibZYJlLK4K8XV4a0AT9jXpqcPLtMdQjOaN6icaplzntrdRru9etrew/640?wx_fmt=png&wxfrom=13)
