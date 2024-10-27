@@ -137,6 +137,20 @@ killall Finder
 
 <br/>
 
+
+
+### 后台项目已添加
+
+![image-20240309085357664](/Users/xxl/Library/Application Support/typora-user-images/image-20240309085357664.png)
+
+~~~shell
+sfltool resetbtm
+~~~
+
+
+
+
+
 <br/>
 
 ## 三. 软件部分

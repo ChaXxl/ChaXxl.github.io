@@ -392,18 +392,29 @@ pip install openpyxl
 
 
 
-1. 打开 Excel 文件
+1. 加载已有的 Excel 文件
 
    ~~~python
-   from openpyxl import load_workbook
+   import openpyxl
+   
    filename = './模板.xlsx'
-   wb = load_workbook(filename, read_only=True, data_only=True)	# 只读、只读数据
+   
+   wb = openpyxl.load_workbook(filename, read_only=True, data_only=True)	# 只读、只读数据
    ws = wb.sheetnames[0]	# 获取第一个工作表 选择表（sheet） wb.active
+   ~~~
+
+2. 创建新的 workbook
+
+   ~~~python
+   wb = openpyxl.Workbook()  # 创建一个工作簿对象
+   ws = wb.active
+   
+   wb.save(filename)
    ~~~
 
    
 
-2. 获取最大行数、列数
+3. 获取最大行数、列数
 
    ~~~python
    ws.max_row
@@ -412,7 +423,7 @@ pip install openpyxl
 
    
 
-3. 单元格访问
+4. 单元格访问
 
    ~~~python
    ws.cell(row=1, column=3).value
@@ -422,13 +433,17 @@ pip install openpyxl
    ws.cell(row=1, column=3).value = 100	# 赋值
    ~~~
 
+   ~~~python
+   ws.append(['data1', 'data2', 'data3', 'data4']) # 也可以这样赋值
+   ~~~
+
    
 
-4. 遍历
+5. 遍历
 
    ~~~shell
-   for val in ws_write.iter_rows(min_row=1):	
-       print(val[0].value, val[1].value)	# 列从 0 开始
+   for row in ws_write.iter_rows(min_row=1, min_col=1):
+       print(row[0].value, row[1].value)	# row 是一个元组
    ~~~
 
    ~~~shell
@@ -436,13 +451,13 @@ pip install openpyxl
        print(ws.cell(row=row, column=3).value)
    ~~~
 
-5. 保存
+6. 保存
 
    ~~~python
    wb.save(filename)
    ~~~
 
-6. 去重：一
+7. 去重：一
 
    ~~~python
    import openpyxl
@@ -469,12 +484,12 @@ pip install openpyxl
    workbook.save('./test2.xlsx')	
    ~~~
 
-7. 去重：二
+8. 去重：二
 
    ~~~python
    ~~~
 
-8. 数据保存到 Excel：
+9. 数据保存到 Excel：
 
    ~~~python
    from typing import List, Dict
@@ -522,6 +537,10 @@ pip install torch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0
 # cuda 11.7
 pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 ~~~
+
+
+
+#### Pandas
 
 
 
